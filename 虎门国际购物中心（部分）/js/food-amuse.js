@@ -183,8 +183,13 @@ function actSide() {
 actSide();
 /*
  * 功能：活动推广场地：滑动效果、自定义滚动条
- *
- */
+ * 参数：oldX 鼠标初始点击值
+ *		 nowDisX 滑动距离
+ *		 newX 鼠标当前位置
+ *		 liWidth 内容区长
+ *		 lilen 获取li个数
+ * 作者：北有喬木
+ */				
  function coopMove() {
  	var liLen = 0;
  	var liWidth = 0;
@@ -196,20 +201,21 @@ actSide();
  	$('.ic-con ul').width(liLen * liWidth);
  	$('.coop-scroll').mousedown(function(e) {
  		oldX = e.clientX;
-		nowDisX = $('.coop-scroll').offset().left;
+		nowDisX = $('.coop-scroll').offset().left - $('.coop-scrbox').offset().left;
+		console.log(nowDisX);
 		e.preventDefault();
 		$(document).mousemove(function(e) {
 			e.preventDefault();
 			newX = e.clientX;
-			var nowX = newX - oldX;
-			var maxX = $('.coop-scrbox').innerWidth() - $('.coop-scroll').outerWidth(); 
+			var nowX = nowDisX + newX - oldX;
+			var maxX = $('.coop-scrbox').outerWidth() - $('.coop-scroll').outerWidth(); 
 			if (nowX <= 0) {
 				nowX = 0;
 			};
 			if (nowX >= maxX) {
 				nowX = maxX;
 			};
-			$('.ic-con').scrollLeft(nowX/maxX * ($('.ic-con').innerWidth() - liWidth));
+			$('.ic-con').scrollLeft(nowX / maxX * ($('.ic-con').innerWidth()));
 			$('.coop-scroll').css({
 				"left": nowX + 'px'
 			})
