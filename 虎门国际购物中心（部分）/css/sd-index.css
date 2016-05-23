@@ -1,0 +1,163 @@
+@charset "utf-8";
+.content-floor {
+    width: 100%;
+    height: 644px;
+    background: url("../images/sd_1.png") 0 0 no-repeat;
+}
+.expo {
+    width: 1020px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 70px ;
+}
+.expo h2 {
+    font-size: 20px;
+    color: #c91710;
+}
+.expo h2 span {
+    font-size: 23px;
+    font-family: Arial;
+    color: #aa855b;
+}
+/*** sd-floor start ****/
+.floor-con {
+    width: 1060px;
+    height: 422px;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+.map {
+    float: left;
+    width: 800px;
+    height: 395px;
+}
+.branding {
+    width: 800px;
+    height: 34px;
+}
+.branding li {
+    float: right;
+    width: 34px;
+    height: 34px;
+    margin-right: 3px;
+}
+.utilities {
+    float: right;
+    width: 233px;
+    height: 45px;
+    margin-top: 8px;
+}
+.utilities li {
+    float: right;
+    width: 57px;
+    height: 16px;
+    margin-left: 17px;
+}
+.clothes {
+    background: url("../images/icos.png") -500px -1000px no-repeat;
+}
+.cater {
+    background: url("../images/icos.png") -500px -1063px no-repeat;
+}
+.gift {
+    background: url("../images/icos.png") -500px -1130px no-repeat;
+}
+.shoe {
+    background: url("../images/icos.png") -500px -1202px no-repeat;
+}
+.electr {
+    background: url("../images/icos.png") -500px -1268px no-repeat;
+}
+.package {
+    background: url("../images/icos.png") -500px -1342px no-repeat;
+}
+.under-park {
+    background: url("../images/icos.png") -500px -1398px no-repeat;
+}
+.elevator {
+    background: url("../images/icos.png") -500px -1433px no-repeat;
+}
+.toilet {
+    background: url("../images/icos.png") -500px -1472px no-repeat;
+}
+.mtr-entrances {
+    background: url("../images/icos.png") -500px -1505px no-repeat;
+}
+.escalator {
+    background: url("../images/icos.png") -500px -1544px no-repeat;
+}
+.stairs {
+    background: url("../images/icos.png") -500px -1581px no-repeat;
+}
+.maps {
+    width: 800px;
+    height: 157px;
+    margin-top: 86px;
+    background: yellowgreen;
+}
+.floor {
+    width: 580px;
+    height: 41px;
+    margin: 0 auto;
+    margin-top: 61px;
+}
+.floor li {
+    float: left;
+    width: 42px;
+    height: 41px;
+    margin-right: 24px;
+    color: #aeaeae;
+    line-height: 41px;
+    font-size: 38px;
+    cursor: pointer;
+}
+.floor .size, .floor li:hover{
+    width: 59px;
+    color: #a82924;
+    font-size: 56px;
+}
+.sel-brand {
+    float: right;
+    width: 230px;
+    height: 432px;
+}
+.letter {
+    float: left;
+    width: 11px;
+    height: 422px;
+    padding: 0px 15px 0 15px;
+    color: #cd9c64;
+    background: #f3bc7f;
+    text-align: center;
+}
+.brand-ads {
+    float: right;
+    width: 188px;
+    height: 422px;
+    background: #eb8b7f;
+}
+.brand-ads h4 {
+    position: relative;
+    width: 180px;
+    height: 24px;
+    margin-top: 8px;
+    padding-left: 8px;
+    color: #a82924;
+    background: #eff0f4;
+    line-height: 24px;
+    font-size: 14px;
+}
+.search {
+    position: absolute;
+}
+.some-brand {
+    width: 177px;
+    height: 372px;
+    margin: 8px 0 0 11px;
+    padding-top: 8px;
+    border-top: 1px solid #bc6e62;
+}
+.some-brand li {
+    height: 25px;
+    color: #fff;
+}

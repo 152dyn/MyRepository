@@ -1,0 +1,268 @@
+.index-con {
+	overflow: hidden;
+}
+.pic {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 727px;
+}
+.pic-con img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 727px;
+}
+.plist {
+	position: absolute;
+	top: 70%;
+	left: 48%;
+	width: 60px;
+	height: 12px;
+	cursor: pointer;
+}
+.plist span {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 8px;
+	background: url("../images/icos.png") 0 -98px no-repeat;
+}
+.plist .pshow {
+	background: url("../images/icos.png") 0 -118px no-repeat;
+}
+.fast-rode {
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	width: 704px;
+	height: 68px;
+}
+.fast-rode dl {
+	float: left;
+	width: 175px;
+	height: 68px;
+	background: url("../images/icos.png") 135px -234px no-repeat;
+}
+.fast-rode .non {
+	background: none;
+}
+.fast-rode dt {
+	float: left;
+	width: 68px;
+	height: 68px;
+}
+.fast-rode img {
+	width: 68px;
+	height: 68px;
+}
+.fast-rode .fshow {
+	display: none;
+}
+.fast-rode dd {
+	float: right;
+	width: 98px;
+	height: 58px;
+	padding-top: 10px;
+	color: #9b6027;
+	font-size: 14px;
+}
+.fast-rode dd a {
+	display: block;
+	width: 14px;
+	height: 14px;
+	background:  url("../images/icos.png") 0px -145px no-repeat;
+}
+.ind-webchat {
+	position: absolute;
+	display: none;
+	bottom: 10px;
+	right: 10px;
+	width: 162px;
+	height: 206px;
+	padding: 15px;
+	background: #0dafd6;
+	text-align: center;
+}
+.ind-webchat div {
+	width: 162px;
+	height: 56px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+.ind-webchat p {
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+}
+.sina {
+	float: left;
+	display: none;
+	width: 270px;
+	height: 704px;
+	margin-right: -200px;
+	padding: 23px 2px 0 8px;
+	background: url("../images/in_04.png");
+	z-index: 1;
+}
+.sina-con {
+	/*display: none;*/
+	margin-top: 644px;
+}
+.sina dl {
+	width: 270px;
+	height: 77px;
+	border-bottom: 1px solid #dcdadb;
+}
+.sina dt {
+	float: left;
+	width: 58px;
+	height: 51px;
+}
+.sina dd {
+	float: left;
+	width: 190px;
+	height: 51px;
+}
+.sina dd p {
+	width: 190px;
+	height: 17px;
+	color: #00549d;
+	font-size: 14px;
+}
+.sina p strong {
+	float: left;
+	width: 120px;
+	height: 17px;
+	line-height: 17px;
+}
+.sina p span {
+	float: left;
+	width: 17px;
+	height: 15px;
+	background: url("../images/icos.png") 0 -348px no-repeat;
+}
+.sina dd button {
+	width: 63px;
+	height: 24px;
+	margin-top: 8px;
+	background: url("../images/icos.png") 0 -314px no-repeat;
+}
+.sina-new {
+	padding: 17px 17px 20px 14px;
+	border-bottom: 1px solid #dcdadb;
+	line-height: 24px;
+}
+.sina-new p img {
+	width: 80px;
+	height: 80px;
+}
+.sina-new p {
+	margin-bottom: 20px;
+}
+.sina-new div {
+	width: 230px;
+	height: 15px;
+}
+.sina-new div em {
+	margin-right: 80px;
+}
+.sina dd p {
+	color: #625d5f;;
+}
+.sina dt img {
+	width: 51px;
+	height: 51px;
+	border: 1px solid #ccc;
+}
+.ind-nav {
+	height: 48px;
+	background: #0dafd6;
+}
+.ind-logo {
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	width: 176px;
+	height: 45px;
+}
+.ind-logo span {
+	display: block;
+	width: 176px;
+	height: 45px;
+	background: url("../images/icos.png") 0 0 no-repeat;
+}	
+.ind-tell {
+	position: absolute;
+	top: 30px;
+	right: 200px;
+	width: 185px;
+	height: 27px;
+}
+.ind-tell span {
+	float: left;
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin-right: 8px;
+	background: url("../images/icos.png") 0 -59px no-repeat;
+}
+.ind-tell p {
+	width: 200px;
+	height: 28px;
+	color: #177288;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.ind-nav {
+	position: relative;
+}
+.nav-list {
+	width: 1000px;
+	height: 48px;
+	margin: 0 auto;
+}
+.ind-nav a {
+	float: left;
+	width: 140px;
+	height: 48px;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	font-size: 13px;
+}
+.ind-nav p {
+	float: left;
+	position: absolute;
+	top: 0px;
+	right: 40px;
+	width: 92px;
+	height: 38px;
+	padding: 10px 0 0 50px;
+}
+.ind-nav p span,.ind-nav p strong {
+	position: relative;
+	float: left;
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+.ind-nav p span {
+	margin-right: 10px;
+	background: url("../images/icos.png") 0 -202px no-repeat;
+}
+.ind-nav p strong {
+	background: url("../images/icos.png") -29px -202px no-repeat;
+}
+.ind-nav p em {
+	position: absolute;
+	display: none;
+	top: -19px;
+	left: 2px;
+	width: 16px;
+	height: 9px;
+	background: url("../images/icos.png") 0px -176px no-repeat;
+}

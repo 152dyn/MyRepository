@@ -1,0 +1,102 @@
+/* 
+* @Author: anchen
+* @Date:   2016-05-17 19:42:12
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-05-17 21:45:32
+*/
+/* 交通指引 */
+.content-traffic {
+    width: 100%;
+    height: 100%;
+    background: url("../images/au_7.png") 0 0 repeat-x;
+}
+.trafficcon {
+    width: 1020px;
+    height: 680px;
+    margin: 0 auto;
+}
+.trafficcon dl {
+    width: 1020px;
+    height: 680px;
+}
+.trafficcon dl dt {
+    float: right;
+    width: 514px;
+    height: 412px;
+    padding: 134px 0px;
+}
+.trafficcon dt .map {
+    position: relative;
+    width: 502px;
+    height: 370px;
+    border: 6px solid #fff;
+}
+.trafficcon .map .mapbigger {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    background: url("../images/icos.png") -508px -508px no-repeat;
+}
+.trafficcon .map img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.trafficcon dl dd {
+    float: left;
+    width: 438px;
+    height: 464px;
+    padding: 108px 34px;
+}
+.trafficcon dd h2 {
+    width: 420px;
+    height: 68px;
+    font-size: 30px;
+    color: #fff;
+    background: url("../images/au_8.png") 0 62px no-repeat;
+}
+.trafficcon dd h2 span {
+    font-size: 32px;
+    color: #a3bbcd;
+}
+.trafficcon dd strong {
+    display: block;
+    width: 420px;
+    height: 40px;
+    margin-top: 36px;
+    line-height: 40px;
+    font-size: 40px;
+    color: #d3a16a;
+}
+.trafficcon dd strong span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+    background: url("../images/ap_7.png") 0 0 no-repeat;
+}
+.trafficcon dd p {
+    overflow: hidden;
+    width: 396px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.code {
+    width: 420px;
+    height: 214px;
+    margin-top: 20px;
+    background: url("../images/au_8.png") 0 0 no-repeat;
+}
+.wechat, .weibo {
+    float: left;
+    width: 132px;
+    height: 172px;
+    text-align: center;
+    margin-top: 24px;
+    margin-right: 14px;
+    font-size: 15px;
+    color: #fff;
+}

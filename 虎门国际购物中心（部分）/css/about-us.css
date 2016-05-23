@@ -1,0 +1,70 @@
+/* 
+* @Author: anchen
+* @Date:   2016-05-16 18:18:43
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-05-16 22:13:52
+*/
+/* 诚聘英才 */
+.content-tal {
+    width: 100%;
+    height: 100%;
+    background: url("../images/au_1.png") 0 0 repeat-x;
+}
+.talcon {
+    width: 1025px;
+    margin: 0 auto;
+    background-color: #ededec;
+    opacity: 0.9;
+}
+.talented {
+    width: 886px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.talented h2 {
+    overflow: hidden;
+    height: 56px;
+    padding-top: 84px;
+    background: url("../images/au_2.png") 0 0 no-repeat;
+    background-position: 0px 126px;
+    font-size: 30px;
+    color: #404040;
+}
+.talented h2 span {
+    font-size: 33px;
+    font-family: "MyriadPro";
+    color: #c9cacb;
+}
+.talented-tit {
+    width: 100%;
+    height: 52px;
+    margin-top: 38px;
+}
+.talented-tit li {
+    float: left;
+    width: 178px;
+    height: 52px;
+    border-right: 1px solid #fff;
+    background-color: #c2bcb8;
+    text-align: center;
+    line-height: 52px;
+    font-size: 14px;
+}
+.talented ul {
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 14px;
+    cursor: pointer;
+}
+.talented .director, .talented ul:hover {
+    background-color: #cfa972;
+}
+
+.talented ul li {
+    float: left;
+    width: 176px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
