@@ -1,0 +1,63 @@
+/* 
+* @Author: anchen
+* @Date:   2016-05-19 20:10:44
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-05-22 15:22:49
+*/
+/* VIP专区 */
+.content-zone {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../images/vip_7.png") 0 0 no-repeat;
+}
+.zone-con {
+    width: 1020px;
+    height: 680px;
+    margin: 0 auto;
+}
+.zone {
+    width: 948px;
+    height: 612px;
+    /*padding-top: 68px;*/
+    /*padding-left: 72px;*/
+}
+.zone h2 {
+    font-size: 36px;
+    color: #cfa972;
+}
+.zone h2 span {
+    font-size: 30px;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 874px;
+    height: 234px;
+}
+.bottom img {
+    float: left;
+    width: 874px;
+    height: 234px;
+}
+.right img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 426px;
+    height: 450px;
+}
+.project {
+    width: 680px;
+    height: 170px;
+    margin-top: 114px;
+    padding: 0px 170px;
+    background-color: black;
+}
+.project li {
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin-right: 54px;
+    background-color: orange;
+}
