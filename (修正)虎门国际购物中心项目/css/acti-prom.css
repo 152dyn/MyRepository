@@ -262,7 +262,6 @@
 	height: 450px;
 }
 .shop-img {
-
 	position: relative;
 	width: 1040px;
 	height: 245px;
@@ -273,34 +272,6 @@
 	left: 0;
 	width: 454px;
 	height: 256px;
-}
-.shop-img img {
-	display: none;
-}
-.imgcenter {
-	width: 454px;
-	height: 256px;
-	background: green;
-	-webkit-transform:skew(-50deg,0deg);
-	/*-webkit-transform: perspective(1100px) translate(268px, 0px) rotateY(0deg) rotateY(0)*/
-}
-.imgthr {
-	background: #39f;
-	-webkit-transform: perspective(1100px) translate(100px, 0px) rotateY(0deg) scale(1);
-}
-.imgtwo {
-	background: red;
-	-webkit-transform: perspective(1100px) translate(48px, 0px) rotateY(0deg) scale(1);
-}
-.imgone {
-	background: yellow;
-	-webkit-transform: perspective(1100px) translate(0px, 0px) rotateY(0deg) scale(1);
-}
-.shop-con img {
-	/*-webkit-transform:skewX(0deg) translate(0px, 10px) rotateY(60deg) scale(0.9);*/
-	/*-moz-transform:perspective(1100px) translate(-300px, 10px) rotateY(60deg) scale(0.9);
-	-ms-transform:perspective(1100px) translate(-300px, 10px) rotateY(60deg) scale(0.9);
-	-o-transform:perspective(1100px) translate(-300px, 10px) rotateY(60deg) scale(0.9);*/
 }
 .shop-mess {
 	overflow: hidden;
