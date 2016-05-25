@@ -5,6 +5,11 @@
 function picWin() {
 		var windowWidth;
 		var windowHeight;
+		windowWidth = $(this).width();
+		windowHeight = $(this).height();
+		if (windowHeight > 800) {
+			$('.nav').next().height(windowHeight - 124)
+		};
 		$(window).resize(function(){
 			windowWidth = $(this).width();
 			windowHeight = $(this).height();
@@ -15,19 +20,22 @@ function picWin() {
 			}else {
 				$('.wrap').css({
 				'width' : windowWidth
-			})
-			}
-			if(windowHeight >= 768) {
-				$('.faclist, .faclist img').css({
-					'height':'644px'
 				})
-			}else{
-				$('.faclist').height(windowHeight)
-				$('.faclist img').height(windowHeight)
+			}
+			if (windowHeight <= 680) {
+				$('.wrap').css({
+				'height' : 680
+				})
+			}else {
+				$('.wrap').css({
+				'height' : windowHeight
+				})
 			}
 		})
+
 	}
 picWin();
+
 /*
  *
  *
@@ -330,3 +338,105 @@ actSide();
  	}) 
  }
  proFade();
+ /*
+  * 功能：名店博览：图片切换效果
+  *	参数：
+  *	作者： 北有喬木
+  *
+  */
+  // 初始化参数
+ $('.big a').eq(0).css({
+    "top" : "34px",
+    "left" : "0",
+    "width" :"156px",
+    "height" : "222px"
+})
+$('.big a').eq(1).css({
+	"top": "17px",
+    "left" : "156px",
+    "width" :"262px",
+    "height" : "250px"
+});
+$('.big a').eq(2).css({
+    "top": "0",
+    "left" : "417px",
+    "width" :"420px",
+    "height" : "342px"
+});
+$('.big a').eq(3).css({
+    "top": "17px",
+    "left" : "836px",
+ 	"width" : "262",
+    'height': '250px'
+});
+$('.big a').eq(4).css({
+    "top" : "34px",
+    "left" : "1096px",
+    "width" :"156px",
+    "height" : "222px"
+});
+$('.big a').click(function() {
+	var index = $(this).index();
+	if (index == 0) {
+		$(this).eq(0).css({
+			"top": "0px",
+		    "left" : "417px",
+		    "width" :"420px",
+		    "height" : "342px",
+		    "z-index": 20
+		})
+		$(this).eq(1).css({
+			"top": "17px",
+    		"left" : "836px",
+ 			"width" : "262",
+    		'height': '250px'
+		})
+	};
+})
+// $('.big a').click(function() {
+// 	var index = $(this).index()
+// 	if (index == 0) {
+// 		$(this).eq(0).css({
+// 			"top": "0",
+//    			"left" : "417px",
+//    			"width" :"420px",
+//    			"height" : "342px"
+// 		})
+// 		$(this).eq(1).css({
+
+// 		})
+// 	};
+// 	if (index == 0) {
+// 		$(this).eq(0).css({
+// 			"top": "0",
+//    			"left" : "417px",
+//    			"width" :"420px",
+//    			"height" : "342px"
+// 		})
+// 	};
+// })
+// }
+ /*
+  * 功能：会员首页：仿圆边进度效果
+  *	参数：
+  *	作者： 北有喬木
+  *
+  */
+function cirMove() {
+    $('.project li').hover(function() {
+	        $(this).stop(true).animate({start: 90,end:180},{
+	        	step:function(now,end) {
+	        		$(this).find('.pro-right').css('transform', "rotate(" + now + "deg)");
+	        		$(this).find('.pro-left').css('transform', "rotate(" + now + "deg)");
+	       		}
+	        },2000) 
+	    },function() {
+	    	$(this).stop(true).animate({start:180, end: 90},{
+	        	step:function(now,end) {
+	        		$(this).find('.pro-right').css('transform', "rotate(" + now + "deg)");
+	        		$(this).find('.pro-left').css('transform', "rotate(" + now + "deg)");
+	       		}
+	        },2000) 
+	    })
+}
+cirMove();

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <meta charset="utf-8" http-equiv="refresh" content="5, url=http://www.baidu.com"> -->
+        <style type="text/css">
+            div {
+                width: 400px;
+                height: 24px;
+                word-spacing: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <label for="">你是谁？</label>
+            <input type="text" style="width:200px"/>
+        </div>
+        <script type="text/javascript">
+
+            var globalVar = 1;
+            function myCallback(info) {
+                for(var i = 0; i = 100000; i--) {
+                    globalVar += i;
+                }
+            }
+            myCallback();
+            console.log(globalVar);
+        </script>
+    </body>
+</html>

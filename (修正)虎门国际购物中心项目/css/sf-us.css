@@ -1,0 +1,66 @@
+/* 
+* @Author: anchen
+* @Date:   2016-05-18 14:20:09
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-05-20 10:42:24
+*/
+.content-service {
+    width: 100%;
+    height: 100%;
+    background: url("../images/sf.png") 0 0 no-repeat;
+}
+.servicecon {
+    width: 1020px;
+    height: 680px;
+    margin: 0 auto;
+}
+.service {
+    width: 852px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 70px 60px 0px 48px;
+}
+.service h2 {
+    font-size: 36px;
+    color: #fff;
+}
+.service h2 span {
+    font-size: 30px;
+}
+.project {
+    width: 852px;
+    height: 260px;
+    margin-top: 106px;
+}
+.project li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 226px;
+    height: 248px;
+    margin-right: 46px;
+    border: 6px solid #fff;
+    border-radius: 67% 66% 68% 72% / 39% 38% 101% 102%;
+
+}
+.project li img {
+    width: 226px;
+    height: 248px;
+    /*border: 6px solid #fff;
+    border-radius: 67% 66% 68% 72% / 39% 38% 101% 102%;*/
+}
+.project li span {
+    position: absolute;
+    top: 94px;
+    left: 44px;
+    /*display: block;*/
+    width: 150px;
+    height: 52px;
+    text-align: center;
+    /*line-height: 12px;*/
+    font-size: 22px;
+    color: #bca177;
+}
+.project span strong {
+    font-size: 14px;
+}

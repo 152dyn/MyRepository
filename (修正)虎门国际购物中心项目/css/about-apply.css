@@ -1,0 +1,79 @@
+/* 
+* @Author: anchen
+* @Date:   2016-05-16 20:37:21
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-05-17 08:08:00
+*/
+.content-apply {
+    width: 100%;
+    height: 100%;
+    background: url("../images/au_1.png") 0 0 repeat-x;
+}
+.applycon {
+    width: 1025px;
+    margin: 0 auto;
+    background-color: #ededec;
+    opacity: 0.9;
+}
+.apply {
+    width: 886px;
+    margin: 0 auto;
+}
+.apply h2 {
+    overflow: hidden;
+    height: 56px;
+    padding-top: 84px;
+    background: url("../images/au_2.png") 0 0 no-repeat;
+    background-position: 0px 126px;
+    font-size: 30px;
+    color: #404040;
+}
+.apply h2 span {
+    font-size: 33px;
+    font-family: "MyriadPro";
+    color: #c9cacb;
+}
+.apply-data {
+    height: 104px;
+    margin-top: 65px;
+    border-bottom: 1px dotted #bcbcbc;
+}
+.apply-data h3 {
+    font-size: 22px;
+    color: #dab866;
+}
+.apply-data span {
+    float: left;
+    margin-right: 54px;
+    margin-top: 36px;
+    font-size: 14px;
+    color: #575757;
+}
+.apply-req {
+    margin-top: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px dotted #bcbcbc;
+}
+.apply-req p {
+    margin-top: 14px;
+    font-size: 13px;
+}
+.apply-on {
+    height: 96px;
+    margin-top: 38px;
+}
+.apply-on a {
+    display: block;
+    float: left;
+    width: 108px;
+    height: 28px;
+    margin-right: 14px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #838383;
+    font-size: 14px;
+    color: #fff;
+}
+.apply-on .onl, .apply-on a:hover {
+    background-color: #dab866;
+}

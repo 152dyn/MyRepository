@@ -1,0 +1,446 @@
+@charset 'utf-8';
+.acti-con {
+	position: relative;
+	height: 644px;
+	margin: 0 auto;
+	background: url("../images/ap_02.png");
+}
+.acti-tit {
+	width: 1020px;
+	margin: 0 auto;
+}
+.acti-tit  h3 {
+	padding-top: 66px;
+}
+.acti-tit  h3 strong {
+	color: #cb6063;
+	font-size: 20px;
+}
+.acti-tit  h3 span {
+	margin-left: 16px;
+	color: #aa855b;
+	font-size: 23px;
+}
+.acti-other {
+	height: 51px;
+	padding-right: 26px;
+}
+.acti-other a:hover, .acti-other .acti-show {
+	background: url("../images/icos.png") -9px -1057px no-repeat;
+}
+.acti-other a {
+	float: right;
+    width: 27px;
+    height: 28px;
+    margin-left: 11px;
+    padding: 12px;
+    color: #fff;
+    background: url("../images/icos.png") -9px -1005px no-repeat;
+    text-align: center;
+}
+.acti-more {
+	width: 1020px;
+	margin: 52px auto;
+}
+.act-news {
+	float: left;
+	width: 412px;
+	height: 358px;
+}
+.acti-more dl {
+	width: 412px;
+	height: 74px;
+	margin-bottom: 20px;
+}
+.acti-more dt {
+	float: left;
+	width: 102px;
+	height: 74px;
+}
+.acti-more dd {
+	float: right;
+	width: 294px;
+	height: 74px;
+}
+.acti-more h4, .act-news li strong, .brow-con span, .shop-mess li span, .shop-mess li strong {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.acti-more h4 {
+	color: #dab866;
+	font-size: 15px;
+	padding: 3px 0 10px 0;
+}
+.acti-more dd p {
+	overflow: hidden;
+	color: #9ea6ae;
+}
+.act-news em {
+	display: block;
+	height: 1px;
+	background: url("../images/ap_04.png") repeat-x;
+}
+.act-news li {
+	height: 32px;
+	padding-left: 12px;
+	background: url("../images/icos.png") -80px -995px no-repeat;
+}
+.act-news li p {
+	height: 32px;
+	border-bottom: 1px dotted #a5a8a8;
+	color: #6e757a;
+}
+.act-news li strong {
+	float: left;
+	width: 325px;
+	line-height: 32px;
+}
+.act-news li span {
+	float: right;
+	width: 66px;
+	height: 32px;
+	line-height: 32px;
+}
+.act-btn {
+	margin-top: 15px;
+	padding-left: 200px;
+}
+.act-btn span {
+	color: #a0a2a4;
+	margin-left: 10px;
+}
+.acti-img {
+	float: right;
+	position: relative;
+	width: 494px;
+	height: 355px;
+}
+.acti-img img {
+	position: absolute;
+	width: 494px;
+	height: 355px;
+}
+.acti-img p {
+	position: absolute;
+	bottom: 4px;
+	right: 2px;
+	width: 48px;
+}
+.acti-img p span {
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-right: 3px;
+	background: #fff;
+	text-align: center;
+	line-height: 13px;
+	cursor: pointer;
+}
+.acti-img span:hover, .acti-img .act-s {
+	color: #fff;
+	background: #ff00aa;
+}
+.brow-con {
+	overflow: hidden;
+	width: 1062px;
+	margin: 62px auto;
+}
+.brow-con ul {
+	height: 327px;
+}
+.brow-con li {
+	float: left;
+	width: 190px;
+	padding: 7px;
+	margin-right: 12px;
+	background: #fff;
+}
+.brow-con dt {
+	overflow: hidden;
+	width: 190px;
+	max-height: 214px;
+}
+.brow-con img {
+	max-height: 214px;
+}
+.brow-con dd span{
+	display: block;
+	width: 190px;
+	margin-top: 10px;
+}
+.brow-con span a {
+	color: #e60012;
+}
+.brow-con dd p {
+	overflow: hidden;
+	width: 190px;
+	height: 32px;
+	margin: 4px 0 14px 0;
+	color: #787878;
+}
+.brow-con dd div {
+	padding: 6px 5px 0 0;
+	border-top: 1px solid #e5e5e5;
+}
+.brow-con dd em, .brow-con div a {
+	color: #b4b4b4;
+}
+.brow-con div a {
+	float: right;
+	padding-left: 18px;
+	background: url("../images/icos.png") -100px -1047px no-repeat;
+}
+.brow-left, .brow-right {
+	position: absolute;
+	width: 34px;
+	height: 34px;
+}
+.brow-left {
+	top: 54%;
+	left: 5%;
+	background: url("../images/icos.png") -10px -1319px no-repeat;
+}
+.brow-right {
+	top: 54%;
+	right: 5%;
+	background: url("../images/icos.png") -10px -1391px no-repeat;
+}
+/****  acti-newcon  start   ****/
+.newcon {
+	width: 785px;
+	height: 420px;
+	margin: 0 auto;
+}
+.newcon h4 {
+	font-size: 18px;
+}
+.back {
+	height: 14px;
+	margin: 14px 0 27px 0;
+}
+.back span {
+	float: right;
+	width: 40px;
+	height: 14px;
+	padding-left: 14px;
+	background: url("../images/icos.png") -100px -1157px no-repeat;
+	font-family: Arial;
+}
+.newcons {
+	float: left;
+	overflow: hidden;
+	width: 726px;
+	height: 360px;
+}
+.newcons p {
+	width: 722px;
+	margin-top: 20px;
+	line-height: 22px;
+}
+.newscrbox {
+	float: right;
+	position: relative;
+	width: 7px;
+	height: 220px;
+	border-top: 2px solid #555556;
+	border-bottom: 2px solid #555556;
+}
+.newcons img {
+	width: 358px;
+	height: 209px;
+}
+.newscrol {
+	position: absolute;
+	width: 7px;
+	height: 30px;
+	background: #555556;
+}
+/****  acti-newcon  end   ****/
+.shop-con {
+	width: 1040px;
+	height: 450px;
+}
+.shop-img {
+
+	position: relative;
+	width: 1040px;
+	height: 245px;
+}
+.shop-img a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 454px;
+	height: 256px;
+}
+.shop-img img {
+	display: none;
+}
+.imgcenter {
+	width: 454px;
+	height: 256px;
+	background: green;
+	-webkit-transform:skew(-50deg,0deg);
+	/*-webkit-transform: perspective(1100px) translate(268px, 0px) rotateY(0deg) rotateY(0)*/
+}
+.imgthr {
+	background: #39f;
+	-webkit-transform: perspective(1100px) translate(100px, 0px) rotateY(0deg) scale(1);
+}
+.imgtwo {
+	background: red;
+	-webkit-transform: perspective(1100px) translate(48px, 0px) rotateY(0deg) scale(1);
+}
+.imgone {
+	background: yellow;
+	-webkit-transform: perspective(1100px) translate(0px, 0px) rotateY(0deg) scale(1);
+}
+.shop-con img {
+	/*-webkit-transform:skewX(0deg) translate(0px, 10px) rotateY(60deg) scale(0.9);*/
+	/*-moz-transform:perspective(1100px) translate(-300px, 10px) rotateY(60deg) scale(0.9);
+	-ms-transform:perspective(1100px) translate(-300px, 10px) rotateY(60deg) scale(0.9);
+	-o-transform:perspective(1100px) translate(-300px, 10px) rotateY(60deg) scale(0.9);*/
+}
+.shop-mess {
+	overflow: hidden;
+	width: 1040px;
+	height: 128px;
+	margin-top: 44px;
+	border-top: 1px solid #dab866;
+}
+.shop-mess li {
+	height: 31px;
+	padding-left: 36px;
+	border-bottom: 1px solid #dab866;
+	line-height: 31px;
+}
+.shop-mess li span, .shop-mess li strong {
+	overflow: hidden;
+	float: left;
+	display: block;
+	color: #4e3e31;
+	font-size: 13px;
+}
+.shop-mess li span {
+	width: 160px;
+}
+.shop-mess li strong {
+	width: 600px;
+}
+.pages {
+	padding-top: 12px;
+}
+.pages span {
+	float: right;
+	color: #898989;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+}
+.pages .page-show, .pages span:hover {
+	color: #4e3e31;
+}
+
+/****  acti-index start   ****/
+
+.acti-index {
+	height: 644px;
+	background: url('../images/fa_02.png');
+}
+.acti-title {
+	padding-top: 68px;
+}
+.acti-title h2 {
+	width: 200px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 40px;
+}
+.acti-title p {
+	width: 953px;
+	color: #fff;
+	margin: 22px auto;
+	text-align: center;
+	background: url("../images/ap_13.png") no-repeat;
+}
+.index-con {
+	width: 950px;
+	height: 458px;
+	margin: 0 auto;
+}
+.conright, .concenter, .conleft {
+	float: left;
+	display: none;
+	margin-top: 46px;
+}
+.conright, .conleft {
+	width: 418px;
+	height: 404px;
+}
+.conright p, .conleft p {
+	overflow: hidden;
+	width: 418px;
+	height: 66px;
+	color: #fff;
+	font-size: 13px;
+}
+.conright p {
+	margin-top: 96px;
+	text-align: right;
+}
+.conleft p {
+	margin-bottom: 112px;
+}
+.concenter {
+	width: 81px;
+	height: 404px;
+}
+.conright span, .conleft span {
+	overflow: hidden;
+	width: 418px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 18px;
+}
+.conright span {
+	float: right;
+}
+.conleft span {
+	float: left;
+}
+.concenter span, .concenter strong, .concenter em {
+	display: block;
+	width: 52px;
+	height: 51px;
+	margin: -1px auto;
+}
+.concenter p {
+	width: 2px;
+	height: 40px;
+	margin: 0 auto;
+	background: #fff;
+}
+.concenter span {
+	background: url("../images/icos.png") -7px -1461px no-repeat;
+}
+.concenter em {
+	background: url("../images/icos.png") -7px -1515px no-repeat;
+}
+.concenter strong {
+	background: url("../images/icos.png") -7px -1461px no-repeat;
+}
+.concenter a {
+	display: block;
+	width: 81px;
+	height: 27px;
+	color: #d7b866;
+	background: url("../images/ap_14.png") no-repeat;
+	text-align: center;
+	line-height: 27px;
+}
+.concenter a:hover {
+	color: #fff;
+	background: url("../images/ap_15.png") no-repeat;
+};
