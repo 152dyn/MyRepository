@@ -66,8 +66,9 @@
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	cursor: pointer;
 }
-.acti-more h4 {
+.acti-more h4 a {
 	color: #dab866;
 	font-size: 15px;
 	padding: 3px 0 10px 0;

@@ -1,29 +1,5 @@
-function picWin() {
-		var windowWidth;
-		var windowHeight;
-		$(window).resize(function(){
-			windowWidth = $(this).width();
-			windowHeight = $(this).height();
-			if (windowWidth <= 1000) {
-				$('.pic').css({
-				'width' : 1000
-				})
-			}else {
-				$('.pic').css({
-				'width' : windowWidth
-				})
-			}
-			if(windowHeight >= 727) {
-				$('.pic, .pic-con img').css({
-					'height':'727px'
-				})
-			}else{
-				$('.pic, index-con').height(windowHeight)
-				$('.pic-con img').height(windowHeight)
-			}
-		})
-	}
-picWin();
+
+
 function indWeb() {
 	$(".ind-nav p span, .sina").click(function() {
 		$('.ind-nav p span em, .sina').css({
@@ -43,7 +19,6 @@ function indWeb() {
 		$('.ind-nav p span em,.sina').css({
 			"display":"none"
 		})
-		// $('.sina-con').stop(true).fadeOut(1000);
 		$('.pic').css({
 			"margin-left":"0"
 		})
@@ -82,12 +57,3 @@ function indPic() {
 	})
 }
 indPic();
-function indLink() {
-	$('.fast-rode a img').mouseover(function() {
-		$(this).eq(0).addClass('fshow').siblings().removeClass('fshow');
-	})
-	$('.fast-rode a img').mouseout(function() {
-		$(this).eq(1).addClass('fshow').siblings().removeClass('fshow');
-	})
-}	
-indLink();

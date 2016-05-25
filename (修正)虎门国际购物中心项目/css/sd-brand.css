@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-05-22 18:06:12
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-05-23 11:07:53
+* @Last Modified time: 2016-05-25 11:40:18
 */
 .content-brand {
     width: 100%;
@@ -33,7 +33,7 @@
 .brand-logo {
     float: left;
     width: 724px;
-    height: 402px;
+    height: 444px;
     /*padding: 10px 10px;*/
     padding: 0px 10px 10px 0px;
     background-color: #f7e8d1;
@@ -42,34 +42,27 @@
     display: block;
     float: right;
     width: 171px;
-    height: 124px;
+    height: 138px;
     margin-left: 10px;
     margin-top: 10px;
     background-color: #fff;
 }
-.brand-logo .right {
-    display: block;
-    float: right;
-    width: 171px;
-    height: 124px;
-    
-}
 .brand-logo a img {
-    /*float: left;*/
+    float: left;
     width: 171px;
     height: 124px;
 }
 .search {
     float: right;
     width: 260px;
-    height: 422px;
+    height: 454px;
     padding-left: 16px;
 }
 .letter {
     float: left;
     width: 11px;
     height: 422px;
-    padding: 0px 7px;
+    padding: 14px 7px 18px 7px;
     background-color: #f1e6d6;
     text-align: center;
     color: #969390;
@@ -77,7 +70,7 @@
 .brand-search {
     float: left;
     width: 230px;
-    height: 422px;
+    height: 454px;
     background-color: #ea8178;
 }
 .brand-search div {
@@ -86,11 +79,13 @@
     margin: 0 auto;
     margin-top: 30px;
     background: url("../images/icos.png") -420px -999px no-repeat;
+    cursor: pointer;
 }
 .brand-search div input {
     width: 161px;
     height: 24px;
     border: none;
+    color: #a82924;
 }
 .some-search {
     width: 186px;
@@ -109,7 +104,7 @@
     width: 119px;
     height: 30px;
     padding-left: 67px;
-    margin-bottom: 16px;
+    margin-top: 16px;
     text-align: left;
     line-height: 30px;
     background: url("../images/icos.png") -950px -1033px no-repeat;

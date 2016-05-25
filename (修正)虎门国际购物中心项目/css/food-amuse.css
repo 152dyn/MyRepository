@@ -10,25 +10,23 @@
 	z-index: 1;
 }
 .cleft {
-	top: 50%;
+	top: 55%;
 	left: 180px;
 	background: url("../images/icos.png") -500px -328px no-repeat;
 }
 .cright {
-	top: 50%;
-	right: 166px;
+	top: 55%;
+	right: 140px;
 	background: url("../images/icos.png") -500px -216px no-repeat;
 }
 
 /*** 美食与娱乐 ***/
-.faclist img {
-	position: relative;
-	width: 100%;
-	height: 644px;
-}
 .faclist {
+	position: relative;
 	display: none;
-	height: 644px;
+	width: 100%;
+	height: 100%;
+	background: url("../images/fa_big.png") 0 0 no-repeat;
 }
 .navlist {
 	position: relative;
@@ -60,8 +58,8 @@
 	font-size: 18px;
 }
 .food-con div {
-	float: left;
 	position: relative;
+	float: left;
 	overflow: hidden;
 	width: 310px;
 	height: 548px;

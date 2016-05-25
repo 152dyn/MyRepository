@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-05-19 20:10:44
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-05-22 15:22:49
+* @Last Modified time: 2016-05-25 14:08:17
 */
 /* VIP专区 */
 .content-zone {
@@ -116,6 +116,9 @@
     line-height: 120px;
     font-size: 18px;
 }
+.mask:hover {
+    color: #fff;
+}
 .mask span {
     position: absolute;
     top: 32px;
@@ -125,7 +128,7 @@
     margin: 0 auto;
 }
 .oriorange .mask span{
-    background: url("../images/vip_5.png") no-repeat;
+    background: url("../images/vip_13.png") no-repeat;
 
 }
 .oriblue .mask span {

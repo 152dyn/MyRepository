@@ -22,7 +22,7 @@
 /*** sd-floor start ****/
 .floor-con {
     width: 1060px;
-    height: 422px;
+    height: 478px;
     margin: 0 auto;
     margin-top: 63px;
 }
@@ -122,13 +122,13 @@
 .sel-brand {
     float: right;
     width: 230px;
-    height: 432px;
+    height: 478px;
 }
 .letter {
     float: left;
     width: 11px;
     height: 422px;
-    padding: 0px 15px 0 15px;
+    padding: 40px 15px 16px 15px;
     color: #cd9c64;
     background: #f3bc7f;
     text-align: center;
@@ -136,7 +136,7 @@
 .brand-ads {
     float: right;
     width: 188px;
-    height: 422px;
+    height: 478px;
     background: #eb8b7f;
 }
 .brand-ads h4 {

@@ -94,7 +94,7 @@ fodPcl()
  *
  */
 function fodSle() {
-	$('.navlist a').click(function(){
+	$('.navlist strong a').click(function(){
 		$(this).addClass('active').siblings().removeClass('active');
 	})
 	$('.navlist li').hover(function(){
@@ -205,7 +205,7 @@ actSide();
  	var step = 2;
  	var change = 1;
  	var boxScorl = 0;
- 	var timer = setInterval(browMove,100);
+ 	var timer = setInterval(browMove,50);
  	boxWidth = $('.brow-con').width();
  	conliLen = $('.brow-con ul li').length;
  	conliWidth = $('.brow-con ul li').outerWidth();
