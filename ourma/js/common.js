@@ -123,32 +123,44 @@ $(".object-tab span").on("tap", function(){
 var btn = false;
 function shopCar() {
 	$('.own-con .shop-list dt span').on("tap", function(){
-		if (btn == false) {
+		if (this.className != "list-btn") {
 			$(this).css({
 				"background": "url(../images/per_05.png)",
 				"background-size": "1.46rem",
 				"background-position-y": "-15.8rem"
 			})
-			btn = true;
-		} else if (btn == true) {
+			this.className = "list-btn"
+		} else if (this.className == "list-btn") {
 			$(this).css({
 				"background":" url(../images/per_05.png)",
 				"background-size": "1.46rem",
 				"background-position-y": "-18.5rem"
 			})
-			btn = false;
+			this.className = "";
 		}
 	})
- 	// $('.shop-list div span').eq(0).on("tap", function() {
- 	// 	var num = $(this).siblings("strong").html();
- 	// 	console.log(num);
- 	// })
+ 	$('.reduce').on("tap", function() {
+        var num = $(this).siblings("strong").html();
+        if (num == 0) {
+            num = 0;
+        }else {
+            num--;
+        }
+ 		$(this).siblings("strong").html(num);
+ 	})
+    $('.add').on("tap", function() {
+        var num = $(this).siblings("strong").html();
+        num++;
+        $(this).siblings("strong").html(num);
+    })
 }
 shopCar();
 
 // 配送方式
-console.log($('.sent-style p'));
-$('.sent-style p').on("tap", function() {
-    console.log($(this));
+$('.sent-cona p, .sent-conb p').on("tap", function() {
     $(this).addClass('sent-select').siblings().removeClass('sent-select');
+})
+// 发票留言 
+$('.speak-style p span').on("tap", function() {
+    $(this).addClass('speak-select').siblings().removeClass('speak-select');
 })

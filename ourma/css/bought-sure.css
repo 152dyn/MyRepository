@@ -173,7 +173,7 @@
 .speak-style p span {
     margin-right: 10.5%;
     padding-left: 7%;
-    background: url("../images/per_05.png") 2px -5.0rem no-repeat;
+    background: url("../images/per_05.png") 2px -7.9rem no-repeat;
     background-size: 60.47%;
 }
 .speak-style div {
@@ -186,4 +186,8 @@
     height: 100%;
     border: 0;
     outline: none;
+}
+.speak-style .speak-select {
+    background: url("../images/per_05.png") 2px -4.9rem no-repeat;
+    background-size: 60.47%;
 }
