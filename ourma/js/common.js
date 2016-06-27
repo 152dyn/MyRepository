@@ -145,3 +145,10 @@ function shopCar() {
  	// })
 }
 shopCar();
+
+// 配送方式
+console.log($('.sent-style p'));
+$('.sent-style p').on("tap", function() {
+    console.log($(this));
+    $(this).addClass('sent-select').siblings().removeClass('sent-select');
+})

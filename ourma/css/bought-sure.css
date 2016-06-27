@@ -85,8 +85,8 @@
 .sent-style p em {
     color: #ff6600;
 }
-.sent-select {
-    background-position-y: -5.47rem;
+.sent-style .sent-select {
+    background-position-y: -4.47rem;
     background-size: 8.67%;
 }
 
