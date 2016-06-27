@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>小区宝 - 用户登录</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<!-- a标签未添加链接 -->
+			<a href="" class="back" title="返回"></a>
+			<h1 class="title">用户登录</h1>
+		</div>
+		<div class="con">
+			<div class="login-con">
+				<div class="login-text text-name">
+					<input id="login-name" type="text" placeholder="请输入用户名、手机号码或邮箱">
+				</div>
+				<div class="login-text">
+					<input id="login-pwd" type="password" placeholder="请输入密码">
+				</div>
+				<!-- 错误提示 -->
+				<p class="login-error">用户名需用6-20个字符，不能使用中文</p>
+				<a href="#" class="login-next" title="登录">登录</a>
+				<div class="login-control clearfix">
+					<a href="login-backpwd.html" class="forget-pwd" title="忘记密码">忘记密码？</a>
+					<a href="login-enroll.html" class="free-enroll" title="免费注册">免费注册</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../js/jquery-1.12.3.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		function loginText() {
+			var reg = /^[a-zA-Z0-9]\w{5,19}/;
+			var username = $('#login-name').val();
+			var password = $('#login-pwd').val();
+			if (username == "") {
+				$('.login-error').text("请输入用户名");
+				$('.login-error').css({
+					'display' : 'block'
+				})
+			} else if(!reg.test(username)) {
+				$('.login-error').text("用户名需用6-20个字符，不能使用中文");
+				$('.login-error').css({
+					'display' : 'block'
+				})
+			} else if(password == "") {
+				$('.login-error').text("请输入密码");
+				$('.login-error').css({
+					'display' : 'block'
+				})
+			} else {
+				$('.login-next').attr('href', 'login-enroll.html');
+				$('.login-error').css({
+					'display' : 'none'
+				})
+			}
+		}
+		$('.login-next').click(function() {
+			loginText();
+		})
+	</script>
+</body>
+</html>
