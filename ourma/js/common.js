@@ -120,22 +120,13 @@ $(".object-tab span").on("tap", function(){
 	$(".object-tabcon > div").eq($(this).index()).addClass("object-con").siblings().removeClass("object-con");
 })
 // 我的购物车
-var btn = false;
+
 function shopCar() {
 	$('.own-con .shop-list dt span').on("tap", function(){
 		if (this.className != "list-btn") {
-			$(this).css({
-				"background": "url(../images/per_05.png)",
-				"background-size": "1.46rem",
-				"background-position-y": "-15.8rem"
-			})
-			this.className = "list-btn"
+			this.className = "list-btn";
+            $(this).parent().next().find("p").eq(3).find("strong").addClass("money");
 		} else if (this.className == "list-btn") {
-			$(this).css({
-				"background":" url(../images/per_05.png)",
-				"background-size": "1.46rem",
-				"background-position-y": "-18.5rem"
-			})
 			this.className = "";
 		}
 	})
@@ -153,6 +144,23 @@ function shopCar() {
         num++;
         $(this).siblings("strong").html(num);
     })
+    $(".shop-buy p").find("span").on("tap",function() {
+        if (this.className == "buy-show") {
+            this.className = "";
+        }else if (this.className == "") {
+            this.className = "buy-show";
+        }
+    })
+    $(".shop-pay span").eq(0).on("tap", function(){
+        if (this.id == "all-select") {
+            this.id = "";
+            $('.shop-list dt span').removeClass("list-btn");
+        }else if (this.id == "") {
+            this.id = "all-select";
+            $('.shop-list dt span').addClass("list-btn");
+        }
+    })
+    // 人民币换算
 }
 shopCar();
 
