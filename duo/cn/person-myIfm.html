@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的消息</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-myIfm.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../js/touch.js"></script>
+	<script type="text/javascript" src="../js/event.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>我的消息</h2>
+	</header>
+	<div class="per-Ifm-con">
+		<!-- 我的消息头部 -->
+		<div class="per-Ifmtit clearfix">
+			<span>未读</span>
+			<span class="Ifm-sele">已读</span>
+		</div>
+		<div class="per-Ifmcon">
+			<!-- 未读 -->
+			<div class="per-unread">
+				
+			</div>
+			<!-- 已读 -->
+			<div class="per-read">
+				<div>
+					<dl class="clearfix">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<h2>
+								<span>米米尔dor</span>
+								<span>2015.10.15 17:10</span>
+							</h2>
+							<span class="Ifm-test">
+								订单1015120512 你所获得的佣金￥12元已到账，请查收订单1015120512 你所获得的佣金￥12元已到账，请查收
+							</span>
+						</dd>
+					</dl>
+				</div>
+				<div>
+					<dl class="clearfix">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<h2>
+								<span>米米尔dor</span>
+								<span>2015.10.15 17:10</span>
+							</h2>
+							<span class="Ifm-test">
+								订单1015120512 你所获得的佣金￥12元已到账，请查收订单1015120512 你所获得的佣金￥12元已到账，请查收
+							</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="../js/person-collection.js"></script>
+	<script>
+		$(function(){
+		$(window).resize(initFont);
+		function initFont() {
+			var wid = $(window).width();
+			if (wid >= 750) {
+				$('html').css({
+					'font-size' : 28 + 'px'
+				})
+			}else {
+				$('html').css({
+					'font-size' : 28 / 750 * wid + 'px'
+				})
+			}	
+		}initFont();
+	})
+	</script>
+</html>

@@ -1,0 +1,50 @@
+@charset "utf-8"
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.com-share {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(45, 46, 46, 0.8);
+	z-index: 9999;
+}
+.head-share {
+	position: relative;
+	width: 96%;
+	height: 3.57rem;
+	padding: 0.43rem 2% 0;
+	background: rgba(45, 46, 46, 0);
+}
+.head-share h2 {
+	width: 100%;
+	height: 3.57rem;
+	font-size: 1.29rem;
+	text-align: center;
+	line-height: 3.57rem;
+	color: #fff;
+}
+.head-share .font {
+	position: absolute;
+	right: 4%;
+	top: 1.71rem;
+	width: 6%;
+	height: 1.43rem;
+	background: url(../images/share.png) no-repeat;
+	background-size: 100%;
+	z-index: 99;
+}
+.share-con {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/share-circle.png) no-repeat;
+	background-size: 100% 100%;
+}

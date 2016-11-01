@@ -1,0 +1,82 @@
+@charset "utf-8"
+html, body {
+	height: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #e1e4e6;
+}
+.person-main {
+	max-width: 750px;
+}
+header {
+	position: fixed;
+	width: 96%;
+	height: 3.61rem;
+	padding: 0.43rem 2% 0 2%;
+	top: 0;
+	left: 0;
+	background: #f8f8f8;
+	z-index: 999;
+}
+header h2 {
+	float: left;
+	width: 78%;
+	height: 3rem;
+	font-size: 1.29rem;
+	line-height: 3rem;
+	text-align: center;
+}
+header .iconfont {
+	float: left;
+	width: 100%;
+	height: 3rem;
+	background: #fff;
+	line-height: 3rem;
+	box-shadow: inset 0 0 0 1px #ccc;
+	border-radius: 0.36rem;
+	color: #6f6f6f;
+	text-align: center;
+	font-size: 1.5rem;
+}
+header a {
+	float: left;
+	width: 11%;
+}
+header a img {
+	display: block;
+	width: 100%;
+	height: 2.64rem;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	max-width: 750px;
+	height: 3.14rem;
+	padding-top: 0.36rem ;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #c1c5c6;
+	background: #fff;
+	z-index: 999;
+}
+footer ul {
+	width: 100%;
+	height: 3.14rem;
+}
+footer ul li a {
+	width: 15%;
+	height: 3.14rem;
+	color: #777;
+}
+footer ul li {
+	overflow: hidden;
+	float: left;
+	width: 15%;
+	height: 3.14rem;
+	margin: 0 5%;
+	text-align: center;
+	font-size: 0.71rem;
+}
+footer li .iconfont {
+	font-size: 1.75rem;
+}

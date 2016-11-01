@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>客服</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-service-strar.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-service.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>客服</h2>
+	</header>
+	<div class="per-ser-strar">
+		<h2>已进入在线客服队伍</h2>
+		<p>
+			<span>现在有</span>
+			<span>3</span>
+			<span>人在排队，请返回微信页面继续操作</span>
+		</p>
+		<div class="ser-pic">
+			<img src="../images/person-service1.png" alt="">
+		</div>
+		<div class="ser-strar">
+			<a href="person-service-over.html">结束等待</a>
+		</div>
+	</div>
+</body>
+	<script>
+		$(function(){
+		$(window).resize(initFont);
+		function initFont() {
+			var wid = $(window).width();
+			if (wid >= 750) {
+				$('html').css({
+					'font-size' : 28 + 'px'
+				})
+			}else {
+				$('html').css({
+					'font-size' : 28 / 750 * wid + 'px'
+				})
+			}	
+		}initFont();
+	})
+	</script>
+</html>

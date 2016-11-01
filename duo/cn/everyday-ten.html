@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>每日十样</title>
+	<meta name="viewport" content="target-densitydpi=320,width=750,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/everyday-ten.css" />
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href="index.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>每日十样</h2>
+	</header>
+	<div class="everyday-ten-con clearfix">
+		<section>
+			<a href="">
+				<img src="../images/bg1.jpg" alt="" />
+			</a>
+			<h3>
+				<a href="">三只松鼠坚果组合</a>
+			</h3>
+			<strong>￥999.99</strong>
+			<span>已售: 999</span>
+			<a href="" class="ok-buy">立即购买</a>
+		</section>
+		<section>
+			<a href="">
+				<img src="../images/tb2.jpg" alt="" />
+			</a>
+			<h3>
+				<a href="">三只松鼠坚果组合</a>
+			</h3>
+			<strong>￥999.99</strong>
+			<span>已售: 999</span>
+			<a href="" class="ok-buy">立即购买</a>
+		</section>
+		<section>
+			<a href="">
+				<img src="../images/tb2.jpg" alt="" />
+			</a>
+			<h3>
+				<a href="">三只松鼠坚果组合</a>
+			</h3>
+			<strong>￥999.99</strong>
+			<span>已售: 999</span>
+			<a href="" class="ok-buy">立即购买</a>
+		</section>
+		<section>
+			<a href="">
+				<img src="../images/tb1.jpg" alt="" />
+			</a>
+			<h3>
+				<a href="">三只松鼠坚果组合</a>
+			</h3>
+			<strong>￥999.99</strong>
+			<span>已售: 999</span>
+			<a href="" class="ok-buy">立即购买</a>
+		</section>
+		<p class="everyday-ten-more">点击加载更多</p>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<a class="footercolor"  href="../cn/index.html">
+					<i class="icon iconfont">&#xe627;</i><br>
+					<div>首页</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/man-circle.html">
+					<i class="icon iconfont">&#xe625;</i><br>
+					<div>达人圈</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/shopping.html">
+					<i class="icon iconfont">&#xe623;</i><br>
+					<div>购物袋</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/person-main.html">
+					<i class="icon iconfont">&#xe621;</i><br>
+					<div>个人中心</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+</body>
+	<script src="../js/zepto.min.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 750) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+
+		$('.everyday-ten-more').on('touchstart', function(e){
+			e.preventDefault();
+			var xhr = new XMLHttpRequest();
+			xhr.onload = function(){
+				var result = xhr.responseText;
+				$('.everyday-ten-more').before(result);
+			}
+			xhr.open('get', 'everyday.html', true);
+			xhr.send(null);
+			if($('section').length >= 10) {
+				$('.everyday-ten-more').remove();
+			}
+		})
+	</script>
+</html>

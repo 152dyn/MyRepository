@@ -1,0 +1,195 @@
+
+body, html {
+	height: 100%;
+	background-color: #e1e4e6;
+}
+.per-collec {
+	width: 100%;
+	margin-top: 4.04rem;
+}
+/*我的收藏头部标题*/
+.collec-tit {
+	width: 100%;
+	height: 3.14rem;
+	margin-top: 4.04rem;
+	border-top: 1px solid #e1e4e6;
+	border-bottom: 1px solid #e1e4e6;
+	background-color: #fff;
+}
+.collec-tit span {
+	float: left;
+	width: 33.3%;
+	height: 3.14rem;
+	font-size: 1rem;
+	line-height: 3.14rem;
+	text-align: center;
+	color: #333;
+}
+.collec-tit .collec-line {
+	color: #e60012;
+	border-bottom: 3px solid #e60012;
+}
+/*我的收藏公共部分*/
+.collec-con > div {
+	display: none;
+	width: 100%;
+	margin-top: 1.04rem;
+}
+.collec-con > div:nth-child(1) {
+	display: block;
+}
+.collec-con > div div {
+	position: relative;
+	width: 100%;
+	height: 5.68rem;
+	border-top: 1px solid #bbb;
+	background-color: #fff;
+}
+.collec-con > div div:last-child {
+	border-bottom: 1px solid #bbb;
+}
+
+/*我收藏的商品*/
+.collec-shops {
+	overflow: hidden;
+	width: 92%;
+	height: 4.29rem;
+	margin-top: 0.71rem;
+	margin-left: 4%;
+}
+.collec-shops dt {
+	float: left;
+	width: 17%;
+	height: 4.29rem;
+	margin-right: 4%;
+}
+.collec-shops img {
+	width: 100%;
+	height: 4.29rem;
+}
+.collec-shops dd {
+	float: left;
+	width: 79%;
+	height: 4.29rem;
+}
+.collec-shops dd h2 {
+	overflow: hidden;
+	width: 100%;
+	height: 2.86rem;
+	margin-top: 0.25rem;
+	font-size: 1rem;
+	color: #000;
+}
+.collec-shops dd p {
+	width: 100%;
+}
+.collec-shops dd p span:nth-child(1) {
+	float: left;
+	font-size: 0.79rem;
+	color: #e60012;
+}
+.collec-shops dd p span:nth-child(2) {
+	float: right;
+	font-size: 0.79rem;
+	color: #999;
+}
+/*我的收藏-店铺*/
+.collec-storne {
+	overflow: hidden;
+	width: 53%;
+	height: 4.29rem;
+	margin-top: 0.71rem;
+	margin-left: 4%;
+}
+.collec-storne dt {
+	float: left;
+	width: 30%;
+	height: 4.29rem;
+	margin-right: 4%;
+}
+.collec-storne img {
+	width: 100%;
+	height: 4.29rem;
+	border-radius: 50%;
+}
+.collec-storne dd {
+	float: left;
+	width: 66%;
+	height: 4.29rem;
+}
+.collec-storne dd a {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 0.54rem;
+	font-size: 1.07rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333
+}
+.collec-storne dd span {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	margin-top: 0.8rem;
+	font-size: 0.86rem;
+	color: #999;
+}
+.collec-store .collec-goods {
+	position: absolute;
+	right: 4%;
+	bottom: 1.43rem;
+	width: 27%;
+	height: 1.07rem;
+	font-size: 0.93rem;
+}
+.collec-goods span:nth-child(1) {
+	color: #999;
+}
+.collec-goods span:nth-child(2) {
+	color: #e60012;
+}
+
+/*我的收藏-帖子*/
+.collec-posts {
+	overflow: hidden;
+	width: 92%;
+	height: 4.29rem;
+	margin-top: 0.71rem;
+	margin-left: 4%;
+}
+.collec-posts dt {
+	float: left;
+	width: 17%;
+	height: 4.29rem;
+	margin-right: 4%;
+}
+.collec-posts dt img {
+	width: 100%;
+	height: 4.29rem;
+}
+.collec-posts dd {
+	float: left;
+	width: 79%;
+}
+.collec-posts dd .posts-tit {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 2.68rem;
+	margin-top: 0.18rem;
+	font-size: 1.07rem;
+	color: #333
+} 
+.collec-posts dd p {
+	margin-top: 0.18rem;
+	font-size: 0.79rem;
+	color: #999;
+}
+.collec-posts dd .post-reply {
+	float: right;
+}
+.collec-posts dd .post-praise {
+	float: right;
+	margin-right: 0.75rem; 
+}

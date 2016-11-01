@@ -1,0 +1,221 @@
+@charset "utf-8"
+.person-main {
+	max-width: 750px;
+	min-width: 320px;
+}
+.contain {
+	overflow: hidden;
+	height: 100%;
+	margin-top: 4.04rem;
+	padding-bottom: 4.2rem;
+	background-color: #e1e4e6;
+}
+/*个人信息头部*/
+.person-data {
+	position: relative;
+	width: 100%;
+	height: 7.14rem;
+	margin-bottom: 1.07rem;
+	background: url(../images/person-main1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.per-da {
+	position: absolute;
+	width: 46%;
+	height: 4.3rem;
+	left: 4%;
+	top: 1.35rem;
+}
+.per-da dt {
+	float: left;
+	width: 36%;
+	height: 4.5rem;
+	margin-right: 4%;
+}
+.per-da dt img {
+	display: block;
+	width: 95%;
+	height: 4.3rem;
+	border: 0.1rem solid #ddd;
+	border-radius: 90px;
+}
+.per-da dd {
+	float: left;
+	width: 60%;
+	height: 4.3rem;
+}
+.per-da dd .per-name {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 0.35rem;
+	color: #fff;
+	font-size: 1.14rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.per-da dd p {
+	overflow: hidden;
+	width: 100%;
+	height: 1rem;
+	font-size: 0.78rem;
+}
+.per-da dd p span {
+	font-size: 0.78rem;
+	color: #fff;
+}
+/*信封icon*/
+.per-ifm {
+	position: absolute;
+	right: 5%;
+	top: 1rem;
+	width: 4%;
+	height: 0.9rem;
+}
+.per-ifm a {
+	display: block;
+	width: 4%;
+	height: 0.9rem;
+	color: #fff;
+}
+.per-ifm a i {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 1rem;
+	height: 0.9rem;
+}
+.per-ifm a span {
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	left: 60%;
+	top: -0.30rem;
+	width: 66%;
+	height: 0.71rem;
+	border-radius: 50%;
+	font-size: 0.5rem;
+	line-height: 0.71rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	background-color: #f00;
+}
+/*我的收貨地址*/
+.per-adress {
+	overflow: hidden;
+	position: absolute;
+	right: 4%;
+	bottom: 0.79rem;
+	width: 32%;
+	height: 1rem;
+	font-size: 0.79rem;
+}
+.per-adress a {
+	height: 1rem;
+	font-size: 0.79rem;
+	color: #fff;
+}
+.per-adress a i {
+	font-size: 0.79rem;
+}
+/*我的订单部分*/
+.one-con {
+	height: 8.85rem;
+	margin-bottom: 1.07rem;
+}
+.one-con .ordertit {
+	width: 91%;
+	height: 3.18rem;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	padding:0 4% 0 5%;
+	background-color: #fff;
+}
+.ordertit span {
+	font-size: 1.07rem;
+	line-height: 3.18rem;
+}
+.ordertit i {
+	font-size: 1.1rem;
+	line-height: 3.18rem;
+}
+.ordertit a {
+	float: right;
+	font-size: 1.1rem;
+	line-height: 3.18rem;
+	color: #999;
+}
+.ordercon {
+	width: 100%;
+	height: 5.67rem;
+	background: url(../images/person-main3.png) no-repeat;
+	background-size: 100%;
+}
+.ordercon a {
+	float: left;
+	width: 33%;
+	height: 4.25rem;
+	padding-top: 1.3rem;
+	text-align: center;
+	/*line-height: 5.67rem;*/
+}
+.ordercon a i {
+	margin-top: 1.42rem;
+	font-size: 2rem;
+}
+.ordercon a span {
+	display: block;
+	width: 100%;
+	height: 0.94rem;
+	font-size: 0.93rem;
+	text-align: center;
+}
+.ordercon a:nth-child(1) i {
+	color: #e70618;
+}
+.ordercon a:nth-child(2) i {
+	color: #f6af25;
+}
+.ordercon a:nth-child(3) i {
+	color: #9dc816;
+}
+/*我的分销、附近门店、我的圈子*/
+.two-con, .three-con {
+	width: 100%;
+	height: 9.68rem;
+	margin-bottom: 1.07rem;
+}
+.two-con div, .three-con div {
+	position: relative;
+	width: 91%;
+	height: 3.18rem;
+	border-top: 1px solid #bbb;
+	box-shadow: 1px 1px 0 1px #bbb;
+	padding:0 4% 0 5%;
+	background-color: #fff;
+}
+.two-con div span, .three-con div span {
+	font-size: 1.07rem;
+	line-height: 3.18rem;
+}
+.two-con div i, .three-con div i {
+	font-size: 1.1rem;
+	line-height: 3.18rem;
+}
+.two-con div .arrow, .three-con div .arrow {
+	float: right;
+	font-size: 1.1rem;
+	line-height: 3.18rem;
+	color: #999;
+}
+.two-con div .jump, .three-con div .jump {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 3.18rem;
+}
+

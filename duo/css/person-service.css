@@ -1,0 +1,50 @@
+.per-ser-con {
+	width: 92%;
+	margin: 10.11rem auto;
+}
+.per-ser-con h2 {
+	width: 100%;
+	height: 3.18rem;
+	font-size: 1.14rem;
+	line-height: 3.18rem;
+	text-align: center;
+	color: #333;
+}
+.per-ser-con .ser-btn {
+	width: 100%;
+	height: 7.5rem;
+	margin-bottom: 1.07rem;
+}
+.ser-btn a {
+	display: block;
+	width: 100%;
+	height: 3.21rem;
+	border-radius: 0.29rem;
+	margin-bottom: 1.07rem;
+	font-size: 1.14rem;
+	line-height: 3.21rem;
+	text-align: center;
+	color: #fff;
+	background-color: #f5a200;
+}
+.ser-btn a:nth-child(2) {
+	margin-bottom: 0;
+	background-color: #9cc813;
+}
+.per-ser-con h3 {
+	width: 100%;
+	margin-top: 0.93rem;
+	font-size: 0.86rem;
+	text-align: center;
+	color: #999;
+}
+.per-ser-con p {
+	width: 65%;
+	margin: 0.36rem auto;
+	font-size: 0.86rem;
+	text-align: center;
+	color: #999;
+}
+.per-ser-con p span:nth-child(2) {
+	color: #e60012;
+}

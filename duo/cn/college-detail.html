@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>详情</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="stylesheet" href="../css/j-storage.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/animate.min.css">
+	<link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<i class="icon iconfont">&#xe609;</i>
+		</a>
+		<h2>详情</h2>
+	</header>
+	<div class="wrap">
+		<div class="j-success">
+			<h2>毕业创业指导成功案例分享</h2>
+			<h3>
+				<span>2015.10.18</span>
+				<span>17:15</span>
+			</h3>
+		</div>
+		<div class="swiper-container z">
+    		<div class="swiper-wrapper q">
+        		<div class="swiper-slide j">
+        			<img src="../images/food.jpg" alt="" title="">
+        		</div>
+        		<div class="swiper-slide">
+        			<img src="../images/food.jpg" alt="" title="">
+        		</div>
+        		<div class="swiper-slide">
+        			<img src="../images/food.jpg" alt="" title="">
+        		</div>
+    		</div>
+    		<div class="swiper-pagination"></div>
+		</div>
+		<ul class="j-say">
+			<li>
+				<span>产自烟台的大苹果</span>
+				<span>个头很大</span>
+				<span>汁水超多</span>
+			</li>
+			<li>
+				<span>每天一苹果</span>
+				<span>医生远离我</span>
+			</li>
+			<li>
+				<span>拿来做苹果派</span>
+				<span>真的很好吃</span>
+			</li>
+			<li>推荐</li>
+		</ul>
+	</div>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/swiper.animate1.0.2.min.js"></script>
+	<script src="../js/swiper-3.3.1.jquery.min.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 960) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal',
+	    loop: true,
+	    speed:3000,
+	    autoplay:true,
+	    // 如果需要分页器
+	    pagination: '.swiper-pagination',
+	  })        
+  </script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+
+.per-ord-con {
+	width: 100%;
+	margin-top: 5.11rem;
+}
+.ord-details > div {
+	width: 92%;
+	height: 3.18rem;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-top: 1px solid #bbb;
+	background-color: #fff;
+}
+.ord-details > div:last-child {
+	border-bottom: 1px solid #bbb;
+}
+/*订单编号*/
+.ord-details .ord-nuber {
+	height: 4.61rem;
+}
+.ord-icon {
+	float: left;
+	width: 4%;
+	height: 3.65rem;
+	margin-top: 0.8rem; 
+	margin-right: 3%;
+	font-size: 1.25rem;
+}
+.ord-nuber .ord-test {
+	float: left;
+	width: 93%;
+	margin-top: 0.96rem; 
+}
+.ord-nuber div:nth-child(2) p {
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	font-size: 0.93rem;
+}
+.ordnub span:nth-child(1) {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+	color: #333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ordnub span:nth-child(2) {
+	float: right;
+	color: #e60012;
+}
+.ordtime span {
+	float: left;
+	height: 1.5rem;
+	margin-top: 0.32rem;
+	color: #333;
+}
+.ordtime span:nth-child(2) {
+	color: #999;
+}
+/*支付金额*/
+.ord-money i {
+	float: left;
+	margin-right: 3%;
+	margin-top: 0.8rem; 
+	font-size: 1.2rem;
+}
+.ord-money span {
+	float: left;
+	font-size: 0.93rem;
+	line-height: 3.18rem;
+	color: #333;
+}
+.ord-money span:nth-child(3) {
+	color: #e60012;
+}
+.ord-money span:nth-child(4) {
+	color: #999;
+}
+/*配送方式*/
+.ord-dis i {
+	float: left;
+	margin-right: 3%;
+	margin-top: 0.8rem; 
+	font-size: 1.2rem;
+}
+.ord-dis span {
+	float: left;
+	font-size: 0.93rem;
+	line-height: 3.18rem;
+	color: #333;
+}
+.ord-dis span:nth-child(3) {
+	float: right;
+} 
+/*地址*/
+.ord-adr {
+	float: left;
+	width: 93%;
+	margin-top: 0.96rem;
+}
+.ord-details .ord-adress {
+	height: 4.61rem;
+}
+.ord-adr p {
+	overflow: hidden;
+	width: 100%;
+	font-size: 0.93rem;
+}
+.ord-adr p:nth-child(2) {
+	height: 1.5rem;
+	margin-top: 0.32rem;
+}
+/*订单货物*/
+.ord-goods {
+	margin-top: 1.07rem;
+}
+.ord-goods > div {
+	width: 100%;
+	height: 5rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid #bbb;
+	background-color: #fff;
+}
+.ord-goods > div:last-child {
+	border-bottom: 1px solid #bbb;
+}
+.ord-goods > div a {
+	float: left;
+	width: 16%;
+	height: 4.29rem;
+	margin: 0 4% 0 4%;
+}
+.ord-goods > div a img {
+	width: 100%;
+	height: 4.29rem;
+}
+.ord-goods > div div {
+	float: left;
+	width: 76%;
+}
+.ord-goods .goods-test h2 {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 0.29rem;
+	font-size: 1.07rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ord-goods .goods-test p {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 1.5rem;
+	font-size: 0.79rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.goods-test p span {
+	float: left;
+	color: #e60012;
+}
+.goods-test p span:nth-child(2) {
+	margin-left: 4%;
+	color: #999;
+}
+/*订单金额*/
+.ord-golds {
+	width: 100%;
+	margin-top: 1.07rem;
+}
+.ord-cost {
+	width: 100%;
+	border-top: #bbb;
+	padding: 0.93rem 0 0.71rem 0;
+	background-color: #fff;
+}
+.ord-cost p {
+	width: 92%;
+	font-size: 0.93rem;
+	margin: 0 4% 0.43rem 4%;
+}
+.ord-cost p:last-child {
+	margin-bottom: 0;
+}
+.ord-cost p span:nth-child(1) {
+	float: left;
+	color: #333;
+}
+.ord-cost p span:nth-child(2) {
+	float: right;
+	color: #e60013;
+}
+.ord-total {
+	width: 96%;
+	height: 3.18rem;
+	padding-right: 4%;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	background-color: #fff;
+}
+.ord-total span {
+	float: right;
+	font-size: 0.93rem;
+	line-height: 3.18rem;
+	color: #333;
+}
+.ord-total span:nth-child(2) {
+	color: #e60013;
+}
+/*待发货按钮页面*/
+.ord-btn {
+	position: relative;
+	width: 92%;
+	margin: 1.79rem auto 1.25rem;
+	height: 3.21rem;
+}
+.ord-btn label {
+	display: block;
+	width: 100%;
+	border-radius: 0.29rem;
+	background-color: #aaa;
+	font-size: 0.93rem;
+	line-height: 3.21rem;
+	text-align: center;
+	color: #fff;
+}
+.ord-btn input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 0 none;
+	outline: none;
+	resize: none;
+}
+/*代付款按钮页面*/
+.ord-btn > div {
+	position: relative;
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+}
+.ord-btn div:nth-child(2) {
+	margin-right: 0;
+}
+.ord-btn div:nth-child(2) label {
+	background-color: #e60013;
+}
+/*待收货页面*/
+.nub-closed span:nth-child(1) {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+	color: #333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.nub-closed span:nth-child(2) {
+	float: right;
+	color: #f5a100;
+}
+.ord-btn .btn-closed {
+	background-color: #f5a100;
+}
+/*已完成页面*/
+.ordover span:nth-child(1) {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+	color: #333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ordover span:nth-child(2) {
+	float: right;
+	color: #9cc813;
+}
+.ord-btn > div:nth-child(2) a {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 3.21rem;
+	z-index: 999;
+}

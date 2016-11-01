@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>客服</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-service.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="../cn/person-order-service.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>客服</h2>
+	</header>
+	<div class="per-ser-con">
+		<h2>请选择客服类型</h2>
+		<div class="ser-btn clearfix">
+			<a href="">售前咨询</a>
+			<a href="../cn/person-service-strar.html">售后咨询</a>
+		</div>
+		<h3>多彩优选微信在线客服</h3>
+		<p>
+			<span>电话:</span>
+			<span>0592-2222222  400-800-8888</span>
+		</p>
+	</div>
+</body>
+	<script>
+		$(function(){
+		$(window).resize(initFont);
+		function initFont() {
+			var wid = $(window).width();
+			if (wid >= 750) {
+				$('html').css({
+					'font-size' : 28 + 'px'
+				})
+			}else {
+				$('html').css({
+					'font-size' : 28 / 750 * wid + 'px'
+				})
+			}	
+		}initFont();
+	})
+	</script>
+</html>

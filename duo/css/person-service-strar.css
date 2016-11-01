@@ -1,0 +1,46 @@
+.per-ser-strar {
+	width: 92%;
+	margin: 10rem auto;
+}
+.per-ser-strar h2 {
+	width: 100%;
+	font-size: 1.14rem;
+	line-height: 2.86rem;
+	text-align: center;
+	color: #333;
+}
+.per-ser-strar p {
+	width: 100%;
+	font-size: 1.14rem;
+	text-align: center;
+	line-height: 2.14rem;
+	color: #999;
+}
+.per-ser-strar p span:nth-child(2) {
+	font-size: 1.43rem;
+	color: #e60012;
+}
+.ser-pic {
+	width: 42%;
+	height: 8.21rem;
+	margin: 1.43rem auto 3.57rem;
+} 
+.ser-pic img {
+	width: 100%;
+	height: 8.21rem;
+}
+.ser-strar {
+	width: 100%;
+	height: 3.21rem;
+}
+.ser-strar a {
+	display: block;
+	width: 100%;
+	height: 3.21rem;
+	border-radius: 0.29rem;
+	font-size: 1.14rem;
+	line-height: 3.12rem;
+	text-align: center;
+	color: #fff;
+	background-color: #e60012;
+}

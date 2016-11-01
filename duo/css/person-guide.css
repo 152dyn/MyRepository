@@ -1,0 +1,32 @@
+.per-guide {
+	width: 92%;
+	margin-top: 5.11rem;
+	padding: 0 4% 0 4%;
+}
+.per-guide div {
+	width: 100%;
+	border-radius: 0.29rem;
+	margin-bottom: 1.07rem;
+	background-color: #fff;
+}
+.per-guide div h2{
+	overflow: hidden;
+	width: 94%;
+	height: 2.86rem;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.per-guide div h2 span {
+	font-size: 1.07rem;
+	line-height: 2.86rem;
+	color: #333;
+}
+.per-guide div h2 span:nth-child(1) {
+	color: #e60012;
+}
+.per-guide div p {
+	padding: 0.71rem 3%;
+	border-top: 1px solid #bbb;
+	font-size: 1rem;
+	color: #999;
+}

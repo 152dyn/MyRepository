@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>店铺资料</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="stylesheet" href="../css/j-storage.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script type="text/javascript"  src="../js/zepto.min.js"></script>
+	<script type="text/javascript"  src="../js/j-js.js"></script>
+	<script type="text/javascript"  src="../js/touch.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=89bo82uyilPWHgtP36cZgDeC0FBAVlFH"></script>
+</head>
+<body>
+	<header>
+		<a href="store-home.html">
+			<i class="icon iconfont">&#xe609;</i>
+		</a>
+		<h2>店铺资料</h2>
+	</header>
+	<div class="wrap">
+		<div class="j-infor">
+			<h3>
+				微店头像
+				<i class="icon iconfont">&#xe60b;</i>
+				<img src="../images/j-user.jpg" alt="">
+			</h3>
+			<h4>微店名称
+				<i class="icon iconfont">&#xe60b;</i>
+				<input type="text" placeholder="云宝小店">
+			</h4>
+			<h4>实体店地址
+				<i class="icon iconfont">&#xe60b;</i>
+				<input type="text" placeholder="思明区望海路1号">
+			</h4>
+		</div>
+		<div class="storage-address">
+			<h3>店铺地址地图:</h3>
+			<div class="j-map"id="container"></div>
+		</div>
+		<div class="j-btn">保存</div>
+	</div>
+	<script>
+		// // 店铺资料-地址
+		var X = 0;
+		var Y = 0;
+		// 利用JSONP解决跨域
+		$.ajax({
+			url: 'http://api.map.baidu.com/location/ip?ak=89bo82uyilPWHgtP36cZgDeC0FBAVlFH&coor=bd09ll',
+			type: 'get',
+			dataType: 'jsonp',
+			jsonp: 'callback',
+			success: function(data) {
+				console.log(data);
+				X = data.content.point.x;
+				Y = data.content.point.y;
+				$.ajax({
+					url: 'http://api.map.baidu.com/geoconv/v1/?coords=' + data.content.point.x + ',' + data.content.point.y + '&from=3&to=5&ak=89bo82uyilPWHgtP36cZgDeC0FBAVlFH',
+					type: 'get',
+					dataType: 'jsonp',
+					jsonp: 'callback',
+					success: function(translate) {
+						console.log(translate)
+						var map = new BMap.Map("container");          // 创建地图实例  
+						var point = new BMap.Point(X, Y);  // 创建点坐标  
+						map.centerAndZoom(point, 15);
+						window.setTimeout(function(){  
+						    map.panTo(new BMap.Point(X, Y));    
+						}, 2000);
+						var marker = new BMap.Marker(point);        // 创建标注    
+						map.addOverlay(marker);                     // 将标注添加到地图中
+						map.enableScrollWheelZoom();
+						map.enableKeyboard();
+						var address = data.address;
+						$.ajax({
+							url: 'http://api.map.baidu.com/telematics/v3/weather?location=' + X + ',' + Y + '&output=json&ak=89bo82uyilPWHgtP36cZgDeC0FBAVlFH',
+							type: 'get',
+							dataType: 'jsonp',
+							jsonp: 'callback',
+							success: function(data) {
+								console.log(data.results)
+							}
+						})
+					}
+				})
+			}
+		})
+	</script>
+</body>
+</html>

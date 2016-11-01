@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>微店设置</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="stylesheet" href="../css/j-storage.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href=""><i class="icon iconfont">&#xe609;</i></a>
+		<h2>微店设置</h2>
+	</header>
+	<div class="wrap">
+		<div class="j-setcon clearfix">
+			<div>
+				<img src="../images/set.jpg" alt="">
+				<span>预览</span>
+				<span>应用</span>
+			</div>
+			<div>
+				<img src="../images/set.jpg" alt="">
+				<span>预览</span>
+				<span>应用</span>
+			</div>
+			<div>
+				<img src="../images/set.jpg" alt="">
+				<span>预览</span>
+				<span>应用</span>
+			</div>
+			<div>
+				<img src="../images/set.jpg" alt="">
+				<span>预览</span>
+				<span>应用</span>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<a href="../cn/index.html">
+					<i class="icon iconfont">&#xe627;</i><br>
+					<div>首页</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/man-circle.html">
+					<i class="icon iconfont">&#xe625;</i><br>
+					<div>达人圈</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/shopping.html">
+					<i class="icon iconfont">&#xe623;</i><br>
+					<div>购物袋</div>
+				</a>
+			</li>
+			<li>
+				<a class="footercolor"  href="../cn/person-main.html">
+					<i class="icon iconfont">&#xe621;</i><br>
+					<div>个人中心</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<script src="../js/zepto.min.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 960) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+</body>
+</html>

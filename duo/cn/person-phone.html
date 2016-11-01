@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>手机号绑定</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-phone.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href=""><i class="icon iconfont">&#xe609;</i></a>
+		<h2>手机号绑定</h2>
+	</header>
+	<div class="per-phone-con">
+		<form action="" class="per-phone">
+			<!-- 手机号 -->
+			<div class="new-pgone">
+				<input type="text" name="" value="输入手机号" >
+			</div>
+			<!-- 新的密码 -->
+			<div class="new-pgone">
+				<input type="text" name="" value="输入新的密码">
+			</div>
+			<!-- 输入密码 -->
+			<div class="new-pgone">
+				<input type="text" name="" value="再次输入密码" >
+			</div>
+			<!-- 输入验证码 -->
+			<div class="new-pgone">
+				<div>
+					<input type="text" value="输入手机验证码" name="">
+				</div>
+				<div class="new-code">
+					<input type="submit" value="获取验证码" name="">
+				</div>
+			</div>
+			<span class="per-exit">
+				<a href="">提交</a>
+			</span>
+		</form>
+	</div>
+</body>
+	<script>
+		$(function(){
+		$(window).resize(initFont);
+		function initFont() {
+			var wid = $(window).width();
+			if (wid >= 750) {
+				$('html').css({
+					'font-size' : 28 + 'px'
+				})
+			}else {
+				$('html').css({
+					'font-size' : 28 / 750 * wid + 'px'
+				})
+			}	
+		}initFont();
+	})
+	</script>
+</html>

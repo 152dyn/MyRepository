@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情页</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="stylesheet" href="../css/j-storage.css">
+	<link rel="stylesheet" href="../css/com-share.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/animate.min.css">
+	<link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href="store-home.html">
+			<i class="icon iconfont">&#xe609;</i>
+		</a>
+		<h2>商品详情页</h2>
+		<a id="share">
+			<i class="icon iconfont">&#xe614;</i>
+		</a>
+	</header>
+	<div class="wrap">
+		<div class="swiper-container z">
+    		<div class="swiper-wrapper q">
+        		<div class="swiper-slide j">
+        			<img src="../images/scroll.jpg" alt="" title="">
+        		</div>
+        		<div class="swiper-slide">
+        			<img src="../images/scroll.jpg" alt="" title="">
+        		</div>
+        		<div class="swiper-slide">
+        			<img src="../images/scroll.jpg" alt="" title="">
+        		</div>
+    		</div>
+   			<!-- 如果需要分页器 -->
+    		<div class="swiper-pagination"></div>
+		</div>
+		<div class="about-up">
+			<p>三只松鼠坚果组合三只松鼠坚果组合三只松鼠坚果组合</p>
+			<h3><span>￥999.99</span>(您能赚取<span>￥30.00</span>)</h3>
+			<i class="icon iconfont">&#xe611;<br><span>收藏</span></i>
+		</div>
+		<div class="j-words">
+			<i class="icon iconfont">&#xe631;退换货保证</i>
+			<i class="icon iconfont">&#xe62f;正品保证</i>
+			<i class="icon iconfont">&#xe630;30天无理由退换货</i>
+		</div>
+		<div class="goods-nav">
+			<span>商品介绍</span>
+			<span>规格参数</span>
+			<span>包装清单</span>
+			<span>商品评价<em>99</em></span>
+			<var></var>
+		</div>
+		<div class="j-loadmore">亲，请点击加载</div>
+		<div class="j-backTop">
+			<i class="icon iconfont">&#xe629;</i>
+			<i class="icon iconfont">&#xe613;</i>
+		</div>
+	</div>
+	<div class="j-bottom">
+		<a>您能赚取99.00</a>
+		<a href="j-storager.html">我要销售</a>
+	</div>
+	<div class="com-share">
+        <div class="head-share">
+            <h2>多彩优选</h2>
+            <span class="font"></span>
+        </div>
+        <div class="share-con"></div>
+    </div>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/com-share.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/swiper.animate1.0.2.min.js"></script>
+	<script src="../js/swiper-3.3.1.jquery.min.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 960) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal',
+	    loop: true,
+	    speed:3000,
+	    autoplay:true,
+	    // 如果需要分页器
+	    pagination: '.swiper-pagination',
+	  })        
+  </script>
+</body>
+</html>

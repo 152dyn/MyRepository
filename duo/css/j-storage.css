@@ -1,0 +1,477 @@
+@charset 'UTF-8';
+
+nav {
+	position: relative;
+	width: 100%;
+	height: 3.14rem;
+	line-height: 3.14rem;
+	border-top: 0.04rem solid #999;
+	border-bottom: 0.04rem solid #bbb;
+	background: #fff;
+}
+nav span {
+	overflow: hidden;
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	color: #000;
+	text-align: center;
+}
+nav span:nth-child(1) {
+	color: #e60012;
+}
+nav var {
+	position: absolute;
+	width: 33.3%;
+	height: 0.11rem;
+	bottom: -0.04rem;
+	left: 0;
+	background: #e60012;
+}
+section {
+	width: 92%;
+	height: 3.22rem;
+	padding: 0.71rem 4% 0;
+	margin-bottom: 0.68rem;
+	background: #fff;
+}
+section div {
+	overflow: hidden;
+	height: 2.43rem;
+	line-height: 2.43rem;
+	border: 0.04rem solid #bbb;
+	border-radius: 0.36rem;
+	float: left;
+}
+section div input {
+	height: 100%;
+	border: 0;
+}
+section div:nth-child(1) {
+	position: relative;
+	width: 27%;
+	margin-right: 3%;
+	text-indent: 3%;
+}
+section div:nth-child(1) ul {
+	position: absolute;
+	display: none;
+}
+section div:nth-child(2) {
+	width: 48%;
+	margin-right: 2.5%;
+}
+section div:nth-child(3) {
+	float: right;
+	width: 17%;
+	background: #e60012;
+	color: #fff;
+	text-align: center;
+}
+section div:nth-child(1) .icon {
+	position: absolute;
+	right: 10%;
+	top: 0;
+	font-size: 1rem;
+}
+section div:nth-child(2) input {
+	width: 94%;
+	padding-left: 6%;
+}
+.j-up {
+	width: 100%;
+	background: #fff;
+	border-top: 0.04rem solid #bbb;
+}
+.j-up dl {
+	width: 92%;
+	height: 5.04rem;
+	padding: 0.71rem 4% 0;
+	border-bottom: 0.04rem solid #bbb;
+}
+.j-up dl dt {
+	float: left;
+	overflow: hidden;
+	width: 17%;
+	height: 4.29rem;
+	margin-right: 2%;
+}
+.j-up dt img {
+	width: 100%;
+	height: 100%;
+}
+.j-up dl dd {
+	position: relative;
+	float: left;
+	width: 81%;
+	height: 4.29rem;
+	color: #000;
+}
+.j-up dd h2 {
+	overflow: hidden;
+	width: 100%;
+	height: 1.71rem;
+	line-height: 1.71rem;
+}
+.j-up dd p {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 100%;
+	height: 1.29rem;
+	line-height: 1.29rem;
+	font-size: 0.79rem;
+}
+.j-up dd span {
+	margin-right: 3%;
+	color: #e60012;
+}
+.j-up dd h3 {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 100%;
+	height: 1.21rem;
+	line-height: 1.21rem;
+	color: #999;
+	font-size: 0.79rem;
+}
+.j-up dd h3 span {
+	color: #999;
+}
+.j-up var {
+	position: absolute;
+	width: 18%;
+	height: 1.79rem;
+	right: 0;
+	top: 1.25rem;
+	background: #e60012;
+	border-radius: 0.36rem;
+	line-height: 1.79rem;
+	color: #fff;
+	text-align: center;
+}
+.j-up em,
+.j-up strong {
+	position: absolute;
+	display: block;
+	width: 18%;
+	height: 1.71rem;
+	line-height: 1.71rem;
+	border-radius: 0.36rem;
+	color: #fff;
+	text-align: center;
+}
+.j-up em {
+	background: #f5a200;
+	top: 0;
+	right: 0;
+}
+.j-up strong {
+	background: #e60012;
+	bottom: 0;
+	right: 0;
+}
+/*商品详情页*/
+
+.z {
+	width: 100%;
+	height: 26.64rem;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+}
+.z .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wrap .swiper-pagination-bullet-active {
+	background: red;
+}
+.about-up {
+	position: relative;
+	width: 80%;
+	height: 5.64rem;
+	padding: 1rem 16% 0 4%;
+	background: #fff;
+	color: #000;
+}
+.about-up p {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 100%;
+	height: 3.21rem;
+	line-height: 1.6rem;
+	color: #000;
+	font-size: 1.14rem;
+}
+.about-up h3 {
+	overflow: hidden;
+	width: 100%;
+	height: 1.71rem;
+	line-height: 1.71rem;
+}
+.about-up h3 span {
+	color: #e60012;
+}
+.about-up .icon {
+	position: absolute;
+	width: 15%;
+	height: 2.89rem;
+	right: 0;
+	top: 1rem;
+	border-left: 0.04rem solid #ccc;
+	color: #999;
+	text-align: center;
+	font-size: 2rem;
+}
+.about-up .icon span {
+	position: absolute;
+	right: 25%;
+	bottom: -0.3rem;
+	font-size: 0.5rem;
+}
+.j-words {
+	width: 92%;
+	height: 2.71rem;
+	line-height: 2.71rem;
+	padding: 0 4%;
+	margin-bottom: 1.07rem;
+	background: #fff;
+	border-top: 0.08rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+	color: #f5a200;
+}
+.j-words .icon {
+	margin-right: 11%;
+	float: left;
+	font-size: 0.86rem;
+}
+.j-words .icon:nth-child(3) {
+	margin-right: 0;
+	float: right;
+}
+.goods-nav {
+	position: relative;
+	width: 100%;
+	height: 3.11rem;
+	margin-bottom: 1.07rem;
+	background: #fff;
+	line-height: 3.11rem;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+	color: #000;
+}
+.goods-nav span {
+	float: left;
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+.goods-nav span:nth-child(1) {
+	color: #e60012;
+}
+.goods-nav var {
+	position: absolute;
+	width: 25%;
+	height: 0.11rem;
+	left: 0;
+	bottom: -0.11rem;
+	background: #e60012;
+}
+.j-loadmore {
+	overflow: hidden;
+	width: 32%;
+	height: 2.07rem;
+	margin: 0 auto 2.14rem;
+	line-height: 2.07rem;
+	background: #fff;
+	text-align: center;
+	border: 0.04rem solid #bbb;
+	border-radius: 0.36rem;
+	color: #999;
+}
+.j-backTop {
+	position: fixed;
+	width: 10%;
+	height: 5.71rem;
+	right: 4%;
+	bottom: 5.71rem;
+	background: rgba(255, 255, 255, 0);
+}
+.j-backTop .icon {
+	float: left;
+	width: 100%;
+	height: 2.57rem;
+	line-height: 2.57rem;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1rem;
+	z-index: 10000;
+}
+.j-backTop .icon:nth-child(1) {
+	margin-bottom: 0.64rem;
+	color: #bbb;
+	border: 0.04rem solid #bbb;
+}
+.j-backTop .icon:nth-child(2) {
+	background: #e60012;
+	color: #fff;
+}
+.j-bottom {
+	position: fixed;
+	width: 92%;
+	height: 4.36rem;
+	bottom: 0;
+	left: 0;
+	padding: 1rem 4% 0;
+	background: #fff;
+	z-index: 999;
+}
+.j-bottom a {
+	float: left;
+	width: 47%;
+	height: 3.07rem;
+	line-height: 3.07rem;
+	border-radius: 0.36rem;
+	text-align: center;
+}
+.j-bottom a:nth-child(1) {
+	float: left;
+	border: 0.04rem solid #f7b22c;
+	color: #e60012;
+}
+.j-bottom a:nth-child(2) {
+	float: right;
+	background: #e60012;
+	color: #fff;
+}
+/*微店设置页*/
+
+.j-setcon {
+	width: 96%;
+	padding: 1.07rem 0 0 4%;
+}
+.j-setcon div {
+	float: left;
+	width: 40%;
+	height: 22rem;
+	margin: 0 4% 1.07rem 0;
+	padding: 0.71rem 3% 0;
+	background: #fff;
+}
+.j-setcon div img {
+	display: block;
+	width: 100%;
+	height: 18.36rem;
+	margin-bottom: 0.71rem;
+	border: 0.04rem solid #bbb;
+}
+.j-setcon div span {
+	width: 47%;
+	height: 2.14rem;
+	line-height: 2.14rem;
+	color: #fff;
+	text-align: center;
+}
+.j-setcon div span:nth-child(2) {
+	float: left;
+	background: #f5a200;
+}
+.j-setcon div span:nth-child(3) {
+	float: right;
+	background: #e60012;
+}
+/*店铺资料*/
+.j-infor {
+	width: 100%;
+	padding-top: 1.07rem;
+	margin-bottom: 1rem;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+	font-size: 1.07rem;
+}
+.j-infor h3,
+.j-infor h4 {
+	width: 92%;
+	height: 2.79rem;
+	line-height: 2.79rem;
+	padding: 0.71rem 4%;
+	background: #fff;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+}
+.j-infor .icon {
+	float: right;
+}
+.j-infor h3 img {
+	float: right;
+	width: 12%;
+	height: 2.86rem;
+}
+.j-infor h4 {
+	height: 3.21rem;
+	line-height: 3.21rem;
+}
+.j-infor h4 input {
+	float: right;
+	width: 70%;
+	height: 100%;
+	border: none;
+	text-align: right;
+}
+.storage-address {
+	overflow: hidden;
+	width: 92%;
+	height: 28.39rem;
+	padding: 0 4%;
+	background: #fff;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+}
+.storage-address h3 {
+	width: 100%;
+	height: 2.68rem;
+	line-height: 2.68rem;
+}
+.storage-address .j-map {
+	width: 100%;
+	height: 24.46rem;
+	border: 0.04rem solid #bbb;
+}
+.j-success {
+	width: 100%;
+	padding-top: 1rem;
+}
+.j-success h2 {
+	overflow: hidden;
+	width: 92%;
+	height: 1.43rem;
+	padding: 0.71rem 4% 0;
+	background: #fff;
+	line-height: 1.43rem;
+}
+.j-success h3 {
+	overflow: hidden;
+	width: 92%;
+	height: 1.86rem;
+	padding: 0 4%;
+	background: #fff;
+	color: #999;
+	font-size: 0.79rem;
+}
+.j-say {
+	width: 100%;
+	height: 6.29rem;
+	padding-top: 1.07rem;
+	background: #fff;
+}
+.j-say li {
+	overflow: hidden;
+	width: 100%;
+	height: 1.26rem;
+	line-height: 1.26rem;
+	color: #333;
+	font-size: 1rem;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

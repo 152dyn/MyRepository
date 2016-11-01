@@ -1,0 +1,210 @@
+@charset 'utf-8';
+html, body {
+	height: 100%;
+	background: #e1e4e6;
+}
+.wrap {
+	width: 100%;
+	max-width: 750px;
+	margin-top: 4.04rem;
+	padding-bottom: 3.54rem;
+	}
+header {
+	position: fixed;
+	width: 96%;
+	max-width: 750px;
+	height: 3.61rem;
+	line-height: 3.61rem;
+	padding: 0.43rem 2% 0;
+	top: 0;
+	left: 0;
+	background: #f8f8f8;
+	text-align: center;
+	z-index: 999;
+	}
+header a {
+	overflow: hidden;
+	float: left;
+	width: 11%;
+	height: 3rem;
+	border: 1px solid #bbb;
+	border-radius: 0.36rem;
+}
+header a:nth-child(3) {
+	float: right;
+}
+header a .iconfont {
+	float: left;
+	width: 100%;
+	height: 3rem;
+	background: #fff;
+	line-height: 3rem;
+	color: #6f6f6f;
+	text-align: center;
+	font-size: 1.5rem;
+	}
+header h2 {
+	overflow: hidden;
+	float: left;
+	width: 75%;
+	height: 3rem;
+	line-height: 3rem;
+	}
+footer {
+	position: fixed;
+	width: 100%;
+	max-width: 750px;
+	height: 3.14rem;
+	padding-top: 0.36rem ;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 999;
+	}
+footer ul {
+	width: 100%;
+	height: 3.14rem;
+	}
+footer ul li {
+	overflow: hidden;
+	float: left;
+	width: 15%;
+	height: 3.14rem;
+	margin: 0 5%;
+	color: #797979;
+	text-align: center;
+	font-size: 0.71rem;
+	}
+footer ul li:nth-child(1) {
+	color: #e60012;
+}
+footer li .iconfont {
+	font-size: 1.75rem;
+	}
+.j-con {
+	width: 92%;
+	max-width: 750px;
+	margin: 4.04rem auto 0;
+	padding: 1.07rem 4% 0;
+}
+footer .add-text {
+	overflow: hidden;
+	width: 92%;
+	height: 2.46rem;
+	margin: 0 auto;
+	line-height: 2.46rem;
+	border: 0.04rem solid #bbb;
+	border-radius: 0.36rem;
+}
+footer input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	text-indent: 3%;
+}
+footer .return {
+	position: fixed;
+	right: 7%;
+	bottom: 0.6rem;
+	color: #999;
+	font-size: 1.75rem;
+}
+.j-con form {
+	height: 12.86rem;
+}
+.j-con .login {
+	height: 8.64rem;
+}
+.j-con label {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 3.21rem;
+	margin-bottom: 1.07rem;
+}
+.j-con input,
+.post-con .sub a {
+	display: block;
+	width: 100%;
+	height: 3.21rem;
+	line-height: 3.21rem;
+	text-indent: 3%;
+	color: #666;
+	border: 1px solid #999;
+	border-radius: 0.36rem;
+	font-size: 1.07rem;
+}
+.j-con .sub a {
+	display: block;
+	width: 100%;
+	height: 3.21rem;
+	line-height: 3.21rem;
+	text-align: center;
+	text-indent: 3%;
+	color: #fff;
+	border: 1px solid #999;
+	border-radius: 0.36rem;
+	font-size: 1.07rem;
+	background-color: #e60012;
+}
+.j-con label span,
+.j-con label a {
+	position: absolute;
+	width: 29%;
+	height: 3.30rem;
+	background: #e60012;
+	line-height: 3.21rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 0 0.36rem 0.36rem 0;
+}
+.j-con label:nth-child(2) span,
+.j-con label:nth-child(3) span,
+.j-con label:nth-child(2) a {
+	right: -0.4%;
+	top: 0;
+}
+.j-con h3 {
+	width: 100%;
+	height: 1.61rem;
+	margin-bottom: 2.07rem;
+	line-height: 1.61rem;
+	text-indent: 2%;
+}
+.j-con h3:before {
+	float: left;
+	content: "";
+	width: 7%;
+	height: 1.61rem;
+	background: url(../images/agree.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+.j-con h3 a {
+	float: right;
+	color:#afcf63;
+	text-decoration: underline;
+	font-size:1rem； 
+}
+.j-con .sub input,
+.sub-forget input,
+.post-con .sub input {
+	background: #e60012;
+	border:none; 
+	color: #fff;
+	text-align: center;
+}
+.sub-forget {
+	margin-top: 0.71rem;
+}
+.j-btn {
+	display: block;
+	width: 92%;
+	height: 3.21rem;
+	margin: 1.71rem auto 0;
+	background: #e60012;
+	line-height: 3.21rem;
+	border-radius: 0.36rem;
+	text-align: center;
+	color: #fff;
+}

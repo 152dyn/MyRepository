@@ -1,0 +1,147 @@
+html, body {
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #e1e4e6;
+}
+.per-prefer-con {
+	width: 100%;
+	margin-top: 4.04rem;
+}
+/*兑换框部分*/
+.prefer-search {
+	width: 100%;
+	height: 3.93rem;
+	border-top: 1px solid #e1e4e6;
+	border-bottom: 1px solid #bbb;
+	background-color: #fff;
+}
+/*兑换框*/
+.prf-put {
+	float: left;
+	width: 73%;
+	height: 1.23rem;
+	padding-top: 0.7rem;
+	padding-bottom: 0.6rem;
+	border: 1px solid #bbb;
+	border-radius: 0.29rem;
+	margin: 0.71rem 3% 0 4%; 
+}
+.prf-put input {
+	width: 94%;
+	margin: 0 3% 0 3%;
+	font-size: 1rem; 
+	color: #bbb;
+	outline: none;
+	border: 0 none;
+}
+/*兑换按钮*/
+.prf-exchange {
+	position: relative;
+	float: left;
+	width: 16%;
+	height: 2.5rem;
+	margin-top: 0.71rem
+}
+.prf-exchange span {
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	border-radius: 0.29rem;
+	font-size: 1rem;
+	line-height: 2.5rem;
+	text-align: center;
+	color: #fff;
+	background-color: #e60012;
+}
+.prf-exchange input {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2.5rem;
+	z-index: 999;
+}
+/*可用券部分*/
+.pre-usable > div {
+	width: 92%;
+	height: 4.29rem;
+	margin: 1.07rem auto 0;
+}
+.pre-test {
+	float: left;
+	width: 71%;
+	height: 3.39rem;
+	padding-top: 0.9rem;
+	background-color: #fff;
+}
+.pre-test h2 {
+	overflow: hidden;
+	width: 100%;
+	margin-left: 7%;
+	font-size: 1.07rem;
+	margin-bottom: 0.43rem;
+	color: #333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.pre-test p {
+	overflow: hidden;
+	width: 100%;
+	margin-left: 7%;
+	font-size: 0.79rem;
+	color: #999;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.pre-money {
+	float: right;
+	width: 29%;
+	height: 4.29rem;
+	background: url(../images/person-prefer.png) no-repeat;
+	background-size: 100%;
+	font-size: 2.14rem;
+	font-family: 'SimHei';
+	line-height: 4.29rem;
+	text-align: center;
+	color: #fff;
+}
+.pre-money span:nth-child(2) {
+	font-size: 1.07rem;
+}
+/*失效券*/
+.pre-warm {
+	width: 92%;
+	height: 1.25rem;
+	margin: 1.14rem auto 1.14rem;
+	font-size: 0.82rem;
+	color: #bcbcbd;
+	line-height: 1.25rem;
+	text-align: center;
+	background: url(../images/person-prefer1.png);
+	background-size: 100%;
+	background-color: #e1e4e6;
+}
+.pre-unuse > div {
+	width: 92%;
+	height: 4.29rem;
+	margin: 0 auto 1.07rem;
+}
+.pre-unuse .pre-money {
+	position: relative;
+	background: url(../images/person-prefer3.png) no-repeat;
+}
+.pre-unuse .pre-money strong {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 4.29rem;
+	background: url(../images/person-prefer2.png) no-repeat;
+	background-size: 100%;
+	z-index: 9999;
+}
+.pre-unuse .pre-money span {
+	color: #d0d0d0;
+}

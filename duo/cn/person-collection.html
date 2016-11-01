@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的收藏</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-collection.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../js/touch.js"></script>
+	<script type="text/javascript" src="../js/event.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>我的收藏</h2>
+	</header>
+	<!-- 收藏-主要内容 -->
+	<div class="per-collec clearfix">
+		<!-- 我的收藏头部 -->
+		<div class="collec-tit clearfix">
+			<span class="collec-line">商品</span>
+			<span>店铺</span>
+			<span>帖子</span>
+		</div>
+		<div class="collec-con">
+			<!-- 我收藏的商品 -->
+			<div class="collec-shop sele">
+				<div>
+					<dl class="collec-shops">
+						<dt>
+							<img src="../images/person-near1.png" alt="">
+						</dt>
+						<dd>
+							<h2>三只松鼠坚果组合三只松鼠坚果组合三只松鼠
+							坚果组合</h2>
+							<p>
+								<span>￥999.99</span>
+								<span>已售</span>
+							</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!-- 我的收藏店铺 -->
+			<div class="collec-store">
+				<div>
+					<dl class="collec-storne">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="">云宝的小店</a>
+							<span>店主: dorr</span>
+						</dd>
+					</dl>
+					<p class="collec-goods">
+						<span>内有商品: </span>
+						<span>250</span>
+					</p>
+				</div>
+				<div>
+					<dl class="collec-storne">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="">云宝的小店</a>
+							<span>店主: dorr</span>
+						</dd>
+					</dl>
+					<p class="collec-goods">
+						<span>内有商品: </span>
+						<span>250</span>
+					</p>
+				</div>
+				<div>
+					<dl class="collec-storne">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="">云宝的小店</a>
+							<span>店主: dorr</span>
+						</dd>
+					</dl>
+					<p class="collec-goods">
+						<span>内有商品: </span>
+						<span>250</span>
+					</p>
+				</div>
+			</div>
+			<!-- 我收藏的帖子 -->
+			<div class="collec-post">
+				<div>
+					<dl class="collec-posts">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="" class="posts-tit">超甜好吃的苹果5斤以上全国包邮味美多汁
+							不容错过</a>
+							<p>
+								<span href="">2015.12.01 12:30:12</span>
+								<a href="" class="post-reply">
+									<i class="icon iconfont">&#xe610;</i>
+									<span>999</span>
+								</a>
+								<a href="" class="post-praise">
+									<i class="icon iconfont">&#xe60f;</i>
+									<span>999</span>
+								</a>
+							</p>
+						</dd>
+					</dl>
+				</div>
+				<div>
+					<dl class="collec-posts">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="" class="posts-tit">超甜好吃的苹果5斤以上全国包邮味美多汁
+							不容错过</a>
+							<p>
+								<span href="">2015.12.01 12:30:12</span>
+								<a href="" class="post-reply">
+									<i class="icon iconfont">&#xe610;</i>
+									<span>999</span>
+								</a>
+								<a href="" class="post-praise">
+									<i class="icon iconfont">&#xe60f;</i>
+									<span>999</span>
+								</a>
+							</p>
+						</dd>
+					</dl>
+				</div>
+				<div>
+					<dl class="collec-posts">
+						<dt>
+							<a href="">
+								<img src="../images/person-near1.png" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="" class="posts-tit">超甜好吃的苹果5斤以上全国包邮味美多汁
+							不容错过</a>
+							<p>
+								<span href="">2015.12.01 12:30:12</span>
+								<a href="" class="post-reply">
+									<i class="icon iconfont">&#xe610;</i>
+									<span>999</span>
+								</a>
+								<a href="" class="post-praise">
+									<i class="icon iconfont">&#xe60f;</i>
+									<span>999</span>
+								</a>
+							</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="../js/person-collection.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 750) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+</html>

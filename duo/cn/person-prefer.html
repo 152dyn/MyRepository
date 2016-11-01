@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的优惠券</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-prefer.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>我的优惠券</h2>
+	</header>
+	<div class="per-prefer-con">
+		<!-- 兑换部分 -->
+		<div class="prefer-search">
+			<form action="" class="clearfix">
+				<!-- 兑换框 -->
+				<div class="prf-put">
+					<input type="text" placeholder="使用兑换码兑换优选优惠券">
+				</div>
+				<!-- 提交兑换 -->
+				<div class="prf-exchange">
+					<span>兑换</span>
+					<input type="submit" value="" name="">
+				</div>
+			</form>
+		</div>
+		<!-- 内容区 -->
+		<div class="prefer-content">
+			<!-- 可用券 -->
+			<div class="pre-usable">
+				<div class="clearfix">
+					<div class="pre-test">
+						<h2>购买100元可用</h2>
+						<p>有效期:2015.11.12~2015.11.30</p>
+					</div>
+					<p class="pre-money">	<span>10</span><span>元</span>
+					</p>
+				</div>
+				<div class="clearfix">
+					<div class="pre-test">
+						<h2>购买100元可用</h2>
+						<p>有效期:2015.11.12~2015.11.30</p>
+					</div>
+					<p class="pre-money">	<span>10</span><span>元</span>
+					</p>
+				</div>
+			</div>
+			<!-- 不可用券 -->
+			<div class="pre-unuse">
+				<!-- 失效券 -->
+				<p class="pre-warm">已失效券</p>
+				<div class="clearfix">
+					<div class="pre-test">
+						<h2>购买100元可用</h2>
+						<p>有效期:2015.11.12~2015.11.30</p>
+					</div>
+					<p class="pre-money"><span>10</span><span>元</span>
+						<strong></strong>
+					</p>
+				</div>
+				<div class="clearfix">
+					<div class="pre-test">
+						<h2>购买100元可用</h2>
+						<p>有效期:2015.11.12~2015.11.30</p>
+					</div>
+					<p class="pre-money"><span>10</span><span>元</span>
+						<strong></strong>
+					</p>
+				</div>
+				<div class="clearfix">
+					<div class="pre-test">
+						<h2>购买100元可用</h2>
+						<p>有效期:2015.11.12~2015.11.30</p>
+					</div>
+					<p class="pre-money"><span>10</span><span>元</span>
+						<strong></strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 750) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+</html>

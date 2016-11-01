@@ -1,0 +1,96 @@
+
+html, body {
+	background-color: #e1e4e6;
+}
+.per-com-con {
+	width: 100%;
+	margin-top: 5.11rem;
+}
+.com-test {
+	width: 96%;
+	height: 3.18rem;
+	padding-left: 4%;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	font-size: 1.07rem;
+	color: #333;
+	line-height: 3.18rem;
+	background-color: #fff;
+}
+.comment-con {
+	width: 92%;
+	padding: 1.07rem 4% 1.11rem;
+	border-bottom: 1px solid #bbb;
+	background-color: #fff;
+}
+.com-pic {
+	margin-bottom: 1.07rem;
+}
+.com-pic img {
+	float: left;
+	width: 17%;
+	height: 4.29rem;
+	margin-right: 3%;
+}
+.com-pic div {
+	float: left;
+	width: 80%;
+	height: 4.29rem;
+}
+.com-pic div span {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 0.5rem;
+	font-size: 1.07rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.com-pic div p i {
+	font-size: 1.1rem;
+	margin-right: 2%;
+}
+
+/*文本框*/
+.com-textarea {
+	overflow: hidden;
+	width: 94%;
+	height: 3.51rem;
+	border: 1px solid #bbb;
+	border-radius: 0.29rem;
+	padding: 0.71rem 3% 0.71rem 3%;
+}
+.com-textarea textarea {
+	width: 100%;
+	border: 0 none;
+	outline: none;
+	resize: none;
+	font-size: 0.93rem;
+	color: #333; 
+}
+/*提交评论按钮*/
+.com-btn {
+	position: relative;
+	width: 92%;
+	height: 3.21rem;
+	margin: 1.43rem auto;
+	border-radius: 0.29rem;
+	background-color: #e60012;
+}
+.com-btn a {
+	display: block;
+	width: 100%;
+	height: 3.21rem;
+	border-radius: 0.29rem;
+	background-color: #e60012;
+	font-size: 1.14rem;
+	text-align: center;
+	line-height: 3.21rem;
+	color: #fff;
+}
+.com-btn input {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	top: 0;
+}

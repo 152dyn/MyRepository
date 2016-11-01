@@ -1,0 +1,83 @@
+.per-infor {
+	width: 100%;
+	margin-top: 5.11rem;
+}
+.infor-basic > div {
+	position: relative;
+	width: 92%;
+	height: 4.25rem;
+	padding: 0 4% 0 4%;
+	border-top: 1px solid #bbb;
+	background-color: #fff;
+}
+.infor-basic > div:last-child {
+	border-bottom: 1px solid #bbb;
+}
+.infor-basic > div span:nth-child(2) {
+	float: left;
+	line-height: 4.25rem;
+	font-size: 1.07rem;
+	color: #333;
+}
+.infor-basic > div > div {
+	float: right;
+	height: 4.25rem;
+	font-size: 0.71rem;
+	line-height: 4.25rem; 
+}
+.infor-basic > div span:nth-child(4) {
+	float: right;
+	line-height: 4.25rem;
+	font-size: 1.07rem;
+	color: #333;
+}
+.infor-basic > div img {
+	float: right;
+	width: 12%;
+	height: 2.86rem;
+	margin-top: 0.71rem;
+}
+.infor-basic > div a {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 4.25rem;
+	z-index: 999;
+}
+/*手机绑定、微信绑定*/
+.per-basic {
+	width: 92%;
+	margin-top: 1.07rem;
+	padding: 0.64rem 4% 0.64rem  4%;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	background-color: #fff;
+}
+.per-basic p {
+	width: 100%;
+	font-size: 0.93rem;
+	line-height: 1.71rem;
+	text-align: left;
+	color: #333;
+}
+/*按钮*/
+.per-exit {
+	width: 92%;
+	height: 3.21rem;
+	margin: 1.79rem auto;
+}
+.per-exit a {
+	display: block;
+	width: 100%;
+	height: 3.21rem;
+	border-radius: 0.29rem;
+	font-size: 1.14rem;
+	line-height: 3.21rem;
+	text-align: center;
+	color: #fff;
+	background-color: #e60012;
+}
+
+

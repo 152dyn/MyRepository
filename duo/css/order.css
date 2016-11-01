@@ -1,0 +1,215 @@
+@charset "utf-8";
+.shopping-order {
+    margin: 5.07rem 0 0 0;  //当是地址没填时改为4.07;
+    min-height: 35.07rem;
+    padding-bottom: 1.39rem;
+}
+.shipping-address {
+    position: relative;
+   /* display: none;*/
+}
+.shopping-order i {
+    font-size: 1.25rem;
+    margin-left: 4%;
+}
+.distribution-mode i {
+    font-size: 1.36rem;
+}
+.shopping-order h2 {
+    display: none;
+    height: 3.58rem;
+    background: #f5a100;
+    line-height: 3.58rem;
+    text-align: center;
+    font-size: 1.14rem;
+    color: #fff;
+    margin-bottom: 1.07rem;
+    padding-top: 0;
+}
+.address p .more,
+.shipping-address p .more {
+    position: absolute;
+    right: 4%;
+    top: 4.5rem;
+    font-size: 1.14rem;
+    color: #bbb;
+} 
+.address p .more {
+    top: 3.8rem;
+}
+.shopping-order section h3 {
+    height: 2.86rem;
+    background: #fff;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    line-height: 2.86rem;
+    font-size: 1.07rem;
+}
+.shopping-order h3 em {
+    color: #999;
+}
+.shopping-order section p {
+    height: 3.25rem;
+    background: #fff;
+    margin-bottom: 1.04rem;
+    padding: 1.04rem 0 0 4%;
+    border-bottom: 1px solid #bbb;
+}
+.address {
+    position: relative;
+}
+.shopping-order .address p{
+
+    height: 2.53rem;
+} 
+.shopping-order p strong {
+    display: block;
+    color: #9cc813;
+}
+.shopping-order p span {
+    color: #9cc813;
+} 
+.payment-list,
+.distribution-mode {
+    height: 7.16rem;
+    background: #fff;
+    padding-left: 4%;
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 1.04rem;
+}
+.wx,
+.dc,
+.mode-one,
+.mode-two {
+    height: 3.58rem;
+    line-height: 3.58rem;
+}
+.wx,
+.mode-one {
+    border-bottom: 1px solid #bbb;
+}
+.wx .checkbox,
+.dc .checkbox,
+.mode-one .checkbox,
+.mode-two .checkbox {
+    float: left;
+    width: 4%;
+    height: 1.04rem;
+    border-radius: 50% ;
+    border: 1px solid #bbb;
+    margin: 1.25rem 1% 0 0;
+}
+.checkbox input {
+    visibility: hidden;
+}
+.check-ok {
+    background: url("../images/check-ok.png") no-repeat;
+    background-size: 100% 100%;
+}
+.inventory {
+     margin-bottom: 1.04rem;
+}
+.inventory h3 em {
+    color: #e60012;
+    margin-left: 61%;
+}
+.inventory .invenoty-con {
+    background: #fff;
+    padding-left: 4%;
+}
+.invenoty-con-one {
+    height: 4.96rem;
+    padding-top: 0.79rem;
+}
+.invenoty-con-one div {
+    float: left;
+    width: 17%;
+    height: 4.29rem;
+    margin-right: 2%;
+}
+.invenoty-con-one div img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.inventory .invenoty-con-one h3 {
+    float: left;
+    width: 80%;
+    border: none;
+    line-height: 1.7rem;
+}
+.inventory .invenoty-con-one p {
+    float: left;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    color: #e60012;
+}
+.inventory .invenoty-con-one span {
+    color: #999;
+}
+.inventory .invenoty-con-two {
+    height: 3.36rem;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding-top: 1.07rem;
+}
+.inventory .invenoty-con-two section {
+    height: 1.64rem;
+}
+.invenoty-con-two span {
+    margin-left: 62%;
+    color: #e60012;
+}
+.inventory .invenoty-con-three {
+    height: 3.07rem;
+    line-height: 3.07rem;
+    margin-left: 59%;
+    font-size: 1.07rem;
+}
+.inventory .invenoty-con-three span {
+    color: #e60012;
+}
+.shopping-order  .vouchers h3 {
+    position: relative;
+    display: none;
+    height: 3.21rem;
+    background: #fff;
+    margin-bottom: 1.07rem;
+}
+ .vouchers h3 .inventory-more  {
+    position: absolute;
+    right: 4%;
+    top: 0.2rem;
+    font-size: 1.14rem;
+    color: #bbb;
+}
+.message div {
+    height: 3.5rem;
+    background: #fff;
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 1.04rem;
+}
+.message input {
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    padding-left: 4%;
+    color: #ccc;
+}
+.payment {
+    height: 10.04rem;
+    background: #fff;
+}
+.shopping-order a {
+    display: block;
+    width: 92%;
+    height: 3.21rem;
+    background: #e60012;
+    border-radius: 0.36rem;
+    margin: 1.82rem  auto 0;
+    line-height: 3.21rem;
+    text-align: center;
+    font-size: 1.14rem;
+    color: #fff;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>购物袋</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/shopping.css" />
+    <link rel="stylesheet" href="../css/com-share.css">
+    <link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href="index.html"><i class="icon iconfont">&#xe609;</i></a>
+			<h2>购物袋</h2>
+		<a id="share"><i class="icon iconfont">&#xe614;</i></a>
+	</header>
+	<div class="shopping">
+            <div class="shop">
+                <div class="shopp">
+                    <ul>
+                        <li>
+                            <div class="checkbox check-ok">
+                                <laber></laber> 
+                                <input type="checkbox" /> 
+                            </div> 
+                            <div class="shop-pic">
+                                <img src="../images/shopping.jpg" alt="" />
+                            </div>   
+                            <h3>新鲜牛油果</h3>
+                            <div class="shopsum">
+                                <storng>￥999.99</storng>
+                                <span>x1</span>
+                            </div>
+                            <section>
+                                <span>+</span>
+                                <strong>1</strong>
+                                <span>-</span>
+                            </section>  
+                        </li>
+                        <li>
+                            <div class="checkbox">
+                                <laber></laber> 
+                                <input type="checkbox" /> 
+                            </div> 
+                            <div class="shop-pic">
+                                <img src="../images/shopping.jpg" alt="" />
+                            </div>   
+                            <h3>新鲜牛油果</h3>
+                            <div class="shopsum">
+                                <storng>￥999.99</storng>
+                                <span>x1</span>
+                            </div>
+                            <section>
+                                <span>+</span>
+                                <strong>1</strong>
+                                <span>-</span>
+                            </section>  
+                        </li>
+                        <li>
+                            <div class="checkbox">
+                                <laber></laber> 
+                                <input type="checkbox" /> 
+                            </div> 
+                            <div class="shop-pic">
+                                <img src="../images/shopping.jpg" alt="" />
+                            </div>   
+                            <h3>新鲜牛油果</h3>
+                            <div class="shopsum">
+                                <storng>￥999.99</storng>
+                                <span>x1</span>
+                            </div>
+                            <section>
+                                <span>+</span>
+                                <strong>1</strong>
+                                <span>-</span>
+                            </section>  
+                        </li>
+                    </ul>
+                </div>
+                <div class="settlement">
+                    <h2>
+                        <span>合计:</span>
+                        <strong>￥999.99</strong>
+                    </h2>
+                    <a href="">去结算</a>
+                </div>
+            </div>
+            <div class="no-shop">
+                <section>
+                    <i class="icon iconfont">&#xe628;</i>
+                </section>
+                <h3>亲，你还没有相关订单哦！赶快去下单吧！</h3>
+                <a href="">去逛逛</a>
+            </div>
+        </div>
+	<footer>
+        <ul>
+            <li>
+                <a href="../cn/index.html">
+                    <i class="icon iconfont">&#xe627;</i><br>
+                    <div>首页</div>
+                </a>
+            </li>
+            <li>
+                <a href="../cn/man-circle.html">
+                    <i class="icon iconfont">&#xe625;</i><br>
+                    <div>达人圈</div>
+                </a>
+            </li>
+            <li>
+                <a class="footercolor" href="../cn/shopping.html">
+                    <i class="icon iconfont">&#xe623;</i><br>
+                    <div>购物袋</div>
+                </a>
+            </li>
+            <li>
+                <a href="../cn/person-main.html">
+                    <i class="icon iconfont">&#xe621;</i><br>
+                    <div>个人中心</div>
+                </a>
+            </li>
+        </ul>
+	</footer>
+    <div class="com-share">
+        <div class="head-share">
+            <h2>多彩优选</h2>
+            <span class="font"></span>
+        </div>
+        <div class="share-con"></div>
+    </div>
+	<script src="../js/zepto.min.js"></script>
+    <script src="../js/com-share.js"></script>
+</body>
+	<script>
+		$(function(){
+		$(window).resize(initFont);
+		function initFont() {
+			var wid = $(window).width();
+			if (wid >= 750) {
+				$('html').css({
+					'font-size' : 28 + 'px'
+				})
+			}else {
+				$('html').css({
+					'font-size' : 28 / 750 * wid + 'px'
+				})
+			}	
+		}initFont();
+	})
+	</script>
+</html>

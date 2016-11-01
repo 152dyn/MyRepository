@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>订单列表</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-order-list.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/touch.js"></script>
+	<script type="text/javascript" src="../js/event.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>订单列表</h2>
+	</header>
+	<!-- 主体 -->
+	<div class="list-con">
+		<div class="list-head">
+			<span class="list-sele">待付款</span>
+			<span>待发货</span>
+			<span>待收货</span>
+			<span>已结束</span>
+		</div>
+		<!-- 搜索框 -->
+		<div class="list-search">
+			<i class="icon iconfont">&#xe601;</i>
+			<input type="text" name="" value="搜索订单" >
+		</div>
+		<div class="list-content">
+			<!-- 付款订单物品 -->
+			<div class="list-goods">
+				<p class="list-nuber">
+					<span>订单编号: 16456123310</span>
+					<span class="list-red">待付款</span>
+				</p>
+				<div class="goods-pic clearfix">
+					<a href="">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+					<div class="list-test">
+						<h2>新鲜牛油果</h2>
+						<p>
+							<span>￥999.99</span>
+							<span>* 1</span>
+						</p>
+					</div>
+				</div>
+				<div class="list-golds">
+					<span>合计</span>
+					<span>￥999.99</span>
+					<a href="../cn/person-order-details2.html" class="list-pay">付款</a>
+					<a class="list-cancel">取消订单</a>
+				</div>
+			</div>
+			<!-- 取消订单物品 -->
+			<div class="list-goods">
+				<p class="list-nuber">
+					<span>订单编号: 16456123310</span>
+					<span class="list-red">待发货</span>
+				</p>
+				<div class="goods-pic clearfix">
+					<a href="">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+					<div class="list-test">
+						<h2>新鲜牛油果</h2>
+						<p>
+							<span>￥999.99</span>
+							<span>* 1</span>
+						</p>
+					</div>
+				</div>
+				<div class="list-golds">
+					<span>合计</span>
+					<span>￥999.99</span>
+					<a class="list-cancel">取消订单</a>
+				</div>
+			</div>
+			<!-- 订单物品- 确认收货 -->
+			<div class="list-goods">
+				<p class="list-nuber">
+					<span>订单编号: 16456123310</span>
+					<span class="list-yellow">待收货</span>
+				</p>
+				<div class="goods-pic clearfix">
+					<a href="">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+					<div class="list-test">
+						<h2>新鲜牛油果</h2>
+						<p>
+							<span>￥999.99</span>
+							<span>* 1</span>
+						</p>
+					</div>
+				</div>
+				<div class="list-golds">
+					<span>合计</span>
+					<span>￥999.99</span>
+					<a href="../cn/person-order-details3.html" class="list-true">确认收货</a>
+				</div>
+			</div>
+			<!-- 订单物品-评价 -->
+			<div class="list-goods">
+				<p class="list-nuber">
+					<span>订单编号: 16456123310</span>
+					<span class="list-green">已完成</span>
+				</p>
+				<div class="goods-pic clearfix">
+					<a href="">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+					<div class="list-test">
+						<h2>新鲜牛油果</h2>
+						<p>
+							<span>￥999.99</span>
+							<span>* 1</span>
+						</p>
+					</div>
+				</div>
+				<div class="list-golds">
+					<span>合计</span>
+					<span>￥999.99</span>
+					<a href="../cn/person-order-details4.html">评价</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<a href="../cn/index.html">
+					<i class="icon iconfont">&#xe627;</i><br>
+					<div>首页</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/man-circle.html">
+					<i class="icon iconfont">&#xe625;</i><br>
+					<div>达人圈</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/shopping.html">
+					<i class="icon iconfont">&#xe623;</i><br>
+					<div>购物袋</div>
+				</a>
+			</li>
+			<li>
+				<a class="footercolor"  href="../cn/person-main.html">
+					<i class="icon iconfont">&#xe621;</i><br>
+					<div>个人中心</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<script type="text/javascript" src="../js/person-collection.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>提交评论</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-comment.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-order-details4.html"><i class="icon iconfont">&#xe609;</i></a>
+	</header>
+	<form action="">
+		<div class="per-com-con">
+			<div class="com-test">其他买家需要您的建议哦~</div>
+			<!-- 评论区 -->
+			<div class="comment-con">
+				<div class="com-pic clearfix">
+					<img src="../images/person-near1.png" alt="">
+					<div>
+						<span>新鲜牛油果好味道不容错过</span>
+						<!-- 星星 -->
+						<p class="com-star">
+							<i class="icon iconfont">&#xe611;</i>
+							<i class="icon iconfont">&#xe611;</i>
+							<i class="icon iconfont">&#xe611;</i>
+							<i class="icon iconfont">&#xe611;</i>
+							<i class="icon iconfont">&#xe611;</i>
+						</p>
+					</div>
+				</div>
+				<div class="com-textarea">
+					<textarea name="" id="" placeholder="请输入对该商品的评价"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="com-btn">
+			<a href="../cn/person-order-service.html">提交评论</a>
+			<input type="submit" name="submit" value="">
+		</div>
+	</form>
+</body>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 750) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+
+		// 星星图标
+		for(var i = 0; i < 3; i++) {
+			$('.com-star i').eq(i).css({
+				'color' : '#f5a200'
+			})
+		}
+	</script>
+</html>

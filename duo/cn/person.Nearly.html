@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>附近门店</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-Nearly.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>附近门店</h2>
+	</header>
+	<div class="per-near-con">
+		<div>
+			<dl class="near-storne">
+				<dt>
+					<a href="store-home.html">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+				</dt>
+				<dd>
+					<h2>云宝的小店</h2>
+					<span>软件园二期望海路11号</span>
+				</dd>
+			</dl>
+			<p href="" class="per-near-dist">
+				<span>250m 以内</span>
+				<i class="icon iconfont">&#xe60b;</i>
+			</p>
+			<a href="store-home.html" class="mystore"></a>
+		</div>
+		<div>
+			<dl class="near-storne">
+				<dt>
+					<a href="store-home.html">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+				</dt>
+				<dd>
+					<h2>云宝的小店</h2>
+					<span>软件园二期望海路11号</span>
+				</dd>
+			</dl>
+			<p href="" class="per-near-dist">
+				<span>250m 以内</span>
+				<i class="icon iconfont">&#xe60b;</i>
+			</p>
+			<a href="store-home.html" class="mystore"></a>
+		</div>
+		<div>
+			<dl class="near-storne">
+				<dt>
+					<a href="store-home.html">
+						<img src="../images/person-near1.png" alt="">
+					</a>
+				</dt>
+				<dd>
+					<h2>云宝的小店</h2>
+					<span>软件园二期望海路11号</span>
+				</dd>
+			</dl>
+			<p href="" class="per-near-dist">
+				<span>250m 以内</span>
+				<i class="icon iconfont">&#xe60b;</i>
+			</p>
+			<a href="store-home.html" class="mystore"></a>
+		</div>
+	</div>
+	<footer>
+		<div class="per-Near">
+			<i class="icon iconfont">&#xe612;</i>
+			<span>思明区软件园二期观日路56号</span>
+		</div>
+	</footer>
+</body>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 750) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+</html>

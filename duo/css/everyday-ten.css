@@ -1,0 +1,51 @@
+@charset "utf-8";
+.everyday-ten-con {
+    padding: 5rem 0 5.43rem 4%;
+}
+.everyday-ten-con section {
+    float: left;
+    width: 46%;
+    height: 18.93rem;
+    background: #fff;
+    margin: 0 4% 1.07rem 0 ;
+}
+.everyday-ten-con section a {
+    display: block;
+    height: 12.79rem;
+}
+.everyday-ten-con img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.everyday-ten-con h3 a {
+    height: 2rem;
+    margin-left: 6%;
+    line-height: 2rem;
+    color: #000;
+}
+.everyday-ten-con section .ok-buy {
+    width: 88%;
+    height: 2.14rem;
+    margin-left: 6%;
+    background: #e60012;
+    line-height: 2.14rem;
+    text-align: center;
+    color: #fff;
+}
+.everyday-ten-con strong,
+.everyday-ten-con span {
+    font-size: 22px;
+}
+.everyday-ten-con strong {
+    color: #e60012;
+    margin-left: 6%;
+}
+.everyday-ten-con span {
+    color: #999;
+    margin-left: 24%;
+}
+.everyday-ten-more {
+    text-align: center;
+    color: #bcbcbd;
+}

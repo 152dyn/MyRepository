@@ -1,0 +1,89 @@
+
+html, body{
+	height: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #e1e4e6;
+}
+/*我的消息头部 */
+.per-Ifmtit {
+	width: 100%;
+	height: 3.14rem;
+	margin-top: 4.04rem;
+	border-top: 1px solid #e1e4e6;
+	border-bottom: 1px solid #bbb;
+	background-color: #fff;
+}
+.per-Ifmtit span {
+	float: left;
+	width:50%;
+	height: 3.14rem; 
+	line-height: 3.14rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #333;
+}
+.per-Ifmtit .Ifm-sele {
+	color: #e60012;
+	border-bottom: 0.11rem solid #e60012;
+}
+
+.per-Ifmcon {
+	width: 100%;
+	margin-top: 1.07rem;
+}
+/*已读内容部分*/
+.per-Ifmcon > div {
+	display: none;
+	width: 100%;
+	border-top: 1px solid #e1e4e6;
+	background-color: #fff;
+}
+.per-Ifmcon > div:nth-child(2) {
+	display: block;
+}
+.per-read > div:last-child {
+	border-bottom: 1px solid #e1e4e6;
+}
+.per-read dl {
+	width: 92%;
+	margin-top: 0.71rem;
+	margin-left: 1.07rem;
+}
+.per-read dl dt {
+	float: left;
+	width: 14%;
+	height: 3.57rem;
+	margin-right: 2%;
+}
+.per-read dl dt img {
+	display: block;
+	width: 100%;
+	height: 3.57rem;
+	border-radius: 50%;
+}
+.per-read dl dd {
+	float: left;
+	overflow: hidden;
+	width: 82%;
+}
+.per-read dd h2 {
+	width: 100%;
+	height: 1.64rem;
+	line-height: 1.64rem;
+	text-align: left;
+	font-size: 0.93rem;
+	color: #f5a200;
+}
+.per-read dd h2 span:nth-child(2) {
+	margin-left: 4%;
+	font-size: 0.79rem;
+	color: #bcbcbc;
+}
+.per-read dd .Ifm-test {
+	display: block;
+	margin-bottom: 0.79rem;
+	font-size: 0.93rem;
+	color: #333;
+}
+

@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>达人圈</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="stylesheet" href="../css/man-circle.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/j-js.js"></script>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/touch.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html" title=""><i class="icon iconfont">&#xe609;</i></a>
+		<h2>达人圈</h2>
+		<a href="post.html" title=""><i class="icon iconfont">&#xe615;</i></a>
+	</header>
+	<div class="wrap">
+		<nav>
+			<span>最新</span>
+			<span>我的</span>
+			<var></var>
+		</nav>
+		<div class="circle-con">
+			<div>
+				<div class="j-search">
+				<input type="text" value="搜索达人圈">
+				</div>
+				<div class="message">
+					<a href="detail-post.html" title="">
+						<img src="../images/date-pic(1).png" alt="" title="">
+					</a>
+					<div>
+						<h4>三只松鼠坚果组合</h4>
+						<p>
+							<a href="circle-comment.html" title=""><i class="icon iconfont">&#xe610;</i></a>
+							<span>评论:</span>
+							<em>999</em>
+							<i class="icon iconfont">&#xe60f;</i>
+							<span>点赞:</span>
+							<em>999</em>
+							<a href="" title=""><i class="icon iconfont">&#xe614;</i></a>
+							<span>分享</span>
+						</p>
+					</div>
+				</div>
+				<div class="message">
+					<a href="detail-post.html" title="">
+						<img src="../images/date-pic.png" alt="" title="">
+					</a>
+					<div>
+						<h4>三只松鼠坚果组合</h4>
+						<p>
+							<a href="" title="">
+								<i class="icon iconfont">&#xe610;</i>
+							</a>
+							<span>评论:</span>
+							<em>999</em>
+							<i class="icon iconfont">&#xe60f;</i>
+							<span>点赞:</span>
+							<em>999</em>
+							<i class="icon iconfont">&#xe614;</i>
+							<span>分享</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="j-search">
+				<input type="text" value="搜索达人圈">
+				</div>
+				<div class="message">
+					<a href="detail-post.html" title="">
+						<img src="../images/date-pic.png" alt="" title="">
+					</a>
+					<div>
+						<h4>三只松鼠坚果组合</h4>
+						<p>
+							<a href="circle-comment.html" title=""><i class="icon iconfont">&#xe610;</i></a>
+							<span>评论:</span>
+							<em>999</em>
+							<i class="icon iconfont">&#xe60f;</i>
+							<span>点赞:</span>
+							<em>999</em>
+							<a href="" title=""><i class="icon iconfont">&#xe614;</i></a>
+							<span>分享</span>
+						</p>
+					</div>
+				</div>
+				<div class="message">
+					<a href="detail-post.html" title="">
+						<img src="../images/date-pic(1).png" alt="" title="">
+					</a>
+					<div>
+						<h4>三只松鼠坚果组合</h4>
+						<p>
+							<a href="" title=""><i class="icon iconfont">&#xe610;</i></a>
+							<span>评论:</span>
+							<em>999</em>
+							<i class="icon iconfont">&#xe60f;</i>
+							<span>点赞:</span>
+							<em>999</em>
+							<i class="icon iconfont">&#xe614;</i>
+							<span>分享</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<a href="../cn/index.html">
+					<i class="icon iconfont">&#xe627;</i><br>
+					<div>首页</div>
+				</a>
+			</li>
+			<li>
+				<a  class="footercolor" href="../cn/man-circle.html">
+					<i class="icon iconfont">&#xe625;</i><br>
+					<div>达人圈</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/shopping.html">
+					<i class="icon iconfont">&#xe623;</i><br>
+					<div>购物袋</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/person-main.html">
+					<i class="icon iconfont">&#xe621;</i><br>
+					<div>个人中心</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<script>
+		// 达人页
+		$('.circle-con > div:nth-child(2)').css({
+			'display' : 'none'
+		})
+		$('nav span').on('touchstart', function(){
+			num = $(this).index();
+			$(this).css({
+				'color' : '#e60012'
+			}).siblings().css({
+				'color' : '#333'
+			})
+			$('.circle-con > div').eq(num).css({
+				'display':'block'
+			})
+			$('.circle-con > div').eq(num).siblings().css({
+				'display' : 'none'
+			})
+			wid = $('nav var').width();
+			$('nav var').css({
+				'left': num * wid
+			})
+		})
+	</script>
+</body>
+</html>

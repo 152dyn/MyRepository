@@ -1,0 +1,183 @@
+html, body {
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #e1e4e6;
+}
+.list-con {
+	width: 100%;
+	margin-top: 4.04rem;
+	padding-bottom: 5.32rem;
+}
+/*订单列表头部*/
+.list-head {
+	width: 100%;
+	height: 3.14rem;
+	border-top: 1px solid #e1e4e6;
+	border-bottom: 1px solid #bbb;
+	background-color: #fff;
+}
+.list-head span {
+	float: left;
+	width: 25%;
+	height: 3.14rem;
+	font-size: 1rem;
+	line-height: 3.14rem;
+	text-align: center;
+}
+.list-sele {
+	color: #e60012;
+	border-bottom: 3px solid #e60012;
+}
+/*搜索框*/
+.list-search {
+	width: 86%;
+	height: 2.43rem;
+	border: 1px solid #e60012;
+	border-radius: 0.29rem;
+	padding: 0 3% 0 3%;
+	margin: 1.07rem auto 0;
+	background-color: #fff;
+}
+.list-search i {
+	float: left;
+	width: 1rem;
+	margin-top: 0.71rem;
+	font-size: 1rem;
+	color: #e60012;
+}
+.list-search input {
+	float: left;
+	width: 90%;
+	height: 1.07rem;
+	border: 0 none;
+	margin-top: 0.71rem;
+	margin-bottom: 0.71rem;
+	font-size: 0.79rem;
+	line-height: 1.07rem;
+	color: #e60012;
+	outline: none;
+	-moz-outline: none;
+	-webkit-outline: none;
+}
+/*订单物品*/
+.list-goods {
+	width: 96%;
+	padding-left: 4%;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	margin-top: 1.07rem;
+	background-color: #fff;
+}
+.list-goods .list-nuber {
+	width: 96%;
+	height: 2.46rem;
+	padding-right: 4%;
+	border-bottom: 1px solid #bbb;
+}
+.list-nuber span {
+	float: left;
+	font-size: 0.86rem;
+	line-height: 2.46rem;
+	color: #999;
+}
+/*待付款-文字颜色*/
+.list-nuber .list-red {
+	float: right;
+	color: #e60012;
+}
+/*待收货-文字颜色*/
+.list-nuber .list-yellow {
+	float: right;
+	color: #f5a200;
+}
+/*已完成-文字颜色*/
+.list-nuber .list-green {
+	float: right;
+	color: #9cc813;
+}
+
+.list-goods .goods-pic {
+	position: relative;
+	width: 96%;
+	border-bottom: 1px solid #bbb;
+	padding: 0.71rem 4% 0.71rem 0;
+}
+.goods-pic a {
+	float: left;
+	width: 17%;
+	height: 4.29rem;
+	margin-right: 2%;
+}
+.goods-pic a img {
+	width: 100%;
+	height: 4.29rem;
+}
+.goods-pic .list-test {
+	overflow: hidden;
+	width: 81%;
+}
+.list-test h2 {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 0.25rem;
+	margin-bottom: 1.57rem;
+	font-size: 1.07rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333;
+}
+.list-test p span:nth-child(1) {
+	float: left;
+	font-size: 0.79rem;
+	margin-right: 3%;
+	color: #e60012;
+}
+.list-test p span:nth-child(2) {
+	float: left;
+	font-size: 0.79rem;
+	color: #999;
+}
+
+.list-golds {
+	width: 96%;
+	height: 3.18rem;
+}
+.list-golds span {
+	float: left;
+	font-size: 1rem;
+	line-height: 3.18rem;
+	color: #333;
+}
+.list-golds span:nth-child(2) {
+	color: #e60012;
+}
+.list-golds a {
+	float: right;
+	width: 18%;
+	height: 1.51rem;
+	padding-top: 0.7em;
+	border-radius: 0.29rem;
+	margin: 0.5rem 0 0 3%; 
+	text-align: center;
+	font-size: 0.86rem;
+	color: #fff;
+	background-color: #e60012;
+}
+/*取消订单*/
+.list-golds .list-cancel {
+	margin-right: 0;
+	color: #999;
+	background-color: #e1e4e6;
+}
+/*确认收货*/
+.list-golds .list-true {
+	color: #fff;
+	background-color: #f5a200;
+}
+/**/
+.list-content > div {
+	display: none;
+}
+.list-content > div:nth-child(1) {
+	display: block;
+}

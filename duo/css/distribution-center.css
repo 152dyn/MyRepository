@@ -1,0 +1,269 @@
+@charset 'utf-8';
+section {
+	width: 92%;
+	max-width: 750px;
+	height: 4.14rem;
+	margin-bottom: 1.07rem;
+	padding: 0.57rem 4% 0;
+	background: #fff;
+	border-top: 0.04rem  solid #bbb;
+	border-bottom: 0.04rem  solid #bbb;
+}
+section span {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 1.64rem;
+	line-height: 1.64rem;
+	font-size: 0.79rem;
+}
+section h3 {
+	overflow: hidden;
+	width: 100%;
+	height: 2.57rem;
+	line-height: 2.57rem;
+}
+section h3 em {
+	float: left;
+	margin-right: 2%;
+	color: #e60012;
+	font-size: 1.43rem;
+}
+section h3 var {
+	float: left;
+	height: 2.57rem;
+	line-height: 3rem;
+	color: #888;
+	font-size: 0.86rem;
+}
+section h3 var strong {
+	color: #e60012;
+}
+section h3 a {
+	float: right;
+	font-size: 0.86rem
+}
+section h3 a .icon {
+	font-size: 0.86rem;
+}
+.j-center {
+	width: 100%;
+	margin-bottom: 1.07rem;
+	background: #fff;
+	border-top: 0.04rem solid #bbb;
+}
+.j-center li {
+	position: relative;
+	overflow: hidden;
+	width: 92%;
+	height: 2.82rem;
+	padding: 0 4%;
+	line-height: 2.82rem;
+	border-bottom: 0.04rem solid #bbb;
+	color: #777;
+}
+.j-center li .icon {
+	font-size: 1rem;
+}
+.j-center li:nth-child(1) {
+	height: 3.18rem;
+	line-height: 3.18rem;
+	color: #333;
+	font-size: 1.07rem;
+}
+.j-center li:nth-child(1) .icon {
+	font-size: 1.5rem;
+}
+.j-center li em {
+	float: right;
+}
+.j-center li .discen {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2.82rem;
+}
+.j-center li span {
+	float: right;
+}
+.j-center li span em {
+	margin-left: 0.5rem;
+	color: #e60012;
+}
+/*分销规则*/
+
+.j-pic {
+	width: 100%;
+	height: 24.25rem;
+	margin-bottom: 1.07rem;
+	background: #fff;
+}
+.j-pic dt {
+	width: 72%;
+	height: 18.51rem;
+	padding: 1.39rem 14%;
+	border-top: 0.04rem solid #bbb;
+}
+.j-pic dt img {
+	width: 100%;
+	height: 100%;
+}
+.j-pic dd {
+	overflow: hidden;
+	width: 92%;
+	height: 2.90rem;
+	line-height: 2.90rem;
+	padding: 0 4%;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+	color: #000;
+	font-size: 0.93rem;
+}
+.j-grade {
+	width: 92%;
+	/*height: 3.86rem;*/
+	padding: 0.93rem 4% 0.93rem;
+	background: #fff;
+	border-bottom: 0.04rem solid #bbb;
+	font-size: 0.86rem;
+}
+.j-grade span {
+	float: left;
+	overflow: hidden;
+	width: 20%;
+	height: 100%;
+	color: #666;
+}
+.j-grade p {
+	float: left;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 80%;
+	height: 100%;
+	line-height: 1.07rem;
+	color: #222;
+}
+
+/*申请提现*/
+
+.j-cash {
+	position: relative;
+	width: 100%;
+	padding-top: 1rem;
+}
+.j-cash li {
+	position: relative;
+	width: 92%;
+	height: 4.21rem;
+	line-height: 4.21rem;
+	padding: 0 4%;
+	background: #fff;
+	border-bottom: 0.04rem solid #bbb;
+}
+.j-cash li:nth-child(1) {
+	border-top: 0.04rem solid #bbb;
+}
+.j-cash li input {
+	width: 64%;
+	height: 4.03rem;
+	margin-left: 12%;
+	color: #9cc813;
+	font-size: 1rem;
+	border: none;
+}
+.j-cash li .icon {
+	position: absolute;
+	right: 4%;
+	top: 1.60rem;
+	line-height: 100%;
+}
+/*礼金记录*/
+
+.j-notes {
+	width: 100%;
+	height: 4.5rem;
+	padding-top: 0.71rem;
+}
+.j-notes p {
+	width: 92%;
+	height: 3.82rem;
+	padding: 0.61rem 4% 0;
+	background: #fff;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+	line-height: 1.29rem;
+	color: #666;
+}
+.j-notes p strong,
+.j-notes p em {
+	margin-right: 1%;
+	color: #e60012;
+}
+.j-notes p strong:nth-child(2),
+.j-notes p em:nth-child(3) {
+	margin-left: 2.7%;
+}
+.j-notes span {
+	margin-left: 2%;
+	line-height: 2.43rem;
+	color: #ccc;
+	float: right;
+}
+
+/*银行卡信息*/
+.j-cash li .add {
+	position: static;
+	color: #9cc813;
+	font-size: 1rem;
+}
+.j-cash li .select {
+	overflow: hidden;
+	width: 7%;
+	height: 1.80rem;
+	background: url(../images/null.png) center center no-repeat;
+	background-size: 95% 100%;
+	border-radius: 50%;
+}
+.j-cash li:nth-child(1) .select {
+	background: url(../images/gou.png) center center no-repeat;
+}
+
+/*提现记录*/
+
+.j-messages {
+	width: 100%;
+	padding-top: 1rem;
+}
+.j-messages p {
+	position: relative;
+	width: 92%;
+	height: 2.46rem;
+	padding: 0 4%;
+	line-height: 2.46rem;
+	background: #fff;
+	border-top: 0.04rem solid #bbb;
+	border-bottom: 0.04rem solid #bbb;
+	color: #999;
+	font-size: 0.86rem;
+}
+.j-messages p hr {
+	position: absolute;
+	width: 96%;
+}
+.j-messages ul {
+	width: 92%;
+	height: 8.54rem;
+	padding: 0.71rem 4% 0;
+	background: #fff;
+	border-bottom: 0.04rem solid #bbb;
+}
+.j-messages ul li {
+	width: 100%;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	color: #666;
+}
+.j-messages ul li span {
+	color: #000;
+}

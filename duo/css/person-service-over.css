@@ -1,0 +1,29 @@
+.per-ser-over {
+	width: 92%;
+	margin: 10rem auto;
+}
+.per-ser-over div {
+	width: 17%;
+	height: 4.29rem;
+	margin: 0 auto 1.25rem;
+}
+.per-ser-over div img {
+	width: 100%;
+	height: 4.29rem;
+}
+.per-ser-over h2 {
+	width: 100%;
+	font-size: 1.14rem;
+	line-height: 2.68rem;
+	text-align: center;
+	color: #333;
+}
+.per-ser-over p {
+	overflow: hidden;
+	width: 100%;
+	font-size: 1.07rem;
+	text-align: center;
+	color: #999;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

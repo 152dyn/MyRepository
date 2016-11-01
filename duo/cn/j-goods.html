@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>在售商品</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="stylesheet" href="../css/j-storage.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href=""><i class="icon iconfont">&#xe609;</i></a>
+		<h2>在售商品</h2>
+	</header>
+	<div class="wrap">
+		<nav>
+			<span>新品</span>
+			<span>热卖</span>
+			<span>价格<i class="icon iconfont">&#xe62b;</i></span>
+			<var></var>
+		</nav>
+		<section>
+			<div>
+				全部
+				<i class="icon iconfont">&#xe62b;</i>
+			</div>
+			<div>
+				<input type="text" placeholder="商品名称">
+			</div>
+			<div>查询</div>
+		</section>
+		<div class="j-up">
+			<dl>
+				<dt>
+					<img src="../images/food.jpg" alt="" title="">
+				</dt>
+				<dd>
+					<h2>美味牛油果墨西哥进口超新鲜</h2>
+					<p><span>￥999.99</span>抽成<span>￥999.99</span></p>
+					<h3>库存：<span>99999</span>已售：<span>988970</span></h3>
+					<em>推荐</em>
+					<strong>下架</strong>
+				</dd>
+			</dl>
+				<dl>
+				<dt>
+					<img src="../images/food.jpg" alt="" title="">
+				</dt>
+				<dd>
+					<h2>美味牛油果墨西哥进口超新鲜</h2>
+					<p><span>￥999.99</span>抽成<span>￥999.99</span></p>
+					<h3>库存：<span>99999</span>已售：<span>988970</span></h3>
+					<em>推荐</em>
+					<strong>下架</strong>
+				</dd>
+			</dl>
+				<dl>
+				<dt>
+					<img src="../images/food.jpg" alt="" title="">
+				</dt>
+				<dd>
+					<h2>美味牛油果墨西哥进口超新鲜</h2>
+					<p><span>￥999.99</span>抽成<span>￥999.99</span></p>
+					<h3>库存：<span>99999</span>已售：<span>988970</span></h3>
+					<em>推荐</em>
+					<strong>下架</strong>
+				</dd>
+			</dl>
+				<dl>
+				<dt>
+					<img src="../images/food.jpg" alt="" title="">
+				</dt>
+				<dd>
+					<h2>美味牛油果墨西哥进口超新鲜</h2>
+					<p><span>￥999.99</span>抽成<span>￥999.99</span></p>
+					<h3>库存：<span>99999</span>已售：<span>988970</span></h3>
+					<em>推荐</em>
+					<strong>下架</strong>
+				</dd>
+			</dl>
+				<dl>
+				<dt>
+					<img src="../images/food.jpg" alt="" title="">
+				</dt>
+				<dd>
+					<h2>美味牛油果墨西哥进口超新鲜</h2>
+					<p><span>￥999.99</span>抽成<span>￥999.99</span></p>
+					<h3>库存：<span>99999</span>已售：<span>988970</span></h3>
+					<em>推荐</em>
+					<strong>下架</strong>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<a class="footercolor"  href="../cn/index.html">
+					<i class="icon iconfont">&#xe627;</i><br>
+					<div>首页</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/man-circle.html">
+					<i class="icon iconfont">&#xe625;</i><br>
+					<div>达人圈</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/shopping.html">
+					<i class="icon iconfont">&#xe623;</i><br>
+					<div>购物袋</div>
+				</a>
+			</li>
+			<li>
+				<a href="../cn/person-main.html">
+					<i class="icon iconfont">&#xe621;</i><br>
+					<div>个人中心</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<script src="../js/zepto.min.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 960) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+</body>
+</html>

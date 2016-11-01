@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的资料</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/person-myprofile.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+	<script src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="person-main.html"><i class="icon iconfont">&#xe609;</i></a>
+		<h2>我的资料</h2>
+	</header>
+	<!-- 我的资料页面 -->
+	<div class="per-prf-con">
+		<div class="per-ExtIfm">
+			<i class="icon iconfont per-se">&#xe607;</i>
+			<a href="">
+				<h2>个人信息</h2>
+				<p>编辑你的个人信息</p>
+			</a>
+			<a href="">
+				<i class="icon iconfont">&#xe60b;</i>
+			</a>
+		</div>
+		<div class="per-adress">
+			<i class="icon iconfont per-se">&#xe607;</i>
+			<a href="">
+				<h2>个人信息</h2>
+				<p>编辑你的个人信息</p>
+			</a>
+			<a href="">
+				<i class="icon iconfont">&#xe60b;</i>
+			</a>
+		</div>
+		<div class="per-password">
+			<i class="icon iconfont per-se">&#xe607;</i>
+			<a href="">
+				<h2>个人信息</h2>
+				<p>编辑你的个人信息</p>
+			</a>
+			<a href="">
+				<i class="icon iconfont">&#xe60b;</i>
+			</a>
+		</div>
+	</div>
+</body>
+	<script>
+		$(function(){
+		$(window).resize(initFont);
+		function initFont() {
+			var wid = $(window).width();
+			if (wid >= 750) {
+				$('html').css({
+					'font-size' : 28 + 'px'
+				})
+			}else {
+				$('html').css({
+					'font-size' : 28 / 750 * wid + 'px'
+				})
+			}	
+		}initFont();
+	})
+	</script>
+</html>

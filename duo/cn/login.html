@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/pub.css">
+	<link rel="shortcut icon" href="../images/bitbug_favicon.ico">
+</head>
+<body>
+	<header>
+		<a href="register.html" title=""><i class="icon iconfont">&#xe609;</i></a>
+		<h2>登录</h2>
+	</header>
+	<div class="j-con">
+		<form action="" class="login">
+			<label for="">
+				<input type="text" placeholder="输入账号/手机号">
+			</label>
+			<label for="">
+				<input type="text" placeholder="输入密码">
+				<a href="forget-password.html" title="">忘记密码?</a>
+			</label>
+		</form>
+		<h3>自动登录<var>注册新账户</var></h3>
+		<div class="sub"><a href="index.html">提交</a></div>
+	</div>
+	<script src="../js/zepto.min.js"></script>
+	<script>
+		$(function(){
+			$(window).resize(initFont);
+			function initFont() {
+				var wid = $(window).width();
+				if (wid >= 960) {
+					$('html').css({
+						'font-size' : 28 + 'px'
+					})
+				}else {
+					$('html').css({
+						'font-size' : 28 / 750 * wid + 'px'
+					})
+				}	
+			}initFont();
+		})
+	</script>
+</body>
+</html>
