@@ -1,0 +1,206 @@
+/* 
+* @Author: anchen
+* @Date:   2016-05-19 10:00:44
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-05-25 18:22:06
+*/
+.content-application {
+    width: 100%;
+    height: 100%;
+    background: url("../images/vip.png") 0 0 no-repeat;
+}
+.app-con {
+    width: 1020px;
+    height: 680px;
+    margin: 0 auto;
+}
+.application {
+    width: 1020px;
+    height: 610px;
+    padding-top: 70px ;
+}
+.application h2 {
+    font-size: 20px;
+    color: #c91710;
+}
+.application h2 span {
+    font-size: 23px;
+    font-family: Arial;
+    color: #aa855b;
+}
+.member {
+    position: relative;
+    width: 808px;
+    height: 526px;
+    padding-left: 212px;
+    color: #fff;
+}
+.register {
+    float: left;
+    width: 532px;
+    height: 526px;
+    background: url("../images/vip_1.png") 0 0 no-repeat;
+}
+.register form {
+    width: 343px;
+    height: 388px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+}
+.register h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+}
+.mem {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.appname, 
+.gender, 
+.birth, 
+.appphone, 
+.e-mail, 
+.idcard, 
+.button {
+    height: 24px;
+    margin-bottom: 16px;
+}
+.appname label, 
+.gender label, 
+.birth label, 
+.appphone label, 
+.e-mail label, 
+.idcard label {
+    float: left;
+    width: 91px;
+    height: 24px;
+    text-align: right;
+    line-height: 24px;
+}
+.appname input, 
+.appphone input, 
+.e-mail input, 
+.idcard input {
+    overflow: hidden;
+    float: left;
+    width: 238px;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+}
+.gender div {
+    float: left;
+    width: 40px;
+    height: 24px;
+    margin-right: 16px;
+    text-align: right;
+    line-height: 24px;
+    background: url("../images/icos.png") -502px -697px no-repeat;
+}
+.birth select {
+    float: left;
+    width: 122px;
+    height: 21px;
+    border: none;
+    outline: none;
+    background: url("../images/icos.png") -508px -662px no-repeat;
+}
+.button {
+    padding-left: 91px;
+}
+.button button{
+    float: left;
+    width: 64px;
+    height: 24px;
+    margin-right: 4px;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    background: url("../images/vip_r.png") 0 0 no-repeat;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background: url("../images/vip_l.png") 0 0 no-repeat;
+}
+.login {
+    position: absolute;
+    right: 0;
+    float: right;
+    width: 340px;
+    height: 526px;
+    /*padding-top: 158px;*/
+    background: url("../images/vip_2.png") 0px 80px no-repeat;
+    z-index: 3;
+}
+.login form {
+    width: 254px;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.login h3 {
+    margin: 0 auto;
+    margin-bottom: 38px;
+    text-align: center;
+    font-size: 30px;
+}
+.username, 
+.password, 
+.vipcode {
+    height: 24px;
+    margin-bottom: 16px;
+}
+.username label, 
+.password label, 
+.vipcode label {
+    float: left;
+    width: 80px;
+    height: 24px;
+    text-align: right;
+    line-height: 24px;
+}
+.username input, 
+.password input {
+    float: left;
+    width: 153px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+.vipcode input {
+    float: left;
+    width: 85px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+.vipcode div {
+    float: left;
+    width: 55px;
+    height: 24px;
+    margin-left: 13px;
+    background: url("../images/vip_10.png") 0 0 no-repeat;
+}
+.log-button {
+    padding-left: 80px;
+}
+.log-button button {
+    width: 64px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background: url("../images/vip_r.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+.log-button button:hover {
+    background: url("../images/vip_l.png") 0 0 no-repeat;
+}

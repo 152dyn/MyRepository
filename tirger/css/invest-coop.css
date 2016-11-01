@@ -1,0 +1,90 @@
+.content-coop {
+	height: 644px;
+	background: url("../images/ic_02.png");
+}
+.coop-con {
+	overflow: hidden;
+	height: 339px;
+	margin-top: 55px;
+}
+.content-coop h3 {
+	padding-top: 74px;
+	margin-left: 130px;
+}
+.content-coop h3 strong {
+	color: #c91710;
+	font-size: 20px;
+}
+.content-coop h3 span {
+	margin-left: 16px;
+	color: #aa855b;
+	font-size: 23px;
+}
+.coop-con ul {
+	height: 336px;
+}
+.coop-con dl strong {
+	font-size: 16px;
+}
+.coop-con li {
+	float: left;
+	width: 302px;
+	height: 336px;
+	padding: 0 18px;
+	border-right: 1px solid #e0e0e0;
+}
+.coop-con dt {
+	width: 298px;
+	height: 166px;
+	border: 2px solid #ee780f;
+}
+.coop-con li img {
+	width: 298px;
+	height: 166px;
+}
+.coop-con h4 {
+	color: #912aa7;
+	font-size: 16px;
+}
+.coop-con em {
+	display: block;
+	margin: 12px 0;
+	color: #676767;
+}
+.coop-con p {
+	overflow: hidden;
+	width: 298px;
+	height: 46px;
+	margin: 10px 0;
+	color: #c1c1c1;
+}
+.coop-con span {
+	display: block;
+	width: 284px;
+	padding-left: 14px;
+	color: #8f8f8f;
+	background: url("../images/icos.png") -100px -1098px no-repeat;
+}
+.coop-con dd a {
+	height: 12px;
+	width: 26px;
+	margin-left: 10px;
+	padding-left: 15px;
+	color: #c1c1c1;
+	background: url("../images/icos.png") -100px -1047px no-repeat;
+}
+.coop-scrbox {
+	position: relative;
+	width: 500px;
+	margin:80px auto;
+	border-top: 1px solid #d0d0d0;
+}
+.coop-scroll {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 80px;
+	height: 5px;
+	background: url("../images/ap_16.png") no-repeat;
+	cursor: pointer;
+}
