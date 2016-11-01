@@ -1,0 +1,389 @@
+    @charset "utf-8";
+    .drem-nav {
+        position: relative;
+        padding-left: 56px;
+        height: 38px;
+        border-bottom: 3px solid #dcdcdc;
+    }
+    .drem-nav span {
+        float: left;
+        height: 38px;
+        padding-right: 80px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 38px;
+        color: #4e525b;
+        font-family: 'Microsoft YaHei';
+        cursor: pointer;
+    }
+    .drem-line {
+        position: absolute;
+        top: 38px;
+        left: 56px;
+        width: 83px;
+        height: 3px;
+        font-size: 0;
+        background: #58bff9;
+        z-index: 3;
+    }
+    .massage h2 { 
+        background: url('../images/merge.png') no-repeat -1842px -785px; 
+        cursor: pointer; 
+    }
+    .drem-con {
+        padding: 35px 40px;
+    }
+    .drem-con li {
+        position: relative;
+        height: 170px;
+        padding: 16px 20px;
+        margin-bott         
+        background-color: #fef1bb;
+    }
+    .drem-con li dt {
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .drem-con li img {
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .drem-con li dd {
+        float: right;
+        width: 424px;
+    }
+    .drem-con h2 {
+        overflow: hidden;
+        margin-bottom: 20px;
+        text-overflow: ellipsis; 
+        word-break: keep-all;    
+        white-space: nowrap;  
+        cursor: pointer;
+    }
+    .drem-con p {
+        position: relative;
+        overflow: hidden;
+        line-height: 24px;
+        height: 74px;
+        color: #878787;
+    }
+    .drem-con p a {
+        position: absolute;
+        left: 37px;
+        bottom: 0;
+        width: 30px;
+        height: 18px;
+        padding-left: 20px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        color: #fff;
+        background: #58bff9 url('../images/merge.png') no-repeat -1801px -641px;
+        cursor: pointer;
+    }
+    .drem-con dl {
+        float: left;
+        width: 500px;
+    }
+    .concern {
+        position: absolute;
+        right: 76px;
+        bottom: 0;
+        padding-left: 24px;
+        background: url('../images/merge.png') no-repeat -1198px -620px;
+        color: #58bff9
+    }
+    .comments {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        padding-left: 24px;
+        background: url('../images/merge.png') no-repeat -1251px -620px;
+    }
+    .comment {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #58bff9
+    }
+    .operation {
+        width: 430px;
+        height: 36px;
+        margin-top: 16px;
+    }
+    .operation span {
+        float: left;
+        display: block;
+        text-align: center;
+        line-height: 34px;
+        padding-left: 40px;
+        color: #878787;
+    }
+    .purse {
+        background: url('../images/merge.png') no-repeat -414px -516px;
+    }
+    .resou {
+        background: url('../images/merge.png') no-repeat -474px -516px;
+    }
+    .plan {
+        background: url('../images/merge.png') no-repeat -549px -516px;
+    }
+    .assist {
+        background: url('../images/merge.png') no-repeat -619px -516px;
+    }
+   .compelet {
+        position: absolute;
+        top: 87px;
+        right: 20px;
+        width: 90px;
+        height: 30px;
+        background-color: #24cabc;
+        border-bottom: 3px solid #2cac9b;
+        border-radius: 2px;
+        text-align: center;
+        cursor: pointer;
+   }
+   .compelet span {
+        display: block;
+        line-height: 30px;
+        text-align: center;
+        -ms-text-align-last: auto;
+        text-align-last: auto;
+        font-size: 14px;
+        color: #fff;
+
+   }
+   .compeleted {
+        position: absolute;
+        top: 87px;
+        right: 20px;
+        width: 55px;
+        height: 30px;
+        padding-left: 35px;
+        color: #4e525b;
+        font-family: 'Microsoft YaHei';
+        background: url('../images/merge.png') no-repeat  -1250px -516px;
+   }
+   .drem-con .over {
+    background-color: #fff;
+   }
+   .drem-alert {
+        display: none; 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 20;
+        margin-top: -181px;
+        margin-left: -221px;
+        width: 442px;
+        height: 362px;
+        border-right: 3px solid #ddd;
+        border-bottom:  3px solid #ddd;
+        background-color: #fff;
+   }
+   .drem-alert h1 {
+        height: 40px;
+        background: #58bff9;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        word-break: keep-all;    
+        white-space: nowrap;    
+        text-align: center;
+        line-height: 40px;
+        font-size: 18px;
+        color: #fff;
+   }
+   .drem-alert h1 strong {
+    display: block;
+    width: 30px;
+    height: 40px;
+    float: right;
+    background: url('../images/merge.png') no-repeat -101px -984px;
+    cursor: pointer;
+   }
+   .drem-alert h2 {
+        text-align: center;
+        line-height: 56px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4e525b;
+        font-family: 'Sim Sun';
+   }
+   .select {
+        width: 314px;
+        margin: 0 auto;
+   }
+   .select div {
+        float: left;
+        width: 157px;
+        padding-bottom: 20px;
+   }
+   .select span {
+        float: left;
+        font-size: 12px; 
+        color: #4e525b;
+    }
+    .select em {
+        display: block;
+        float: left; 
+        width: 12px;
+        height: 12px;
+        border: 1px solid #ccc;
+        margin-right: 12px;
+        text-align: center;
+    }
+    .upload {
+        width: 314px;
+        height: 113px;
+        margin: 0 auto;
+        risize : none;
+    }
+    .upload h3 {
+        font-size: 12px;
+        font-weight: bold;
+        color: #4e525b;
+        font-family: 'Sim Sun';
+        margin-bottom: 12px;
+    }
+    .up-con {
+        width: 292px;
+        height: 70px;
+        padding: 10px;
+        margin:  0 auto;
+        border:  1px solid #d2d2d2;
+    }
+    .up-con span {
+        display: block;
+        float: left;
+        padding-left: 18px;
+        margin-right: 10px;
+        font-family: 'Sim Sun';
+        color: #878787;
+        cursor: pointer;
+    }
+    .dre-title {
+        background: url('../images/merge.png') no-repeat -1119px -756px;
+    }
+    .dre-pic {
+        background: url('../images/merge.png') no-repeat -1168px -755px;;
+    }
+    .dre-vedio {
+        background: url('../images/merge.png') no-repeat -1219px -755px;
+    }
+    .dre-link {
+        background: url('../images/merge.png') no-repeat -1269px -756px;
+    }
+    .dre-submit {
+        width: 206px;
+        margin: 20px auto;
+    }
+     .dre-submit em {
+        display: block;
+        float: left;
+        width: 90px;
+        height: 24px;
+        border: 1px solid #e6e6e6;
+        margin-right: 20px;
+        border-radius: 2px;
+        background-color: #fafafa;
+        text-align: center;
+        line-height: 24px;
+        font-size: 12px;
+        color: #4e525b;
+        font-family: 'Sim Sun';
+        cursor: pointer;
+    }
+    .dre-submit .dre-cancel {
+        border-radius: 2px;
+        margin-right: 0;
+    }
+    .dre-submit em:hover {
+        background-color: #65c4f9;
+        color: #fff;
+    }
+    /*朋友梦想*/
+
+    .friends {
+        padding: 35px 40px;
+    }
+    .friends li {
+        position: relative;
+        height: 110px;
+        margin-bottom: 10px;
+        padding: 15px 20px 0 120px;
+        background-color: #fafafa;
+    }
+    .friends img {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        width: 74px;
+        height: 74px;
+        margin-top: -37px; 
+        border-radius: 50%;
+    }
+    .friends span {
+        display: block;
+        float: left;
+        padding-left: 28px;
+        text-align: center;
+        line-height: 110px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4e525b;
+    }
+    .friends strong {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 20px;
+        margin-top: -15px;
+        width: 48px;
+        height: 30px;
+        padding-left: 36px;
+        border-radius: 2px;
+        background-color: #4e525b;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+    }
+    .friends strong a {
+         line-height: 30px;
+        color: #f7f7f7;
+    }
+    .see {
+        background: url('../images/merge.png') no-repeat -1256px -788px;
+    }
+    .invite {
+        background: url('../images/merge.png') no-repeat -1258px -828px;
+    }
+    .unshow {
+        display: none;
+    }
+    .friends em {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 20px;
+        padding-left: 30px;
+        width: 75px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        background: url('../images/merge.png') no-repeat -928px -644px;
+        text-align: center;
+        line-height: 28px;
+        color: #a0a0a0;
+        cursor: pointer;
+    }
+    .friends em:hover {
+        color: #fff;
+        background: #58bff9 url('../images/merge.png') no-repeat -928px -630px;
+    }

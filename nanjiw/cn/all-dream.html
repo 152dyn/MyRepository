@@ -1,0 +1,923 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>梦想详情</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/all-ream-j.css">
+	<link rel="stylesheet" href="../css/no-searchresult.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="mid">
+            <div class="logo">
+                <a href="index.html" title="南极网"><img src="../images/Logo.png" alt="南极网"></a>
+            </div>
+            <ul class="nav">
+                <li><a title="发现心愿" class="nav-found" href="Dream-recommend.html">发现梦想</a></li>
+                <li><a title="英雄" class="nav-hero" href="hero.html">英雄</a></li>
+                <li><a title="发起心愿" class="nav-initiate" href="basic-inf.html">发起梦想</a></li>
+            </ul>
+            <div class="search">
+                <span class="inp">
+					<input type="text" class="int-search">
+					<span class="search-btn"></span>
+                </span>
+            </div>
+            <div class="head-btn-a">
+                <a href="shop.html" class="task-btn" title="任务">任务</a>
+                <a href="shop.html" class="mall-btn" title="商城">商城</a>
+            </div>
+            <div class="head-register">
+                <span href="" class="register-btn">注册</span>
+                <span href="" class="login-btn">登录</span>
+            </div>
+            <div class="head-menu hide">
+                <div class="peo-img">
+                    <img src="">
+                    <a class="news-num" href="stantnote.html">26</a>
+                    <span class="menu-down"></span>
+                </div>
+                <ul class="peo-menu hide">
+                    <li class="menu-index"><a href="index.html" title="首页">我的首页</a></li>
+                    <li class="menu-dr-mage"><a href="dream-manage.html" title="梦想管理">梦想管理</a></li>
+                    <li class="menu-friend"><a href="myfrienf-j.html" title="我的好友">我的好友</a></li>
+                    <li class="menu-property"><a href="money.html" title="资产管理">资产管理</a></li>
+                    <li class="menu-tific"><a href="" title="申请认证">申请认证</a></li>
+                    <li class="menu-set"><a href="acc-set.html" title="个人设置">个人设置</a></li>
+                    <li class="menu-resets"><a href="javascript:void(0)">退出登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<div class="nav-space"></div>
+	<div class="mask hide">
+		<div class="report hide">
+			<div class="tit">举报</div>
+			<em></em>
+			<h2>您为什么举报此信息</h2>
+			<div class="check">
+				<ul>
+					<li>
+						<span></span>
+						<h3>污秽色情</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>广告欺诈</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>敏感信息</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>垃圾广告</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>不实信息</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>人生攻击</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>骚扰我</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>其他</h3>
+					</li>
+				</ul>
+			</div>
+			<div class="detail">
+				<p>举例说明</p>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="btns">
+				<div class="sure" name="report">
+					确定
+				</div>
+				<div class="cancel">
+					取消
+				</div>	
+			</div>
+		</div>
+		<div class="messages hide">
+			<div class="tit">消息</div>
+			<em></em>
+			<div class="detail">
+				<p>向 <span>青灯素月</span> 发送私信</p>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="btns">
+				<div class="sure" name="message">
+					确定
+				</div>
+				<div class="cancel">
+					取消
+				</div>	
+			</div>
+		</div>
+		<div class="add-mask hide">
+			<div class="tit">好友验证</div>
+			<em></em>
+			<div class="detail">
+				<p>向 <span>青灯素月</span> 发送好友验证</p>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="btns">
+				<div class="sure" name="friend">
+					确定
+				</div>
+				<div class="cancel">
+					取消
+				</div>	
+			</div>
+		</div>
+		<div class="login hide">
+			<div class="close"></div>
+			<div class="tit clearfix">
+				<span class="show">登录</span>
+				<span>注册</span>
+			</div>
+			<div class="log-con">
+				<div class="register">
+					<div class="log-inf">
+						<div>
+							<input type="text" placeholder="请输入邮箱或手机号" class="log-email">
+						</div>
+						<div>
+							<input type="password" placeholder="请输入密码" class="log-pwd">
+						</div>
+						<div>
+							<input type="text" class="code">
+							<span class="btn-code">获取验证码</span>
+						</div>
+						<div class="psw-check clearfix">
+							<span class="log-check rem-pwd"></span>
+							<span>记住我</span>
+							<span><a href="../cn/forget.html" class="forget" title="忘记密码">忘记密码</a></span>
+						</div>
+						<div class="log-submit clearfix">
+							<span class="submit">登陆</span>
+							<span>没有账号？</span>
+							<span class="log-enroll">马上注册</span>
+						</div>
+					</div>
+					<div class="other-account">
+						<h3>使用合作网站账号登录</h3>
+						<a class="weibo" href="" title="微博登陆"></a>
+						<a class="renren" href="" title="人人网登陆"></a>
+						<a class="qq" href="" title="腾讯QQ"></a>
+					</div>
+				</div>
+				<div class="enroll hide">
+					<div class="en-titi clearfix">
+						<span class="enroll-phone enroll-sle">用手机注册</span>
+						<span class="enroll-email">用邮箱注册</span>
+						<em class="en-triangle"></em>
+					</div>
+					<div class="en-tab">
+						<div>
+							<div class="clearfix">
+								<input type="text" placeholder="手机号码">
+								<p>请输入手机号码</p>
+							</div>
+							<div class="clearfix">
+								<input type="text" placeholder="昵称">
+								<p>2-15个汉字或4-30个字符</p>
+							</div>
+							<div class="clearfix">
+								<input type="password" placeholder="密码">
+								<p>6-16位数字、字母或符号</p>
+							</div>
+							<div class="paw-strong clearfix">
+								<p>密码强度: 弱<span></span>强</p>
+							</div>
+							<div class="paw-agine clearfix">
+								<input type="password" placeholder="确认密码">
+							</div>
+							<div class="clearfix">
+								<input type="text" class="code">
+								<span class="btn-code">获取验证码</span>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="clearfix">
+								<input type="text" placeholder="邮箱账号">
+								<p>邮箱账号</p>
+							</div>
+							<div class="clearfix">
+								<input type="text" placeholder="昵称">
+								<p>2-15个汉字或4-30个字符</p>
+							</div>
+							<div class="clearfix">
+								<input type="password" placeholder="密码">
+								<p>6-16位数字、字母或符号</p>
+							</div>
+							<div class="paw-strong clearfix">
+								<p>密码强度: 弱<span></span>强</p>
+							</div>
+							<div class="paw-agine clearfix">
+								<input type="password" placeholder="确认密码">
+							</div>
+							<div class="clearfix">
+								<input type="text" class="code">
+								<span class="btn-code">获取验证码</span>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"><p>同意《南极公约》所有条款</p></div>
+					<div class="en-btn">
+						<span class="en-submit">同意并注册</span>
+						<span class="log-enter">已有账号登陆</span>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="you-dream">
+		<div class="mid">
+			<p>我的梦想是一个书包</p>
+		</div>
+	</div>
+	<div class="all-j">
+		<div class="mid">
+			<var>梦想描述</var>
+			<var>已获帮助<span>（898435）</span></var>
+			<var>讨论<span>(898435)</span></var>
+			<strong><span>关注梦想</span></strong>
+		</div>
+	</div>
+	<div class="con">
+		<div class="mid">
+			<div class="con-left">
+				<div>
+					<div class="start-j">	
+						<dl class="do-peo">
+							<dt>
+								<a href="" title="关于">
+									<img src="../images/do-peo_03.png" alt="发起者" title="发起者">
+								</a>
+							</dt>
+							<dd>
+								<strong>发起者：</strong><em>驼背阿三</em>
+								<var>上次登录时间：</var><span>2013.12.13</span>
+							</dd>
+						</dl>
+						<ul class="show-grade">
+							<li>英雄等级:<var>铜</var></li>
+							<li>财富等级:<em>银</em></li>
+							<li>热心等级:<span>金</span></li>
+							<li>智力等级:<strong>铁</strong></li>
+							<li>协 调 力:<var>铜</var></li>
+							<li>执 行 力:<var>铜</var></li>
+						</ul>
+					</div>
+					<div class="some-dream">
+						<h2>我的梦想是一个漂亮的书包</h2>
+						<a href="" title=""><img src="" alt="" title=""></a>
+						<p>由中央电视台全力打造的大型电视音乐公益节目——中国梦·梦之蓝《梦想星搭档》确定播出档期！节目组在10月15日举行的全媒体看片会上正式宣布：《梦想星搭档》将于10月25日晚7点30分于CCTV3首播。第五期（11月22日）开始，将于每周五晚8点05分于CCTV1播出。</p>
+					</div>
+					<div class="some-dream">
+						<h2>我的梦想是一个漂亮的书包</h2>
+						<a href="" title=""><img src="" alt="" title=""></a>
+						<p>由中央电视台全力打造的大型电视音乐公益节目——中国梦·梦之蓝《梦想星搭档》确定播出档期！节目组在10月15日举行的全媒体看片会上正式宣布：《梦想星搭档》将于10月25日晚7点30分于CCTV3首播。第五期（11月22日）开始，将于每周五晚8点05分于CCTV1播出。</p>
+					</div>
+					<div class="some-dream">
+						<h2>我的梦想是一个漂亮的书包</h2>
+						<a href="" title=""><img src="" alt="" title=""></a>
+						<p>由中央电视台全力打造的大型电视音乐公益节目——中国梦·梦之蓝《梦想星搭档》确定播出档期！节目组在10月15日举行的全媒体看片会上正式宣布：《梦想星搭档》将于10月25日晚7点30分于CCTV3首播。第五期（11月22日）开始，将于每周五晚8点05分于CCTV1播出。</p>
+					</div>
+					<div class="end-j">
+						<div>
+							<em>标签：</em>
+							<span>影视经典</span>
+							<span>影视经典</span>
+							<span>影视经典</span>
+							<span>影视经典</span>
+						</div>
+						<h3>
+							<em>类型:</em>
+							<var>类型名称类型名称类型名称</var>
+							<em>发起人：</em>
+							<var>Mark</var>
+							<em>地点：</em>
+							<var>上海</var>
+						</h3>
+						<strong style="margin-left:40px">支持TA</strong>
+						<strong>出主意</strong>
+						<strong>出资源</strong>
+						<strong>我来实现</strong>
+						<a class="complaint" href="" title="投诉链接">向南极网投诉该梦想</a>
+					</div>
+				</div>
+				<div>
+					<div class="message">
+						<a href="" title="1">全部<span>896412</span></a>
+						<a href="" title="2">已获资助<span>896412</span></a>
+						<a href="" title="3">已获主意<span>896412</span></a>
+						<a href="" title="4">已获资源<span>896412</span></a>
+						<a href="" title="5">已获支持<span>896412</span></a>
+					</div>
+					<div class="about-user">
+						<h3>最近出主意的用户</h3>
+						<dl>
+							<dt>
+								<a href="guest.html" title="用户头像">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<span>驼背阿三</span>
+								<div class="rank">LV31</div>
+								<div class="box-j"></div>
+								<div class="ball"></div>
+								<em>梦想发起者</em>
+								<var>私信TA</var>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…</p>
+								<strong>发起者评价：</strong>
+								<div class="down-select">
+									<ol>
+										<li>很好</li>
+										<li>一般</li>
+										<li>差</li>
+									</ol>
+								</div>
+								<ul>赞<li>123</li></ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="guest.html" title="用户头像">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<span>驼背阿三</span>
+								<div class="rank">LV31</div>
+								<div class="box-j"></div>
+								<div class="ball"></div>
+								<em>梦想发起者</em>
+								<var>私信TA</var>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…</p>
+								<strong>发起者评价：</strong>
+								<div class="down-select">
+									<ol>
+										<li>很好</li>
+										<li>一般</li>
+										<li>差</li>
+									</ol>
+								</div>
+								<ul>赞<li>123</li></ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="" title="用户头像">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<span>驼背阿三</span>
+								<div class="rank">LV31</div>
+								<div class="box-j"></div>
+								<div class="ball"></div>
+								<em>梦想发起者</em>
+								<var>私信TA</var>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…</p>
+								<strong>发起者评价：</strong>
+								<div class="down-select">
+									<ol>
+										<li>很好</li>
+										<li>一般</li>
+										<li>差</li>
+									</ol>
+								</div>
+								<ul>赞<li>123</li></ul>
+							</dd>
+						</dl>
+						<a class="more" href="" title="更多">more</a>
+					</div>
+					<div class="about-user">
+						<h3>最近出主意的用户</h3>
+						<dl>
+							<dt>
+								<a href="" title="用户头像">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<span>驼背阿三</span>
+								<div class="rank">LV31</div>
+								<div class="box-j"></div>
+								<div class="ball"></div>
+								<em>梦想发起者</em>
+								<var>私信TA</var>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…</p>
+								<strong>发起者评价：</strong>
+								<div class="down-select">
+									<ol>
+										<li>很好</li>
+										<li>一般</li>
+										<li>差</li
+									</ol>
+								</div>
+								<ul>赞<li>123</li></ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="" title="用户头像">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<span>驼背阿三</span>
+								<div class="rank">LV31</div>
+								<div class="box-j"></div>
+								<div class="ball"></div>
+								<em>梦想发起者</em>
+								<var>私信TA</var>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…</p>
+								<strong>发起者评价：</strong>
+								<div class="down-select">
+									<ol>
+										<li>很好</li>
+										<li>一般</li>
+										<li>差</li>
+									</ol>
+								</div>
+								<ul>赞<li>123</li></ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="" title="用户头像">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<span>驼背阿三</span>
+								<div class="rank">LV31</div>
+								<div class="box-j"></div>
+								<div class="ball"></div>
+								<em>梦想发起者</em>
+								<var>私信TA</var>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…</p>
+								<strong>发起者评价：</strong>
+								<div class="down-select">
+									<ol>
+										<li>很好</li>
+										<li>一般</li>
+										<li>差</li>
+									</ol>
+								</div>
+								<ul>赞<li>123</li></ul>
+							</dd>
+						</dl>
+						<a class="more" href="" title="更多">more</a>
+					</div>
+					<div class="support-user">
+						<h3>最近支持的用户</h3>
+						<div class="big-j">
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+							<a href="" title="支持用户"></a>
+						</div>
+						<a class="more" href="" title="更多">more</a>
+					</div>
+				</div>
+				
+				<div>
+					<div class="talk-j">
+						<dl>
+							<dt>
+								<a href="" title="1">
+									<img src="../images/about-dream.png" alt="1" title="1">
+								</a>
+							</dt>
+							<dd>
+								<div class="ball"></div>
+								<strong><b>我的梦想是漂亮的包包</b>Mark</strong>
+								<em>项目发起者</em>
+								<a href="" title="1">私信TA</a>
+								<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大家…</p>
+								<var></var>
+								<var></var>
+								<var></var>
+							</dd>
+						</dl>
+					</div>
+						<div class="position-first">
+							<a href="" title="3"><img src="" alt="3" title=""></a>
+							<span>天使的眼泪</span>
+							<em>9小时前</em>
+							<p>我怎么觉得这电视有点匆匆收尾的感觉，一起变化得也太快。女主一下子从穷光蛋变成有钱人;允唐一下子就死而复生冒出来</p>
+							<var>回复（3）</var>
+						</div>
+						<div class="position-second">
+							<a href="" title="3"><img src="" alt="3" title=""></a>
+							<span>天使的眼泪</span>
+							<em>9小时前</em>
+							<p><strong>[回复]</strong>我怎么觉得这电视有点匆匆收尾的感觉，一起变化得也太快。女主一下子从穷光蛋变成有钱人;允唐一下子就死而复生冒出来</p>
+							<var>回复（3）</var>
+						</div>
+						<div class="position-second">
+							<a href="" title="3"><img src="" alt="3" title=""></a>
+							<span>天使的眼泪</span>
+							<em>9小时前</em>
+							<p><strong>[回复]</strong>我怎么觉得这电视有点匆匆收尾的感觉，一起变化得也太快。女主一下子从穷光蛋变成有钱人;允唐一下子就死而复生冒出来</p>
+							<var>回复（3）</var>
+						</div>
+						<div class="position-third">
+							<a href="" title="3"><img src="" alt="3" title=""></a>
+							<span>天使的眼泪</span>
+							<em>9小时前</em>
+							<p><strong>[回复]</strong>我怎么觉得这电视有点匆匆收尾的感觉，一切变化得也太快。女主一下子从穷光蛋变成有钱人；允唐一下子就死而复生冒出来；还有那个价值连城的翡翠屏风，说出来就出来。而且佟父说病了就死了。杜家是上海第一豪门说败落了就败落了，连宅子都没了。而佟家靠典当过曰子都还留有宅子。说起来佟家是似乎有永远典当不完的东西，连红羽在那都不愁吃喝。真不到编剧是怎么想的真是愚
+							弄我们这些追剧迷。</p>
+							<var>回复（3）</var>
+						</div>
+						<div class="other-con">
+							<span>上一话题</span>
+							<em>|</em>
+							<span>下一话题</span>
+							<a href="" title="返回列表">返回列表</a>
+							<strong>分享</strong>
+						</div>
+						<h3 class="my-advice">我要评论</h3>
+						<textarea class="advice-con"name="" id="" cols="30" rows="10"></textarea>
+						<div class="send-advice">发送</div>
+				</div>
+			</div>
+			<div class="con-right">
+				<p>
+					<em>已获得</em>
+					<strong>105,406</strong>
+					<span>资助列表</span>	
+				</p>
+				<div class="item"><div><div></div></div><span>72%</span></div>
+				<div class="click-j">
+					<div><span class="pic-j" style="	background: url(../images/merge.png) -484px -516px no-repeat;"></span><span class="mata-j">421,171</span></div>
+					<div><span class="pic-j" style="	background: url(../images/merge.png) -555px -515px no-repeat;"></span><span class="mata-j">421,171</span></div>
+					<div><span class="pic-j" style="	background: url(../images/merge.png) -627px -515px no-repeat;"></span><span class="mata-j">421,171</span></div>
+				</div>
+				<div class="help-j">
+					<h2>帮Ta实现</h2>
+					<div class="son">
+						<a href="" title="1">出主意</a>
+						<a href="" title="2">已认证</a>
+						<a href="" title="3">有话要说</a>
+						<a href="" title="4">支持TA</a>
+						<div class="use-j">
+							<h3>使用道具</h3>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<span>...</span>
+						</div>
+						<div class="use-j">
+							<h3>使用礼物</h3>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<span>...</span>
+						</div>
+					</div>
+				<div class="return-j">
+					<h2>回报</h2>
+					<dl style="height : 326px;background:url(../images/pub-j.png) -645px -27px no-repeat" >
+						<dt style="background:url(../images/pub-j.png) -857px -444px no-repeat"><span>1</span></dt>
+						<dd>
+							<h3>创意简约可爱书签一支</h3>
+							<div>
+								已有<var>10</var>位支持，限额10位，剩余<em>0</em>位
+							</div>
+							<p><b>回报介绍:</b>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划…</p>
+							<div class="supporter" style="display : none"><a href="" title="1"><img src="" alt="1" title="1"></a></div>
+							<div style="display:none"><b>快递方式:</b><em>平邮</em></div>
+							<div><b>预计发放时间:</b><em>2014
+							5-2014.7</em></div>
+							<span>支持支持支持</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt><span>2</span></dt>
+						<dd>
+							<h3>创意简约可爱书签一支</h3>
+							<div>
+								已有<var>10</var>位支持，限额10位，剩余<em>0</em>位
+							</div>
+							<p><b>回报介绍:</b>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划…</p>
+							<div class="supporter"><a href="" title="1"><img src="" alt="1" title="1"></a></div>
+							<div><b>快递方式:</b><em>平邮</em></div>
+							<div><b>预计发放时间:</b><em>2014
+							5-2014.7</em></div>
+							<span>支持支持支持</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt><span>3</span></dt>
+						<dd>
+							<h3>创意简约可爱书签一支</h3>
+							<div>
+								已有<var>10</var>位支持，限额10位，剩余<em>0</em>位
+							</div>
+							<p><b>回报介绍:</b>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划…</p>
+							<div class="supporter"><a href="" title="1"><img src="" alt="1" title="1"></a></div>
+							<div><b>快递方式:</b><em>平邮</em></div>
+							<div><b>预计发放时间:</b><em>2014
+							5-2014.7</em></div>
+							<span>支持支持支持</span>
+						</dd>
+					</dl>
+				</div>		
+			</div>
+		</div>
+	</div>
+	<div class="project-j">
+		<div class="mid">
+			<h2>可能感兴趣的项目</h2>
+				<div>
+					<h3>我的梦想是一个漂亮的书包</h3>
+				<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…<strong>31</strong><var>评论</var><em>120</em><span>+参与</span></p>
+				<ul class="dream-pic">
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">../images.1_03.png
+						</a>
+					</li>
+				</ul>
+				<div class="corl-next"></div>
+				<div class="o-bar">
+					<em>已募捐</em>
+					<var>105,406￥</var>
+					<div class="outer-j">
+						<div class="inner-j">
+						</div>
+					</div>
+					<strong>92%</strong>
+				</div>
+				<div class="something">
+					<span style="background:url(../images/merge.png) no-repeat -414px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -486px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -558px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -630px -520px">5120</span>
+				</div>
+				<div class="her-hero">
+					<h4>他的英雄（<var>15</var>）</h4>
+					<a href="" title="1">
+						<img src="../images/1_03.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_05.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_07.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_09.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_11.png" alt="2" title="3">
+					</a>
+					<span></span>
+				</div>
+				 <div class="last-foot">
+				 	<a href="" title="3">出钱</a>
+				 	<a href="" title="3">有资源</a>
+				 	<a href="" title="3">出主意</a>
+				 	<a href="" title="3">赞</a>
+				 	<a href="" title="3">查看梦想</a>
+				 	<a href="" title="3">分享</a>
+				 </div>
+				</div>
+				<div>
+					<h3 style="background:url(../images/merge.png) no-repeat -394px -398px">我的梦想是一个漂亮的书包</h3>
+				<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…<strong>31</strong><var>评论</var><em>120</em><span>+参与</span></p>
+				<ul class="dream-pic">
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">../images.1_03.png
+						</a>
+					</li>
+				</ul>
+				<div class="corl-next"></div>
+				<div class="o-bar">
+					<em>已募捐</em>
+					<var>105,406￥</var>
+					<div class="outer-j">
+						<div class="inner-j">
+						</div>
+					</div>
+					<strong>92%</strong>
+				</div>
+				<div class="something">
+					<span style="background:url(../images/merge.png) no-repeat -414px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -486px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -558px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -630px -520px">5120</span>
+				</div>
+				<div class="her-hero">
+					<h4>他的英雄（<var>15</var>）</h4>
+					<a href="" title="1">
+						<img src="../images/1_03.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_05.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_07.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_09.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_11.png" alt="2" title="3">
+					</a>
+					<span></span>
+				</div>
+				 <div class="last-foot">
+				 	<a href="" title="3">出钱</a>
+				 	<a href="" title="3">有资源</a>
+				 	<a href="" title="3">出主意</a>
+				 	<a href="" title="3">赞</a>
+				 	<a href="" title="3">查看梦想</a>
+				 	<a href="" title="3">分享</a>
+				 </div>
+				</div>
+				<div class="no">
+					<h3 style="background:url(../images/merge.png) no-repeat -394px -460px">我的梦想是一个漂亮的书包</h3>
+				<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大…<strong>31</strong><var>评论</var><em>120</em><span>+参与</span></p>
+				<ul class="dream-pic">
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<img src="" alt="" title="">../images.1_03.png
+						</a>
+					</li>
+				</ul>
+				<div class="corl-next"></div>
+				<div class="o-bar">
+					<em>已募捐</em>
+					<var>105,406￥</var>
+					<div class="outer-j">
+						<div class="inner-j">
+						</div>
+					</div>
+					<strong>92%</strong>
+				</div>
+				<div class="something">
+					<span style="background:url(../images/merge.png) no-repeat -414px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -486px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -558px -520px">5120</span>
+					<span style="background:url(../images/merge.png) no-repeat -630px -520px">5120</span>
+				</div>
+				<div class="her-hero">
+					<h4>他的英雄（<var>15</var>）</h4>
+					<a href="" title="1">
+						<img src="../images/1_03.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_05.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_07.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_09.png" alt="2" title="3">
+					</a>
+					<a href="" title="1">
+						<img src="../images/1_11.png" alt="2" title="3">
+					</a>
+					<span></span>
+				</div>
+				 <div class="last-foot">
+				 	<a href="" title="3">出钱</a>
+				 	<a href="" title="3">有资源</a>
+				 	<a href="" title="3">出主意</a>
+				 	<a href="" title="3">赞</a>
+				 	<a href="" title="3">查看梦想</a>
+				 	<a href="" title="3">分享</a>
+				 </div>
+				</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="ft-top">
+			<div class="mid">
+				<div class="find-dream">
+					<h3>发现梦想</h3>
+					<a>微电影</a>
+					<a>音乐</a>
+					<a>读书</a>
+					<a>公益</a>
+					<a>教育</a>
+					<a>游戏</a>
+					<a class="more-dream">更多梦想</a>
+				</div>
+				<div class="initiate-dream">
+					<h3>发起梦想</h3>
+					<p><a href="">项目指导</a></p>
+					<p><a href="">可能遇到的问题</a></p>
+					<p><a href="">梦想学校</a></p>
+					<p><a href="">英雄指引</a></p>
+				</div>
+				<div class="about-South">
+					<h3>关于南极</h3>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">我们的梦想</a></p>
+					<p><a href="">工作机会</a></p>
+				</div>
+				<div class="index-contact">
+					<h3>联系南极</h3>
+					<p class="ft-email">nanji@gmail.com</p>
+					<p class="ft-webcat">nanji（ 1286804769 ）</p>
+					<p class="ft-weibo"><a href="">http://weibo.com/pincha123</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="ft-bot">
+			<div class="mid">
+			<p>京ICP备11017824号-4 / 京ICP证130164号 <span>北京市公安局朝阳分局备案编号:110105000501  </span></p>
+			<p>Copyright © 2006-2013 ZCOOL 全景统计</p>
+			</div>
+		</div>
+	</div>
+	<script src="../js/about-question.js"></script>
+	<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

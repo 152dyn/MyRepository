@@ -1,0 +1,652 @@
+@charset "utf-8";
+.wrap {
+    width:100%;
+    min-width: 1000px;
+}
+.main{
+    padding-top: 30px;
+    background: url("../images/peo-bagrd.png") center 0 no-repeat;
+}
+.con {
+    width:1000px;
+    margin:0px au
+    to;
+}
+.con-r {
+    float:right;
+    width:780px;
+    min-height:1270px;
+    _height:1270px;
+    background:#fff ;
+}
+.message {
+    padding: 19px 40px 0px;
+}
+.friend-j,
+.money-j {
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    width: 724px;
+    height: 39px;
+    margin: 23px 0 7px;
+    padding-left: 56px;
+    line-height: 39px;
+    font-size: 18px;
+    background: url(../images/merge.png) -1789px -1279px no-repeat;
+}
+.money-j {
+    background: url(../images/merge.png) -1789px -1347px no-repeat;
+}
+.tabtits-j {
+    position: relative;
+    width: 616px;
+    height: 44px;
+    margin-bottom: 33px;
+    padding-left: 84px;
+    line-height: 44px;
+    border-bottom: 3px solid #f2f2f2;
+}
+.tabtits-j span {
+    overflow: hidden;
+    float: left;
+    display: block;
+    width: 76px;
+    height: 44px;
+    text-align: center;
+    padding: 0 51px;
+}
+.tabtits-j div {
+    position: absolute;
+    width: 56px;
+    height: 3px;
+    bottom: -3px;
+    left: 145px;
+    background: #58bff9;
+}
+.con-r dl {
+    width: 780px;
+    height: 106px;
+}
+.con-r dl dt {
+    float: left;
+    width: 62px;
+    height: 62px;
+    margin-right: 12px;
+}
+.con-r dt img {
+    display: block;
+    width: 62px;
+    height: 62px;
+}
+.con-r dd {
+    position: relative;
+    float: left;
+    width: 706px;
+    height: 106px;
+}
+.con-r dd h3 {
+    overflow: hidden;
+    width: 56px;
+    height: 26px;
+    margin-bottom: 7px;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: "SimSun";
+}
+.con-r dd p {
+    -ms-text-overflow: ;
+    text-overflow: ;
+    width: 408px;
+    height: 48px;
+    line-height: 24px;
+}
+.con-r dd span {
+    margin-right: 8px;
+    color: #ccc;
+}
+.con-r dd .ok,
+.con-r dd .no,
+.con-r dd .invite-j,
+.con-r dd .delete-j {
+    position: absolute;
+    width: 49px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 3px;
+    bottom: 30px;
+    cursor: pointer;
+}
+.con-r dd .ok {
+    right: 138px;
+    background: #58bff9;
+    color: #fff;
+}
+.con-r dd .no {
+    right: 77px;
+}
+.con-r dd .invite-j {
+    right: 180px;
+}
+.con-r dd .delete-j {
+    right:80px;
+    width: 91px; 
+    background: #58bff9;
+    color: #fff;
+}
+/*弹窗*/
+.all-alert-j {
+    display: none;
+    position: absolute;
+    width: 364px;
+    height: 193px;
+    top: 350px;
+    left: 520px;
+    box-shadow: 3px 3px #ccc;
+    background: #fff;
+    z-index: 1;
+}
+.all-alert-j h2 {
+    position: relative;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    height: 39px;
+    margin-bottom: 28px;
+    line-height: 39px;
+    color: #fff;
+    background: #58bff9;
+    text-align: center;
+}
+.all-alert-j h2 span {
+    position: absolute;
+    right: 18px;
+    top: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+.all-alert-j div {
+    width: 205px;
+    height: 154px;
+    padding: 0 81px;
+}
+.all-alert-j div input {
+    width: 203px;
+    height: 28px;
+    border: 1px solid #f2f2f2;
+}
+.all-alert-j div div {
+    float:left;
+    width: 91px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 22px;
+    padding: 0;
+    border: 1px solid #ccc;
+    color: #fff;
+    background: #58bff9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.all-alert-j div .no {
+    float: right;
+    color: #000;
+    background: #fff;
+}
+.select-dream {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    width: 364px;
+    height: 332px;
+    top: 600px;
+    left: 520px;
+    box-shadow: 3px 3px #ccc;
+    background: #fff;
+    z-index: 1;
+}
+.select-dream h2 {
+    position: relative;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    height: 39px;
+    margin-bottom: 28px;
+    line-height: 39px;
+    color: #fff;
+    background: #58bff9;
+    text-align: center;
+}
+.select-dream h2 span {
+    position: absolute;
+    right: 18px;
+    top: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+.select-dream div {
+    overflow: hidden;
+    height: 205px;
+    padding-left: 40px;
+}
+.select-dream input,
+.select-dream span {
+    float: left;
+    line-height: 36px;
+}
+.select-dream input {
+    height: 36px;
+    margin-right: 12px;
+}
+.select-dream span {
+
+}
+.select-dream .ok,
+.select-dream .no {
+    float:left;
+    width: 91px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 96px;
+    padding: 0;
+    border: 1px solid #ccc;
+    color: #fff;
+    background: #58bff9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.select-dream .no {
+    margin-left: 22px;
+    color: #000;
+    background: #fff;
+}
+
+/*资产管理*/
+.about-money-j {
+    position: relative;
+    height: 147px;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    border: 1px solid #ccc;
+}
+.about-money-j div {
+    overflow: hidden;
+    height: 49px;
+    line-height: 49px;
+}
+.about-money-j em,
+.about-money-j b,
+.about-money-j span,
+.about-money-j i,
+.about-money-j strong,
+.about-money-j var,
+.about-money-j a,
+.time-j span,
+.time-j input,
+.time-j var {
+    float: left;
+}
+.bad-j {
+    margin-left: 30px;
+}
+.about-money-j div b,
+.about-money-j i {
+    color: #fe7b61;
+}
+.about-money-j b {
+    font-size: 36px;
+}
+.about-money-j i {
+    font-size: 24px;
+}
+.about-money-j strong {
+    font-weight: bold;
+}
+.about-money-j span {
+    display: block;
+    width: 56px;
+    height: 23px;
+    margin: 13px 0 0 19px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.about-money-j var {
+    overflow: hidden;
+    display: block;
+    width: 46px;
+    height: 49px;
+    margin-left: 25px;
+    padding-left: 30px;
+    background: url(../images/merge.png) -1812px -1577px no-repeat;
+}
+.about-money-j .vared {
+    background: url(../images/merge.png) -1900px -1577px no-repeat;
+}
+.about-money-j .add-money-j {
+    position: absolute;
+    display: block;
+    width: 111px;
+    height: 39px;
+    top: 34px;
+    right: 50px;
+    line-height: 39px;
+    color: #fff;
+    text-align: center;
+    background: #63c3f9;
+    border-radius: 3px;
+    box-shadow: 0 3px #49a2da;
+}
+.about-money-j .grade-j {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    width: 202px;
+    height: 27px;
+    line-height: 27px;
+    left: 78px;
+    bottom: -16px;
+    text-indent: 12px;
+    background: url(../images/money_pub.png) -403px -288px no-repeat;
+    box-shadow: 2px 2px #999;
+}
+.show-j h4 {
+    overflow: hidden;
+    height: 54px;
+    line-height: 54px;
+    color: #41a0dc;
+}
+.time-j {
+    height: 30px;
+    margin-bottom: 18px;
+    line-height: 30px;
+}
+.time-j em {
+    float: left;
+    margin-right: 26px;
+}
+.time-j var {
+    margin: 0 5px;
+}
+.time-j input {
+    width: 119px;
+    height: 28px;
+    border: 1px solid #f2f2f2;
+}
+.time-j span {
+    display: block;
+    overflow: hidden;
+    width: 56px;
+    height: 23px;
+    margin: 3px 0 0 16px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*二级标题切换*/
+.tits-j,
+.tool-tits-j,
+.gift-tits-j {
+    display: none;
+    height: 36px;
+}
+.tabcon-j {
+    height: 41px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    color: #878787;
+}
+.tabcon-j span {
+    float: left;
+    display: block;
+    width: 116px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+}
+.tits-j span,
+.tool-tits-j span,
+.gift-tits-j span {
+    float: left;
+    display: block;
+    width: 86px;
+    height: 36px;
+    padding: 0 20px;
+    margin-bottom: -10px;
+    line-height: 36px;
+    color: #878787;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+table {
+    /*display: none;*/
+    width: 700px;
+    height: 96px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+table th {
+    height: 45px;
+    text-align: center;
+}
+table tr {
+    border: 1px solid #ccc;
+}
+table td{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.all-money-j,
+.inner-money-j {
+    height: 16px;
+    margin-top: 20px;
+    line-height: 16px;
+}
+.all-money-j em,
+.inner-money-j em {
+    font-weight: bold;
+}
+.all-money-j span,
+.inner-money-j span {
+    font-size: 14px;
+}
+.all-money-j var,
+.inner-money-j var {
+    color: #fe7b61;
+}
+/*道具管理-我的道具*/
+.my-tool {
+    /*display: none;*/
+    height: 448px;
+    border: 1px solid #e7e7e7;
+}
+.my-tool dl {
+    float: left;
+    width: 120px;
+    height: 192px;
+    padding:20px 56px 0;
+}
+.my-tool dl dt {
+    width: 121px;
+    height: 121px;
+}
+.my-tool dt img {
+    display: block;
+    width: 121px;
+    height: 121px;
+}
+.my-tool dd,
+.exchange-j dd {
+    overflow: hidden;
+    width: 121px;
+    height: 71px;
+    text-align: center;
+}
+.my-tool dd var,
+.my-tool dd span,
+.exchange-j dd var,
+.exchange-j dd span {
+    display: block;
+    font-size: 12px;
+    margin: 0;
+}
+.my-tool dd var,
+.exchange-j dd var {
+    overflow: hidden;
+    height: 12px;
+    line-height: 12px;
+    margin: 15px 0;
+}
+.my-tool dd span {
+    width: 64px;
+    height: 23px;
+    margin-left: 25%;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*礼物管理*/
+.exchange-j {
+    overflow: hidden;
+    height: 450px;
+    padding: 28px 0 0 47px;
+}
+.exchange-j h3 div {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 2px 10px 0 0;
+    border: 1px solid #ccc;
+}
+.exchange-j h3 {
+    overflow: hidden;
+    height: 44px;
+    padding-top: 10px;
+   
+}
+.exchange-j h3 span {
+    float: left;
+    margin-right: 50px;
+    font-size: 14px;
+}
+.exchange-j dl {
+    float: left;
+    width: 84px;
+    height: 150px;
+    margin: 0 45px 30px 0;
+}
+.exchange-j dl dt {
+    width: 84px;
+    height: 84px;
+}
+.exchange-j dl img {
+    display: block;
+    width: 84px;
+    height: 84px;
+}
+.exchange-j dl dd {
+    overflow: hidden;
+    width: 84px;
+    height: 69px;
+}
+.exchange-j dd span {
+    width: 64px;
+    height: 23px;
+    margin-left: 8px;
+    line-height: 23px;
+    border: 1px solid #ccc;
+    background: #58bff9;
+    color: #fff;
+}
+/*收到的礼物*/
+.get-gift,
+.send-gift {
+    display: none;
+    height: 767px;
+    padding: 36px 30px 0;
+    border: 1px solid #e6e6e6;
+}
+.get-gift dl,
+.send-gift dl {
+    overflow: hidden;
+    width: 633px;
+    height: 223px;
+}
+.get-gift dl dt,
+.send-gift dl dt {
+    float: left;
+    width: 65px;
+    height: 65px;
+}
+.get-gift dt img,
+.send-gift dt img {
+    display: block;
+    width: 65px;
+    height: 65px;
+}
+.get-gift dl dd,
+.send-gift dl dd {
+    float: right;
+    overflow: hidden;
+    width: 540px;
+    height: 223px;
+}
+.get-gift dd strong,
+.send-gift dd strong {
+    font-family: 'simsun';
+}
+.send-gift dd strong {
+    font-weight: bold;
+}
+.get-gift dd span {
+    color: #878787;
+}
+.get-gift dd p,
+.send-gift dd p {
+    text-overflow:ellipsis;
+    height: 42px;
+    margin-top: 12px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.send-gift dd div {
+    margin-top: 15px; 
+}
+.get-gift dd img,
+.send-gift dd img {
+    width: 80px;
+    height: 80px;
+    margin-left: 52px;
+}
+.get-gift dd a,
+.send-gift dd a {
+    display: block;
+    float: right;
+    width: 90px;
+    height: 30px;
+    margin-top: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #24cabc;
+    box-shadow: 0px 2px #2bada2;
+    border-radius: 3px;
+}
+.crol-j {
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.crol-j span {
+    margin-right: 28px;
+    color: #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}

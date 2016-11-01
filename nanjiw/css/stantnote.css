@@ -1,0 +1,1115 @@
+@charset 'utf-8';
+/*站内消息模块*/
+/*背景图*/
+.notes {
+	min-width: 1000px;
+	min-height: 1235px;
+	padding-top: 27px;
+	background: #3d94e5 url('../images/forg.png') center 0 no-repeat;
+}
+/*信封背景*/
+.tit-nt {
+	width: 1000px;
+	height: 1170px;
+	background: url('../images/note-bg.png') center no-repeat;
+}
+/*四个主题区*/
+.ntl {
+	float: left;
+	overflow: hidden;
+	width: 220px;
+	height: 1170px;
+}
+.ntl li {
+	width: 220px;
+	height: 88px;
+}
+.ntl li:hover {
+	opacity: 0.7;
+}
+.ntl a {
+	color: #4e525b;
+}
+.cuss1 {
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin: 0 auto;
+	background: url('../images/merge.png') -346px -577px no-repeat;
+}
+.cuss {
+	overflow: hidden;
+	display: block;
+	width: 220px;
+	height: 65px;
+	padding-top: 23px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.myid1 {
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin: 0 auto;
+	background: url('../images/merge.png') -344px -664px no-repeat;
+}
+.myid {
+	overflow: hidden;
+	display: block;
+	width: 220px;
+	height: 65px;
+	padding-top: 23px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.secr1 {
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin: 0 auto;
+	background: url('../images/merge.png') -346px -750px no-repeat;
+}
+.secr {
+	overflow: hidden;
+	display: block;
+	width: 220px;
+	height: 65px;
+	padding-top: 23px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.sysnote1 {
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin: 0 auto;
+	background: url('../images/merge.png') -350px -840px no-repeat;
+}
+.sysnote {
+	overflow: hidden;
+	display: block;
+	width: 220px;
+	height: 65px;
+	padding-top: 23px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+/*以下为“我的评论”模块*/
+.cuss2 {
+	background: url('../images/merge.png') -414px -577px no-repeat;
+}
+.dis-note {
+	float: left;
+	width: 700px;
+	height: 1130px;
+	padding: 20px 40px;
+}
+.dis-note h2 {
+	overflow: hidden;
+	width: 86px;
+	height: 46px;
+	padding-left: 54px;
+	line-height: 46px;
+	background: url('../images/merge.png') -564px -564px no-repeat;
+}
+.select {
+	position: relative;
+	width: 644px;
+	height: 43px;
+	border-bottom: 3px solid #f2f2f2;
+	padding-left: 56px;
+}
+.select em {
+	float: left;
+	width: 84px;
+	height: 38px;
+	margin-right: 80px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+/*选中线*/
+.line {
+	position: absolute;
+	left: 56px;
+	top: 43px;
+	width: 84px;
+	height: 3px;
+	background: #58bff9;
+	font-size: 0;
+}
+/*我发布的主题*/
+.subject {
+	width: 700px;
+	height: 386px;
+	padding-top: 22px;
+}
+/*内容区每个块*/
+.subject li {
+	position: relative;
+	width: 644px;
+	margin-bottom: 10px;
+	padding: 17px 28px;
+	border-radius: 4px;
+}
+/*白色三角指向*/
+.gle1 {
+	position: absolute;
+	top: 34px;
+	left: 96px;
+	width: 11px;
+	height: 19px;
+	background: url('../images/gle.png');
+}
+/*角色*/
+.men1 {
+	float: left;
+	width: 61px;
+	height: 88px;
+	margin-right: 17px;
+}
+.men1 img {
+	width: 61px;
+	height: 61px;
+}
+.men1 em {
+	display: block;
+	width: 61px;
+	height: 20px;
+	border-radius: 2px;
+	background: #ff6761;
+	font-family: 'SimHei';
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+/*具体消息块*/
+.nots1 {
+	float: left;
+	width: 540px;
+	padding: 8px 12px;
+	border: 1px solid #eaeaeb;
+	background: #fff;
+}
+.nots1 p {
+	width: 540px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+}
+.nots1 a {
+	font-size: 16px;
+	color: #58bff9;
+}
+/*时间*/
+.dates {
+	float: left;
+	width: 65px;
+	height: 18px;
+	margin-right: 14px;
+	padding-left: 21px;
+	font-family: 'Arial';
+	line-height: 18px;
+	color: #4f4f4f;
+	background: url('../images/merge.png') -1493px -671px no-repeat;
+}
+.times {
+	float: left;
+	width: 30px;
+	height: 18px;
+	font-size: 12px;
+	font-family: 'Arial';
+	color: #4f4f4f;
+	line-height: 16px;
+}
+/*删除*/
+.dele1 {
+	float: right;
+	width: 44px;
+	height: 28px;
+	padding-left: 30px;
+	border-radius: 4px;
+	line-height: 28px;
+	color: #eaebe6;
+	background: url('../images/merge.png') -992px -686px no-repeat;
+	cursor: pointer;
+}
+.discuss {
+	display: none;
+}
+/*我发布的评论*/
+.discuss {
+	width: 700px;
+	height: 526px;
+	padding-top: 22px;
+}
+.discuss li {
+	position: relative;
+	width: 644px;
+	margin-bottom: 10px;
+	padding: 17px 28px;
+	border-radius: 4px;
+}
+.gle2 {
+	position: absolute;
+	top: 34px;
+	left: 96px;
+	width: 11px;
+	height: 19px;
+	background: url('../images/gle.png');
+	z-index: 1;
+}
+/*角色*/
+.men2 {
+	float: left;
+	width: 61px;
+	height: 88px;
+	margin-right: 17px;
+}
+.men2 img {
+	width: 61px;
+	height: 61px;
+}
+.men2 em {
+	display: block;
+	width: 61px;
+	height: 20px;
+	border-radius: 2px;
+	background: #ff6761;
+	font-family: 'SimHei';
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+.nots2 {
+	position: relative;
+	float: left;
+	width: 446px;
+	padding: 8px 12px;
+	border: 1px solid #eaeaeb;
+	background: #fff;
+}
+/*删除*/
+.dele2 {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: -105px;
+	width: 44px;
+	height: 28px;
+	padding-left: 30px;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #fff;
+	background: #58bff9 url('../images/merge.png') -1142px -1940px no-repeat;
+	cursor: pointer;
+}
+.mycus {
+	float: left;
+	min-width: 120px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+}
+.newcu {
+	float: right;
+	width: 19px;
+	height: 19px;
+	background: url('../images/newcuss.png');
+}
+.whocu {
+	float: left;
+	width: 420px;
+	font-size: 12px;
+	margin-bottom: 6px;
+}
+.authe,
+.wat {
+	color: #58bff9;
+}
+/*滚动块*/
+.scr {
+	width: 400px;
+	height: 30px;
+	margin: 0 auto;
+}
+.scr div * {
+	float: left;
+	height: 30px;
+	padding: 0 15px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.scr div span:nth-child(6) {
+	padding: 0;
+	height: 20px;
+	padding-bottom: 10px;
+}
+.dis-note {
+	display: none;
+}
+/*我的主意*/
+.publish {
+	width: 700px;
+	height: 569px;
+	padding-top: 22px;
+}
+/*.myid {
+	color: #b784cf;
+	background: #ede2f1;
+}*/
+.ide-note {
+	float: left;
+	width: 700px;
+	height: 1130px;
+	padding: 20px 40px;
+}
+.ide-note h2 {
+	overflow: hidden;
+	width: 86px;
+	height: 46px;
+	padding-left: 54px;
+	line-height: 46px;
+	background: url('../images/merge.png') -1234px -1935px no-repeat;
+}
+.select {
+	position: relative;
+	height: 43px;
+	padding-left: 56px;
+}
+.select em {
+	float: left;
+	overflow: hidden;
+	width: 84px;
+	height: 38px;
+	margin-right: 80px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+/*选中线*/
+.line {
+	position: absolute;
+	left: 56px;
+	top: 43px;
+	width: 84px;
+	height: 3px;
+	background: #58bff9;
+	font-size: 0;
+}
+.publish li {
+	position: relative;
+	width: 644px;
+	min-height: 116px;
+	margin-bottom: 10px;
+	padding: 17px 28px;
+	border-radius: 4px;
+	background: #fafafa;
+}
+/*白色三角指向*/
+.gle3 {
+	position: absolute;
+	top: 34px;
+	left: 96px;
+	width: 11px;
+	height: 19px;
+	background: url('../images/gle.png');
+}
+/*角色*/
+.men3 {
+	float: left;
+	width: 61px;
+	height: 88px;
+	margin-right: 17px;
+}
+.men3 img {
+	width: 61px;
+	height: 61px;
+}
+.men3 em {
+	display: block;
+	width: 61px;
+	height: 20px;
+	border-radius: 2px;
+	background: #ff6761;
+	font-family: 'SimHei';
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+/*具体消息块*/
+.nots3 {
+	float: left;
+	width: 540px;
+	padding: 8px 12px;
+	border: 1px solid #eaeaeb;
+	background: #fff;
+}
+.ntls {
+	float: left;
+	width: 350px;
+}
+.ntrs {
+	float: right;
+	width: 160px;
+	padding-top: 36px;
+}
+.ntrs em {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+	background: url('../images/merge.png') -1168px -1888px no-repeat;
+}
+.ntrs p {
+	width: 160px;
+	line-height: 20px;
+}
+.says {
+	color: #fe7b61;
+}
+.mycus3 {
+	float: left;
+	min-width: 120px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+}
+.newcu3 {
+	float: right;
+	width: 19px;
+	height: 19px;
+	background: url('../images/newcuss.png');
+}
+.whocu3 {
+	float: left;
+	width: 350px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: 'Microsoft YaHei';
+}
+.authe3,
+.wat3 {
+	color: #58bff9;
+}
+/*删除*/
+.dele3 {
+	float: right;
+	width: 44px;
+	height: 28px;
+	margin-top: 14px;
+	padding-left: 30px;
+	border-radius: 4px;
+	line-height: 28px;
+	color: #fff;
+	background: #51daca url('../images/merge.png') -1142px -1942px no-repeat;
+	cursor: pointer;
+}
+.obtain {
+	display: none;
+}
+/*我收到的主意*/
+.obtain {
+	width: 700px;
+	height: 569px;
+	padding-top: 22px;
+}
+.obtain li {
+	position: relative;
+	width: 644px;
+	min-height: 116px;
+	margin-bottom: 10px;
+	padding: 17px 28px;
+	border-radius: 4px;
+	background: #fafafa;
+}
+/*白色三角指向*/
+.gle4 {
+	position: absolute;
+	top: 34px;
+	left: 96px;
+	width: 11px;
+	height: 19px;
+	background: url('../images/gle.png');
+}
+/*角色*/
+.men4 {
+	float: left;
+	width: 61px;
+	height: 88px;
+	margin-right: 17px;
+}
+.men4 img {
+	width: 61px;
+	height: 61px;
+}
+.men4 em {
+	display: block;
+	width: 61px;
+	height: 20px;
+	border-radius: 2px;
+	background: #ff6761;
+	font-family: 'SimHei';
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+/*具体消息块*/
+.nots4 {
+	float: left;
+	width: 540px;
+	padding: 8px 12px;
+	border: 1px solid #eaeaeb;
+	background: #fff;
+}
+.says {
+	color: #fe7b61;
+}
+.mycus4 {
+	float: left;
+	min-width: 120px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+}
+.newcu4 {
+	float: right;
+	width: 19px;
+	height: 19px;
+	background: url('../images/newcuss.png');
+}
+.whocu4 {
+	float: left;
+	width: 350px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: 'Microsoft YaHei';
+}
+.authe4,
+.wat4 {
+	color: #58bff9;
+}
+/*删除*/
+.dele4 {
+	float: right;
+	width: 44px;
+	height: 28px;
+	margin-top: 14px;
+	padding-left: 30px;
+	border-radius: 4px;
+	line-height: 28px;
+	color: #fff;
+	background: #51daca url('../images/merge.png') -1142px -1942px no-repeat;
+	cursor: pointer;
+}
+.ide-note {
+	display: none;
+}
+/*秘密消息*/
+/*.secr {
+	color: #60365b;
+	background: #d9cdd7;
+}*/
+.sec-note {
+	float: left;
+	width: 700px;
+	height: 1074px;
+	padding: 20px 40px;
+}
+.sec-note h2 {
+	overflow: hidden;
+	width: 86px;
+	height: 46px;
+	padding-left: 54px;
+	line-height: 46px;
+	background: url('../images/merge.png') -1231px -1864px no-repeat;
+}
+.hisscr {
+	min-height: 1000px;
+	margin-top: 26px;
+	border: 1px solid #eaeaeb;
+	border-radius: 5px;
+}
+.tims {
+	float: right;
+	width: 123px;
+	height: 27px;
+	background: #ff6761;
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;
+	text-align: center;
+}
+.sec-con {
+	height: 202px;
+	padding: 10px 25px;
+	border-radius: 5px;
+	border-bottom: 3px solid #f2f2f2;
+	background: #fafafa;
+}
+.sec-con img {
+	float: left;
+	width: 61px;
+	height: 61px;
+}
+.sec-con a {
+	float: left;
+	width: 61px;
+	height: 61px;
+}
+.logue {
+	float: right;
+	width: 570px;
+}
+.logue h3 {
+	overflow: hidden;
+	width: 570px;
+	height: 24px;
+	font-size: 18px;
+	color: #333;
+}
+.txt {
+	width: 568px;
+	height: 104px;
+	margin: 14px auto;
+	resize: none;
+}
+.faces {
+	float: left;
+	width: 19px;
+	height: 19px;
+	background: url('../images/merge.png') -1064px -1945px no-repeat;
+	cursor: pointer;
+}
+.logcon span {
+	float: right;
+	width: 86px;
+	height: 31px;
+	border-radius: 2px;
+	background: #89d1f9;
+	line-height: 31px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.tits {
+	position: relative;
+	width: 658px;
+	height: 27px;
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+.sec-histo {
+	overflow: hidden;
+	width: 658px;
+	height: 636px;
+	padding: 0px 20px;
+}
+.sec-histo li {
+	position: relative;
+	width: 644px;
+	margin-top: 50px;
+	padding: 0px 28px;
+}
+.gle5 {
+	position: absolute;
+	top: 34px;
+	left: 96px;
+	width: 11px;
+	height: 19px;
+	background: url('../images/gle.png');
+}
+/*角色*/
+.men5 {
+	float: left;
+	width: 61px;
+	height: 88px;
+	margin-right: 17px;
+}
+.men5 img {
+	width: 61px;
+	height: 61px;
+}
+.men5 em {
+	display: block;
+	width: 61px;
+	height: 20px;
+	border-radius: 2px;
+	background: #ff6761;
+	font-family: 'SimHei';
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+/*具体消息块*/
+.nots5 {
+	float: left;
+	width: 520px;
+	min-height: 90px;
+	padding: 8px 12px;
+	border: 1px solid #eaeaeb;
+	background: #fff;
+}
+.nots5 p {
+	width: 390px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+}
+.nots5 a {
+	font-size: 16px;
+	color: #58bff9;
+}
+.nots5 span {
+	float: left;
+	width: 65px;
+	height: 18px;
+	margin-right: 14px;
+	padding-left: 21px;
+	font-family: 'Arial';
+	line-height: 18px;
+	color: #4f4f4f;
+	background: url('../images/merge.png') -1493px -671px no-repeat;
+}
+.nots5 em {
+	float: left;
+	width: 30px;
+	height: 18px;
+	font-size: 12px;
+	font-family: 'Arial';
+	line-height: 18px;
+	color: #4f4f4f;
+	line-height: 16px;
+}
+.ullin {
+	position: absolute;
+	top: -24px;
+	right: 100px;
+	width: 4px;
+	height: 15px;
+	background: #f0f0f1;
+}
+.bolin {
+	position: absolute;
+	top: -46px;
+	right: 100px;
+	width: 4px;
+	height: 39px;
+	background: #f0f0f1;
+}
+/*举报*/
+.denoun {
+	position: absolute;
+	top: 28px;
+	right: 80px;
+	width: 80px;
+	height: 23px;
+	padding-left: 20px;
+	background: url('../images/merge.png') -1458px -1673px;
+	cursor: pointer;
+}
+/*删除*/
+.dele5 {
+	position: absolute;
+	top: 0px;
+	right: 35px;
+	width: 28px;
+	height: 28px;
+	background: url('../images/merge.png') -1050px -1771px no-repeat;
+	cursor: pointer;
+}
+.sec-note {
+	display: none;
+}
+/*系统消息*/
+/*.sysnote {
+	color: #a6c273;
+	background: #e4ecd6;
+}*/
+.sys-note {
+	float: left;
+	width: 700px;
+	height: 1130px;
+	padding: 20px 40px;
+}
+.sys-note h2 {
+	overflow: hidden;
+	width: 86px;
+	height: 46px;
+	margin-bottom: 43px;
+	padding-left: 54px;
+	line-height: 46px;
+	background: url('../images/merge.png') -1230px -1765px no-repeat;
+}
+.notss6 {
+	border-top: 3px solid #f2f2f2;
+	height: 557px;
+	padding-top: 26px;
+}
+/*内容区每个块*/
+.notss6 li {
+	position: relative;
+	width: 644px;
+	min-height: 144px;
+	margin-bottom: 10px;
+	padding: 17px 28px;
+	border-radius: 4px;
+	background: #fafafa;
+}
+/*白色三角指向*/
+.gle6 {
+	position: absolute;
+	top: 34px;
+	left: 96px;
+	width: 11px;
+	height: 19px;
+	background: url('../images/gle.png');
+}
+/*角色*/
+.men6 {
+	float: left;
+	width: 61px;
+	height: 88px;
+	margin-right: 17px;
+}
+.men6 img {
+	width: 61px;
+	height: 61px;
+}
+.men6 em {
+	display: block;
+	width: 61px;
+	height: 20px;
+	border-radius: 2px;
+	background: #ff6761;
+	font-family: 'SimHei';
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+/*具体消息块*/
+.nots6 {
+	float: left;
+	width: 540px;
+	padding: 8px 12px;
+	border: 1px solid #eaeaeb;
+	background: #fff;
+}
+.nots6 p {
+	width: 540px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	font-family: 'Microsoft YaHei';
+}
+/*删除*/
+.dele6 {
+	float: right;
+	width: 44px;
+	height: 28px;
+	margin-top: 14px;
+	padding-left: 30px;
+	border-radius: 4px;
+	line-height: 28px;
+	color: #fff;
+	background: #827891 url('../images/merge.png') -1142px -1942px no-repeat;
+	cursor: pointer;
+}
+.conf {
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 38%;
+	width: 300px;
+	height: 150px;
+	padding: 20px;
+	border-radius: 60px;
+	background: #d3f1ff url('../images/ifyou.png') 265px 30px no-repeat;
+	z-index: 11;
+}
+.conf p {
+	width: 270px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 36px;
+	color: red;
+	font-family: 'Microsoft YaHei';
+}
+.btal {
+	width: 140px;
+	height: 30px;
+	margin: 30px auto 0;
+}
+.dle, .nodes {
+	float: left;
+	width: 50px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+	background: #39f;
+	font-size: 16px;
+	cursor: pointer;
+}
+.dle {
+	margin-right: 20px;
+}
+.dd {
+	width: 160px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+.dd span {
+	float: left;
+	width: 60px;
+	height: 35px;
+	line-height: 35px;
+	background: #89d1f9;
+	font-size: 18px;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.dd span:hover {
+	background-color: #ccc;
+	color: #fff;
+}
+.report, .messages {
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 442px;
+	height: 364px;
+	background: white;
+	z-index: 20;
+}
+.messages {
+	height: 313px;
+}
+.report .tit, .messages .tit {
+	width: 442px;
+	height: 39px;
+	background: #58bff9;
+	color: white;
+	font-size: 18px;
+	line-height: 39px;
+	text-align: center;
+}
+.report em, .messages em {
+	float: left;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 13px;
+	height: 13px;
+	background: url('../images/merge.png') no-repeat -106px -997px;
+	cursor: pointer;
+}
+.messages em {
+	cursor: pointer;
+}
+.report h2 {
+	height: 56px;
+	color: #4e525b;
+	font-size: 14px;
+	text-align: center;
+	line-height: 56px;
+	font-weight: bold;
+}
+.report .check {
+	overflow: hidden;
+	width: 312px;
+	height: 120px;
+	margin: 0 auto;
+}
+.report .check ul {
+	width: 406px;
+	height: 100%;
+}
+.report .check li {
+	float: left;
+	width: 50%;
+	height: 30px;
+}
+.report h3 {
+	float: left;
+	color: #4e525b;
+	font-size: 12px;
+}
+.report  span {
+	float: left;
+	width: 10px;
+	height: 11px;
+	margin-right: 12px;
+	border: 1px solid #d5d5d5;
+}
+.report .detail {
+	width: 312px;
+	margin: 0 auto;
+}
+.messages .detail {
+	width: 347px;
+	margin: 21px auto 0px;
+}
+.report .detail p, .messages .detail p {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+}
+.messages .detail p span {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.report .detail textarea {
+	width: 312px;
+	height: 56px;
+	resize: none;
+}
+.messages .detail textarea {
+	width: 347px;
+	height: 142px;
+	resize: none;
+}
+.btns {
+	margin-top: 20px;
+	padding-left: 120px;
+}
+.btns div {
+	float: left;
+	margin-right: 21px;
+	cursor: pointer;
+}
+.sure {
+	width: 89px;
+	height: 23px;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	line-height: 23px;
+}
+.cancel {
+	width: 91px;
+	height: 25px;
+	background: #65c4f9;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+}

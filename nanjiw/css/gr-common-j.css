@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* 左边个人信息模块 */
+.con-l {
+    float: left;
+    width:220px;
+    background:#01dace;
+}
+.peo-info {
+    float: left;
+    width: 220px;
+    height: 31px;
+    padding-top: 57px;
+    background: #fff url("../images/merge.png") -73px -45px no-repeat;
+}
+.peo-info p {
+    text-align: center;
+    color: #4e525b;
+}
+.kind {
+    float: left;
+    background: url("../images/peo-bar.png") 215px 0px repeat-y;
+}
+.kind a {
+    display: block;
+    width: 215px;
+    height: 30px;
+    margin-right: 5px;
+    padding-top: 57px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+.kind p {
+    text-align: center;
+    color: #fff;
+}
+.peo-set {
+    background: #f9c459 url("../images/merge.png") -70px -147px no-repeat;
+}
+.peo-asset {
+    background: #a8e7d9 url("../images/merge.png") -70px -236px no-repeat;
+}
+.peo-dream {
+    background: #d0a0dc url("../images/merge.png") -70px -325px no-repeat;
+}
+.peo-fri {
+    background: #ffa27d url("../images/merge.png") -70px -414px no-repeat;
+}
+.peo-prdu {
+    background: #dcdcdc url("../images/merge.png") -70px -503px no-repeat;
+}

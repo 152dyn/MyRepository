@@ -1,0 +1,546 @@
+@charset utf-8;
+.wrap {
+	background: url('../images/guest-bac.png') center 0px no-repeat;
+}
+.head {
+	height: 223px;
+	padding-top: 158px;
+}
+.portrait {
+	float: left;
+	margin-right: 29px;
+}
+.portrait img {
+	float: left;
+	overflow: hidden;
+	width: 151px;
+	height: 151px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.head-tit {
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+.head-tit h1 {
+	float: left;
+	overflow: hidden;
+	width: 140px;
+}
+.head-tit em {
+	float: left;
+	width: 13px;
+	height: 31px;
+	margin-right: 20px;
+	background: url('../images/merge.png') no-repeat -1174px -812px;
+}
+.head-tit span {
+	float: left;
+	padding-left: 15px;
+	margin-right: 17px;
+	background: url('../images/merge.png') no-repeat -1206px -811px;
+	color: #4f4f4f;
+	font-size: 14px;
+	line-height: 31px;
+}
+.head-tit strong {
+	color: #4f4f4f;
+	font-size: 14px;
+	line-height: 31px;
+}
+.box .pics {
+	height: 40px;
+	margin-bottom: 18px;
+}
+.box .pics img {
+	float: left;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	margin-right: 17px;
+	cursor: pointer;
+}
+.level {
+	float: left;
+}
+.level li {
+	float: left;
+	width: 76px;
+}
+.level li span, .level li em {
+	float: left;
+	line-height: 18px;
+}
+.level li em {
+	color: #58bff9;
+	font-size: 14px;
+}
+
+.box {
+	width: 456px;
+	float: left;
+}
+.btn {
+	float: left;
+	margin-top: 23px;
+}
+.btn div {
+	float: left;
+	width: 70px;
+	height: 26px;
+	margin-right: 10px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	line-height: 26px;
+	background: #4e525b;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.btn .gift {
+	width: 88px;
+}
+.btn .user {
+	width: 88px;
+}
+.tit {
+	height: 69px;
+}
+.tit span {
+	float: left;
+	width: 152px;
+	height: 38px;
+	background: #efefef;
+	border-radius: 2px;
+	color: #a6a6a6;
+	font-size: 18px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+.tit .sel {
+	background: #89d1f9;
+	color: white;
+}
+.content {
+	overflow: hidden;
+	width: 1040px;
+}
+.portlets {
+	position: relative;
+	float: left;
+	width: 478px;
+	height: 510px;
+	margin: 0px 40px 29px 0px;
+	border: 1px solid #eaeaeb;
+	border-radius: 5px;
+}
+.portlets {
+	position: relative;
+	background: url('../images/guest-ico.png') no-repeat 0px 0px;
+}
+.portlets .left-bot {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 54px;
+	border-radius: 0px 0px 5px 5px;
+}
+.portlets  h2 {
+	overflow: hidden;
+	padding-top: 34px;
+	margin-bottom: 21px;
+	color: #333;
+	line-height: 24px;
+	text-align: center;
+}
+.portlets  p {
+	overflow: hidden;
+	position: relative;
+	width: 432px;
+	height: 72px;
+	padding: 0px 27px 0px 19px;
+	margin-bottom: 21px;
+	font-size: 12px;
+	line-height: 24px;
+}
+.portlets  p a {
+	position: absolute;
+	left: 109px;
+	top: 52px;
+	width: 51px;
+	height: 18px;
+	padding: 0;
+	margin: 0;
+	background: none #58bff9;
+	color: white;
+	text-align: center;
+	line-height: 18px;
+	cursor: pointer;
+}
+.portlets p em {
+	position: absolute;
+	left: 338px;
+	top: 52px;
+	width: 21px;
+	padding-left: 25px;
+	background: url('../images/merge.png') no-repeat -1198px -621px;
+	color: #58bff9;
+}
+
+.portlets p .sec {
+	left: 382px;
+	top: 52px;
+	width: 30px;
+	background: url('../images/merge.png') no-repeat -1250px -621px;
+	color: #a0a0a0;
+}
+.portlets p .thr {
+	left: 439px;
+	top: 52px;
+	padding-left: 0px;
+	background: none;
+}
+.portlets .pics-box {
+	height: 60px;
+	padding-left: 19px;
+	margin-bottom: 16px;
+}
+.portlets .pics img {
+	overflow: hidden;
+	float: left;
+	width: 90px;
+	height: 60px;
+	margin-right: 16px;
+	cursor: pointer;
+}
+.portlets .icons {
+	overflow: hidden;
+	height: 47px;
+	/*padding-bottom: 9px;*/
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	/*border-right: 0px;*/
+}
+.portlets .icons li {
+	float: left;
+	width: 67px;
+	height: 100%;
+	padding-left: 50px;
+	color: #878787;
+	font-size: 14px;
+	line-height: 47px;
+	border-right: 1px solid #f2f2f2;
+}
+/*.portlets .icons .fir {
+	padding-left: 49px;
+}*/
+.portlets .icons .four {
+	padding-left: 54;
+}
+.portlets .icons .fir {
+	background: url('../images/merge.png') no-repeat  -410px -333px;
+}
+.portlets .icons .sec {
+	background: url('../images/merge.png') no-repeat  -410px -393px;
+}
+
+.portlets .icons .thir {
+	background: url('../images/merge.png') no-repeat  -410px -455px;
+}
+.portlets .icons .four {
+	border-right: 0px;
+	background: url('../images/merge.png') no-repeat  -410px -273px;
+}
+.portlets .heros {
+	height: 78px;
+	padding: 14px 0px 0px 19px;
+
+}
+ .portlets .heros h3 {
+	height: 35px;
+	color: #333;
+	font-size: 12px;
+	line-height: 35px;
+}
+.portlets .heros h3 em {
+	color: #fe7b61;
+}
+.portlets .heros img {
+	overflow: hidden;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 18px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.portlets .heros span {
+	display: block;
+	color: #333;
+	font-size: 14px;
+	line-height: 24px;
+}
+.portlets .heros em {
+	color: #fe7b61;
+}
+.portlets .heros a {
+	float: left;
+	width: 29px;
+	height: 6px;
+	padding-top: 20px;
+	background: url('../images/merge.png') no-repeat -1409px -399px;
+}
+.portlets .bar {
+	position: relative;
+	width: 431px;
+	height: 25px;
+	margin-bottom: 15px;
+	padding: 27px 28px 0px 19px;
+}
+.bar .money {
+	position: absolute;
+	top: 0px;
+	left: 343px;
+	width: 79px;
+	height: 27px;
+	background: url('../images/merge.png') no-repeat -1914px -363px;
+	color: white;
+	text-align: center;
+}
+.portlets .bar span, .portlets .bar em {
+	float: left;
+}
+.portlets .bar span {
+	margin-right: 16px;
+	color: #333;
+	font-size: 14px;
+}
+.portlets .bar em {
+	margin-right: 9px;
+	color: #fe7b61;
+	font-size: 12px;
+}
+.portlets .bar .box {
+	float: left;
+	width: 343px;
+	height: 13px;
+	background: #e4e4e5;
+}
+.portlets .bar .box .pro-bar {
+	width: 300px;
+	height: 13px;
+	background: #58bff9;
+	zoom: 1;
+}
+.portlets .bar strong {
+	float: right;
+	margin-right:-3px;
+	color: #878787;
+	font-size: 14px;
+	font-weight: normal;
+}
+.portlets .left-bot ul {
+	overflow: hidden;
+	height: 100%;
+	border-top: 1px solid #f1f1f2;
+}
+.portlets .left-bot ul li {
+	float: left;
+	width: 56px;
+	height: 100%;
+	margin-right: -1px;
+	font-size: 12px;
+	line-height: 54px;
+	text-align: center;
+	border-right: 1px solid #f1f1f2;
+	cursor: pointer;
+}
+
+.portlets .left-bot ul .money {
+	width: 69px;
+}
+
+.portlets .left-bot ul .dream {
+	width: 71px;
+	padding-left: 50px;
+	background: url('../images/merge.png') no-repeat  -1108px -392px;
+}
+.portlets .left-bot ul .share {
+	width: 120px;
+	background: url('../images/merge.png') no-repeat -1232px -390px;
+}
+
+.report, .messages {
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 442px;
+	height: 364px;
+	background: white;
+	z-index: 20;
+}
+.messages {
+	height: 313px;
+}
+.report .tit, .messages .tit {
+	width: 442px;
+	height: 39px;
+	background: #58bff9;
+	color: white;
+	font-size: 18px;
+	line-height: 39px;
+	text-align: center;
+}
+.report em, .messages em {
+	float: left;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 13px;
+	height: 13px;
+	background: url('../images/merge.png') no-repeat -106px -997px;
+	cursor: pointer;
+}
+.messages em {
+	cursor: pointer;
+}
+.report h2 {
+	height: 56px;
+	color: #4e525b;
+	font-size: 14px;
+	text-align: center;
+	line-height: 56px;
+	font-weight: bold;
+}
+.report .check {
+	overflow: hidden;
+	width: 312px;
+	height: 120px;
+	margin: 0 auto;
+}
+.report .check ul {
+	width: 406px;
+	height: 100%;
+}
+.report .check li {
+	float: left;
+	width: 50%;
+	height: 30px;
+}
+.report h3 {
+	float: left;
+	color: #4e525b;
+	font-size: 12px;
+}
+.report  span {
+	float: left;
+	width: 10px;
+	height: 11px;
+	margin-right: 12px;
+	border: 1px solid #d5d5d5;
+}
+.report .detail {
+	width: 312px;
+	margin: 0 auto;
+}
+.messages .detail {
+	width: 347px;
+	margin: 21px auto 0px;
+}
+.report .detail p, .messages .detail p {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+}
+.messages .detail p span {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.report .detail textarea {
+	width: 312px;
+	height: 56px;
+	resize: none;
+}
+.messages .detail textarea {
+	width: 347px;
+	height: 142px;
+	resize: none;
+}
+.btns {
+	margin-top: 20px;
+	padding-left: 120px;
+}
+.btns div {
+	float: left;
+	margin-right: 21px;
+	cursor: pointer;
+}
+.sure {
+	width: 89px;
+	height: 23px;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	line-height: 23px;
+}
+.cancel {
+	width: 91px;
+	height: 25px;
+	background: #65c4f9;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+}
+
+.link {
+	position: absolute;
+	bottom: -46px;
+	left: 107px;
+	width: 331px;
+	height: 25px;
+	padding: 23px 9px 11px 13px;
+	background: url('../images/merge.png') no-repeat -1439px -1933px;
+}
+.link li {
+	float: left;
+	width: 80px;
+	height: 24px;
+	
+}
+.link li a, .link li b {
+	float: left;
+}
+.link li a {
+	width: 24px;
+	height: 24px;
+	margin-right: 7px;
+}
+.link li b {
+	color: #6b6b6b;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 24px;
+}
+.link .tencent a {
+	background: url('../images/merge.png') no-repeat -708px -521px;
+}
+.link .space a {
+	background: url('../images/merge.png') no-repeat -839px -523px;
+}
+.link .friend a {
+	background: url('../images/merge.png') no-repeat -749px -521px;
+}
+.link .sina a {
+	background: url('../images/merge.png') no-repeat -795px -521px;
+}
+
+.h-pics {
+	float: left;
+}
+
+.link {
+	display: none;
+}

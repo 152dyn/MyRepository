@@ -1,0 +1,264 @@
+@charset "utf-8";
+.massage h2 {
+    background:url("../images/merge.png")   -1799px -1200px no-repeat;
+}
+.acc-nav {
+    position: relative;
+    height: 38px;
+    padding: 0 83px;
+    border-bottom: 3px solid #dcdcdc;
+}
+.acc-nav span {
+    float: left;
+    width: 56px;
+    height: 38px;
+    padding:0 61px;
+    text-align: center;
+    line-height: 38px;
+    color: #4e525b;
+    cursor: pointer;
+}
+.acc-line {
+    position: absolute;
+    top: 38px;
+    left: 144px;
+    width: 56px;
+    height: 3px;
+    font-size: 0;
+    background: #58bff9;
+    z-index: 3;
+}
+/* 安全管理 */
+.saf-mang {
+	overflow: hidden;
+	height: 475px;
+}
+.land-paswd {
+	display: none;
+	padding-top: 33px;
+	height: 78px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.land-paswd strong, .saf-pho strong {
+	float: left;
+	font-family: "SimSun";
+	font-weight: bold;
+	line-height: 30px;
+}
+.land-paswd form {
+	display: inline-block;
+	padding-left: 30px;
+}
+.saf-pho strong {
+	line-height: 23px;
+}
+.paswd-rim {
+	float: left;
+	padding-left: 30px;
+	width: 205px;
+}
+.paswd-rim input {
+	width: 195px;
+    height: 28px;
+    margin-bottom: 21px;
+    font-family: 'SimSun';
+    text-indent: 5px;
+    border: 1px solid #e6e6e6;
+}
+.paswd-rim span {
+	display: inline-block;
+	width: 49px;
+	height: 23px;
+	background: #fafafa;
+	border:1px solid #e6e6e6;
+	line-height: 24px;
+	text-align: center;
+	color: #4e525b;
+	cursor: pointer;
+}
+.saf-pho {
+	padding-top: 20px;
+}
+.saf-pho em {
+	display: inline-block;
+	padding-left: 34px;
+	width: 500px;
+	font-family: "Arial";
+	font-size: 12px;
+	color: #4e525b;
+	line-height: 24px;
+}
+.saf-pho span {
+	display: inline-block;
+	padding-left: 94px;
+	line-height: 36px;
+	color: #878787;
+}
+.saf-pho .alter {
+	display: inline-block;
+	text-align: center;
+	margin-left: 218px;
+	width: 51px;
+	height: 24px;
+	padding-left: 0px;
+	border: 1px solid  #e6e6e6;
+	background: #fafafa;
+	font-size: 12px;
+	line-height: 24px;
+	font-family: "SimSun";
+	color: #4e525b;
+	cursor: pointer;
+}
+
+.pho-paswd {
+    padding-top: 33px;
+    height: 78px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pho-saf {
+	overflow: hidden;
+	height: 78px;
+	display: none;
+}
+.pho-paswd strong, .pho-saf strong {
+    float: left;
+    margin-right: 35px;
+    font-family: "SimSun";
+    font-weight: bold;
+    line-height: 30px;
+}
+.pho-saf strong {
+    line-height: 58px;
+}
+.pho-rim {
+    float: left;
+    width: 205px;
+    padding-top: 16px;
+}
+.pho-rim input {
+    width: 195px;
+    height: 28px;
+    margin-bottom: 21px;
+    font-family: 'SimSun';
+    text-indent: 5px;
+    border: 1px solid #e6e6e6;
+}
+.pho-rim span {
+    display: inline-block;
+    width: 49px;
+    height: 23px;
+    background: #fafafa;
+    border:1px solid #e6e6e6;
+    line-height: 24px;
+    text-align: center;
+    color: #4e525b;
+    cursor: pointer;
+}
+.pho-paswd em {
+    font-family: "SimSun";
+    font-size: 12px;
+    color: #f95858;
+    line-height: 28px;
+}
+.pho-paswd p, .pho-paswd span {
+    line-height: 28px;
+    color: #878787;
+}
+.pho-paswd .alter {
+    display: inline-block;
+    text-align: center;
+    margin-left: 218px;
+    width: 51px;
+    height: 24px;
+    padding-left: 0px;
+    border: 1px solid  #e6e6e6;
+    background: #fafafa;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "SimSun";
+    color: #4e525b;
+    cursor: pointer;
+}
+/* 账号设置 */
+.account  {
+	display: none;
+}
+.account ul{
+	overflow: hidden;
+	width: 665px;
+	height: 126px;
+	padding: 37px 0px 31px 35px;
+}
+.account li {
+	float: left;
+	width: 88px;
+	height: 126px;
+	margin-right: 45px;
+	text-align: center;
+}
+.account li div {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto 27px;
+	border-radius: 38px;
+	background: gray;
+}
+.account li img {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.account span {
+	display: inline-block;
+	width: 54px;
+	height: 25px;
+	padding-left: 32px;
+	border: 1px solid #e6e6e6;
+	background: #fafafa url("../images/merge.png") -1964px -7px no-repeat;
+	line-height: 24px;
+	color: #4e525b;
+	cursor: pointer;
+}
+.account span:hover {
+	display: inline-block;
+	width: 54px;
+	height: 25px;
+	padding-left: 32px;
+	border: 1px solid #fff;
+	background: #58bff9 url("../images/merge.png") -1961px -39px no-repeat;
+	line-height: 24px;
+	color: #fff;
+	cursor: pointer;
+
+}
+/* 认证管理 */
+.auth-mang {
+	padding-left: 47px;
+	display: none;
+}
+.auth-mang h3 {
+	padding: 38px 0 16px 0;
+	font-family: "SimSun"; 
+	font-weight: bold;
+}
+.auth-mang span, .auth-mang p {
+	line-height: 24px;
+	color: #4e525b;
+}
+.yet-auth, .ten-auth  {
+	width: 151px;
+	height: 36px;
+	margin: 17px 0;
+	border-radius: 3px;
+	background: #d2d2d2;
+	text-align: center;
+	line-height: 36px;
+	font-size: 18px;
+	color: #fff;
+	box-shadow: 0px 3px 1px #bcbcbc;
+	cursor: pointer;]
+}
+.ten-auth {
+	background: #5ac0f9;
+	box-shadow: 0px 3px 1px #49a2da;
+}

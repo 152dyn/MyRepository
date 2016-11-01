@@ -1,0 +1,182 @@
+@charset 'utf-8';
+/*忘记密码块*/
+.bg-t {
+	min-width: 1000px;
+	min-height: 1072px;
+	padding-top: 27px;
+	background: url('../images/forg.png') center no-repeat;
+}
+.tites {
+	width: 900px;
+	height: 760px;
+	padding: 20px 50px;
+	background: url('../images/tit-bg.png');
+}
+.tit h2 {
+	width: 100px;
+	height: 40px;
+	padding-left: 56px;
+	line-height: 40px;
+	background: url('../images/merge.png') -1228px -115px no-repeat;
+}
+.finde {
+	position: relative;
+	width: 770px;
+	height: 43px;
+	padding-left: 56px;
+	border-bottom: 3px solid #f2f2f2;
+}
+.finde em {
+	float: left;
+	width: 84px;
+	height: 38px;
+	margin-right: 80px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+/*选中线*/
+.linef {
+	position: absolute;
+	left: 56px;
+	top: 43px;
+	width: 84px;
+	height: 3px;
+	background: #58bff9;
+	font-size: 0;
+}
+.conall {
+	width: 826px;
+	padding: 32px 70px;
+}
+/*邮箱验证*/
+.con-e {
+	width: 490px;
+	height: 160px;
+}
+.con-e label {
+	display: block;
+	width: 450px;
+	height: 30px;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+.con-e label em {
+	float: left;
+	width: 60px;
+	height: 30px;
+	padding: 0 30px 0 0;
+	text-align: center;
+}
+.ema {
+	float: left;
+	width: 210px;
+	height: 18px;
+	padding: 6px 4px;
+}
+.secure {
+	float: left;
+	width: 76px;
+	height: 26px;
+	margin-right: 12px;
+}
+.yz {
+	float: left;
+	width: 130px;
+	height: 30px;
+}
+.yz img {
+	width: 130px;
+	height: 30px;
+}
+.clic {
+	display: block;
+	width: 130px;
+	height: 40px;
+	margin: 0 auto;
+	background: #5dc1f9;
+	font-size: 18px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+/*手机注册*/
+.con-p {
+	width: 490px;
+	height: 160px;
+}
+.con-p {
+	display: none;
+}
+.con-p label {
+	display: block;
+	width: 450px;
+	height: 30px;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+.con-p label em {
+	float: left;
+	width: 60px;
+	height: 30px;
+	padding: 0 30px 0 0;
+	text-align: center;
+}
+.phone {
+	float: left;
+	width: 210px;
+	height: 18px;
+	padding: 6px 4px;
+}
+.pleinpu1 {
+	float: left;
+	display: none;
+	width: 86px;
+	height: 30px;
+	padding-left: 44px;
+	background: url('../images/merge.png') -1070px -156px;
+}
+.pleinpu2 {
+	float: left;
+	display: block;
+	width: 86px;
+	height: 30px;
+	padding-left: 44px;
+	background: url('../images/merge.png') -1070px -156px;
+}
+.pleinpu3 {
+	float: left;
+	display: none;
+	width: 86px;
+	height: 30px;
+	padding-left: 44px;
+	background: url('../images/merge.png') -1070px -156px;
+}
+.pleinpu4 {
+	float: left;
+	display: block;
+	width: 86px;
+	height: 30px;
+	padding-left: 44px;
+	background: url('../images/merge.png') -1070px -156px;
+}
+.secur-p {
+	float: left;
+	width: 76px;
+	height: 26px;
+	margin-right: 12px;
+	background: #f2f2f2;
+}
+.clik {
+	display: block;
+	width: 130px;
+	height: 40px;
+	margin: 0 auto;
+	background: #5dc1f9;
+	font-size: 18px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}

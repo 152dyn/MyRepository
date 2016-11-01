@@ -1,0 +1,1013 @@
+@charset 'utf-8';
+.mid {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*无搜索结果*/
+.sorry {
+	min-width: 1000px;
+	height: 608px;
+	background: url(../images/no-result_02.jpg) center center no-repeat;
+}
+.sorry .mid {
+	position: relative;
+}
+.sorry .con {
+	position: absolute;
+	top: 213px;
+	right: 137px;
+	width: 546px;
+	height: 121px;
+	color: #fff;
+	background: url(../images/mo-con.png) 0 5px no-repeat;
+}
+.sorry .con span {
+	float: left;
+	margin-right: 26px;
+	line-height: 97px;
+	text-indent: 38px;
+	font-size: 36px;
+}
+.sorry .con p {
+	float: left;
+	overflow: hidden;
+	width: 240px;
+	height: 97px;
+	line-height: 97px;
+	font-size: 24px;
+}
+.sorry .con a {
+	position: absolute;
+	right: 33px;
+	top: 71px;
+	color: #fff;
+}
+/*梦想详细-帮助全部*/
+.you-dream,
+.care,
+.con {
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.you-dream {
+	height: 109px;
+	margin-bottom: 30px;
+	background: url(../images/you-dream_02.png) center center no-repeat;
+}
+.you-dream .mid {
+	position: relative;
+}
+.you-dream p {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 377px;
+	height: 109px;
+	line-height: 109px;
+	color: #fff;
+	font-size: 30px;
+}
+.all-j {
+	height: 38px;
+	margin-bottom: 24px;
+	background: #efefef;
+}
+.all-j .mid var {
+	float: left;
+	display: block;
+	height: 38px;
+	padding: 0 30px;
+	line-height: 38px;
+	color: #ccc;
+	cursor: pointer;
+}
+.con {
+	height: 2058px;
+}
+/*内容区左*/
+.con-left {
+	float: left;
+	width: 662px;
+	height: 2058px;
+}
+.con-right {
+	float: right;
+	width: 318px;
+	height: 2058px;
+}
+.message {
+	width: 662px;
+	height: 31px;
+}
+.message a {
+	display: block;
+	float: left;
+	text-overflow: ellipsis;
+	width: 130px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: #ccc;
+}
+.message span {
+	margin-left: 3px;
+}
+.about-user {
+	overflow: hidden;
+	width: 662px;
+	height: 696px;
+}
+.about-user h3,
+.support-user h3 {
+	height: 64px;
+	line-height: 64px;
+}
+.about-user dl {
+	width: 662px;
+	height: 192px;
+	background: url(../images/pub-j.png) -845px -444px no-repeat;
+}
+.about-user dl dt {
+	float: left;
+	width: 72px;
+	height: 72px;
+}
+.about-user dt img {
+	display: block;
+	width: 72px;
+	height: 72px;
+}
+.about-user dd {
+	position: relative;
+	float: right;
+	width: 546px;
+	height: 146px;
+	padding: 16px 0 0 28px;
+	background: url(../images/pub-j.png) -5px -27px no-repeat;
+}
+.about-user dd span,
+.about-user dd em,
+.about-user dd var,
+.about-user dd strong,
+.about-user dd select {
+	float: left;
+	display: block;
+}
+.about-user dd span {
+	width: 72px;
+	height: 31px;
+	margin-right: 11px;
+	font-size: 18px;
+}
+.about-user dd .rank {
+	float: left;
+	width: 32px;
+	height: 12px;
+	margin: 5px 12px 0 0;
+	line-height: 12px;
+	color: #fff;
+	background: #fecc09;
+	text-align: center;
+	font-size: 9px;
+}
+.about-user dd .box-j {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 11px;
+	background: url(../images/merge.png) -597px -303px no-repeat;
+}
+.about-user dd .ball {
+	position: absolute;
+	width: 17px;
+	height: 26px;
+	top: 9px;
+	left: 193px;
+	background: url(../images/merge.png) -633px -295px no-repeat;
+}
+.about-user dd em {
+	width: 70px;
+	height: 21px;
+	line-height: 21px;
+	margin-right: 9px;
+	padding-left: 24px;
+	color: #fff;
+	font-size: 12px;
+	background: #3d94e5; 
+}
+.about-user dd var {
+	width: 52px;
+	height: 19px;
+	line-height: 19px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.about-user dd p {
+	float: left;
+	text-overflow: ellipsis;
+	width: 540px;
+	height: 54px;
+	margin: 11px 0 13px 0;
+	line-height: 28px;
+	color: #878787;
+}
+/*点击下拉框*/
+.down-select {
+	float: left;
+	width: 93px;
+	height: 19px;
+	border: 1px solid #f2f2f2;
+	background: url(../images/merge.png) -412px -1976px no-repeat;
+}
+.about-user ol {
+	display: none;
+	position: absolute;
+	width: 93px;
+	top: 146px;
+	left: 112px;
+	border: 1px solid #f2f2f2;
+	border-top: 0;
+	background: #fff;
+}
+.about-user ol li {
+	width: 95px;
+	height: 16px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.about-user dd ul {
+	overflow: hidden;
+	float: left;
+	width: 36px;
+	height: 14px;
+	margin-left: 270px;
+	padding-left: 17px;
+	color: #a0a0a0;
+	font-size: 12px;
+}
+.about-user ul li {
+	float: right;
+	color: #58bff9;
+	cursor: pointer;
+}
+.about-user .more,
+.support-user .more {
+	display: block;
+	width: 662px;
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 4px solid #cacaca;
+	color: #cdcdcd;
+	background: #efefef;
+	text-align: center;
+	font-size: 24px;
+}
+
+.support-user {
+	width: 662px;
+	height: 630px;
+}
+.support-user .big-j {
+	overflow: hidden;
+	width: 708px;
+	height: 440px;
+	margin-right: -46px;
+}
+.big-j a {
+	display: block;
+	float: left;
+	width: 72px;
+	height: 72px;
+	margin: 0 46px 40px 0;
+	background: #a6a6a6; 
+}
+/*内容区右*/
+.con-right p {
+	overflow: hidden;
+	height: 32px;
+}
+.con-right p em,
+.con-right p strong,
+.con-right p span {
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.con-right p em {
+	width: 43px;
+	height: 32px;
+	margin-right: 8px;
+	padding-left: 45px;
+	line-height: 32px;
+	background: url(../images/merge.png) -473px -146px no-repeat;
+}
+.con-right p strong {
+	text-overflow:ellipsis;
+	width: 124px;
+	height: 32px;
+	margin-right: 22px;
+	line-height: 32px;
+	color: #fe7b61;
+	font-size: 27px;
+}
+.con-right p span {
+	width: 57px;
+	height: 18px;
+	margin-top: 9px;
+	line-height: 18px;
+	background: #89d1f9;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+.item {
+	position: relative;
+	height: 14px;
+	margin: 15px 0 18px 0;
+}
+.item div {
+	float: left;
+	width: 254px;
+	height: 14px;
+	background: #e9e9ea;
+}
+.item div div {
+	position: absolute;
+	width: 72%;
+	left: 0;
+	top: 0;
+	background: url("../images/plan.png") 0 0 repeat-x;
+}
+.item span {
+	display: block;
+	float: right;
+	width: 33px;
+	height: 14px; 
+	line-height: 14px;
+}
+.click-j {
+	width:310px; 
+	height: 74px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	border-left: 1px solid #f2f2f2;
+}
+.click-j div {
+	float: left;
+	position: relative;
+	width: 102px;
+	height: 74px;
+	border-right: 1px solid #f2f2f2;
+}
+.click-j .pic-j {
+	position: absolute;
+	display: block;
+	width: 32px;
+	height: 32px;
+	top: 8px;
+	left: 34px;
+	cursor: pointer;
+}
+.click-j .mata-j {
+	position: absolute;
+	text-overflow: ellipsis;
+	width: 52px;
+	text-align: center;
+	bottom: 10px;
+	left: 25px;
+	color: #878787;
+}
+/*帮Ta实现*/
+.help-j {
+	width: 318px;
+	height: 414px;
+	margin-top: 30px;
+	padding-top: 14px;
+	background: url(../images/merge.png) -607px -46px no-repeat;
+}
+.con-right h2 {
+	overflow: hidden;
+	width: 318px;
+	height: 66px;
+	line-height: 66px;
+	text-indent: 66px;
+	font-size: 24px;
+}
+.help-j .son {
+	overflow: hidden;
+	width: 300px;
+	height: 332px;
+	padding: 28px 0 0 16px;
+	border: 1px solid #ebebec;
+	background: #fff;
+}
+.son a {
+	float: left;
+	width: 130px;
+	height: 38px;
+	margin: 0 19px 14px 0;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	background: #6ac6fa;
+	font-size: 18px;
+}
+.son .use-j {
+	overflow: hidden;
+	float: left;
+	width: 318px;
+	height: 86px;
+	margin-top: 5px;
+}
+.son .use-j h3 {
+	overflow: hidden;
+	height: 36px;
+	line-height: 36px;
+}
+.son .use-j div {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: #ccc;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.son .use-j span {
+	float: left;
+	display: block;
+	line-height: 28px;
+	color: #ccc;
+	font-size: 30px;
+	cursor: pointer;
+}
+/*回报*/
+.return-j {
+	margin-top: 26px;
+}
+.return-j h2 {
+	background: url(../images/merge.png) -613px -209px no-repeat;
+}
+.return-j dl {
+	overflow: hidden;
+	width: 318px;
+	height: 455px;
+	background: url(../images/pub-j.png) -370px -458px no-repeat;
+}
+.return-j dl dt {
+	float: left;
+	width: 36px;
+	height: 440px;
+	padding: 15px 0 0 10px;
+}
+.return-j dt span {
+	display: block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	margin: 0;
+	border-radius: 50%;
+	color: #fff;
+	background: #0cd9cd;
+}
+.return-j dl dd {
+	float: right;
+	width: 255px;
+	height: 445px;
+	padding: 10px 0 0 15px;
+}
+.return-j dd h3 {
+	text-overflow:ellipsis;
+	width: 245px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+}
+.return-j dd div {
+	width: 245px;
+	height: 28px;
+	line-height: 28px;
+}
+.return-j dd var {
+	color: #fe7b61;
+}
+.return-j dd p {
+	text-overflow:ellipsis;
+	width: 245px;
+	height: 100px;
+	line-height: 25px;
+	font-size: 12px;
+	font-family: 'Simsun';
+}
+.return-j p b {
+	margin-right: 8px;
+} 
+.return-j dd .supporter {
+	width: 120px;
+	height: 120px;
+	margin: 10px 0 10px 68px;
+	background: #ccc;
+}
+.return-j .supporter img {
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+.return-j span {
+	display: block;
+	width: 124px;
+	height: 31px;
+	margin: 10px 0 0 68px;
+	line-height: 31px;
+	color: #fff;
+	border-radius: 3px;
+	background: #ff8f75;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*梦想描述*/
+.start-j {
+	height: 75px;
+	margin-bottom: 25px;
+}
+.do-peo {
+	float: left;
+	width: 230px;
+	height: 75px;
+	margin-right: 38px;
+}
+.do-peo dt {
+	float: left;
+	width: 75px;
+	height: 75px;
+}
+.do-peo dt img {
+	display: block;
+	width: 75px;
+	height: 75px;
+}
+.do-peo dd {
+	overflow: hidden;
+	float: right;
+	width: 150px;
+	height: 75px;
+}
+.do-peo dd strong,
+.do-peo dd em {
+	display: block;
+	float: left;
+	line-height: 36px;
+	font-size: 16px;
+}
+.do-peo dd em {
+	overflow: hidden;
+	width: 66px;
+	height: 36px;
+	color: #41a0dc;
+}
+.do-peo dd var,
+.do-peo dd span {
+	display: block;
+	float: left;
+	line-height: 42px;
+	color: #878787;
+	font-size: 12px;
+}
+.show-grade {
+	float: left;
+	width: 390px;
+	height: 72px;
+}
+.show-grade li {
+	float: left;
+	width: 95px;
+	height: 36px;
+	margin-right: 28px;
+	line-height: 36px;
+}
+.show-grade li var,
+.show-grade li em,
+.show-grade li span,
+.show-grade li strong {
+	display: block;
+	float: right;
+	width: 13px;
+	padding-left: 20px;
+}
+.show-grade li var {
+	color: #f27b3d;
+	background: url(../images/merge.png) -336px -240px no-repeat;
+}
+.show-grade li em {
+	color: #868686;
+	background: url(../images/merge.png) -336px -139px no-repeat;
+}
+.show-grade li span {
+	color: #dba000;
+	background: url(../images/merge.png) -336px -341px no-repeat;
+}
+.show-grade li strong {
+	color: #bc782f;
+	background: url(../images/merge.png) -336px -442px no-repeat;
+}
+.some-dream {
+	height: 518px;
+}
+.some-dream h2 {
+	text-overflow:ellipsis; 
+	height:64px;
+	line-height: 64px;
+	text-align: left;
+	font-size: 24px; 
+}
+.some-dream a,
+.some-dream img {
+	display: block;
+	width: 662px;
+	height: 308px;
+}
+.some-dream p {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	padding: 20px;
+	height: 128px;
+	line-height: 34px;
+	text-indent: 35px;
+	color: #6b6b6b;
+	font-size: 16px;
+}
+.end-j {
+	height: 228px;
+	margin-top: 60px;
+	padding-top: 32px;
+	border-top: 1px solid #f2f2f2;
+}
+.end-j em {
+	float: left;
+	margin-right: 5px;
+	line-height: 26px;
+	color: #878787;
+}
+.end-j var {
+	float: left;
+	line-height: 26px;
+	margin-right: 28px;
+}
+.end-j div,
+.end-j h3 {
+	height: 26px;
+	margin-bottom: 25px;
+	font-size: 14px;
+}
+.end-j span {
+	display: block;
+	float: left;
+	width: 74px;
+	height: 26px;
+	margin-right: 10px;
+	line-height: 26px;
+	text-align: center;
+	color: #fff;
+	background: #6f737b;
+	box-shadow: 2px 2px #ccc;
+}
+.end-j strong {
+	display: block;
+	float: left;
+	width: 63px;
+	height: 32px;
+	margin-right: 10px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	background: #79ccfa;
+	cursor: pointer;
+}
+.end-j .complaint {
+	float: left;
+	display: block;
+	width: 400px;
+	margin-top: 30px;
+	padding-left: 32px;
+	color: #79ccfa;
+	text-decoration: underline;
+	background: url(../images/merge.png) -638px -1972px no-repeat;
+}
+/*梦想讨论*/
+.talk-j {
+	overflow: hidden;
+	width: 662px;
+	height: 150px;
+}
+.talk-j dl {
+	height: 130px;
+}
+.talk-j dl dt {
+	float: left;
+	width: 74px;
+	height: 74px;
+	margin-right: 30px;
+}
+.talk-j dt img {
+	display: block;
+	width: 74px;
+	height: 74px;
+}
+.talk-j dd {
+	float: left;
+	position: relative;
+	width: 525px;
+	height: 150px;
+}
+.talk-j dd .ball {
+	position: absolute;
+	width: 17px;
+	height: 26px;
+	top: 0px;
+	left: 290px;
+	background: url(../images/merge.png) -633px -295px no-repeat;
+	}
+.talk-j dd strong {
+	display: block;
+	float: left;
+	overflow: hidden;
+	width: 270px;
+	height: 32px;
+	margin-right: 15px;
+	line-height: 32px;
+	font-size: 18px;
+}
+.talk-j dd strong b {
+	margin-right: 45px;
+}
+.talk-j dd em {
+	float: left;
+	display: block;
+	width:94px;
+	height: 21px;
+	margin: 5px 8px 0 0;
+	line-height: 21px;
+	background: #3d94e5; 
+	color: #fff;
+	text-indent: 25px;
+}
+.talk-j dd a {
+	float: left;
+	display: block;
+	width: 52px;
+	height: 19px;
+	margin-top: 5px;
+	line-height: 19px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.talk-j dd p {
+	float: left;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 525px;
+	height: 52px;
+	margin-bottom: 16px;
+	line-height: 26px;
+	font-size: 14px;
+}
+.talk-j dd var {
+	float: right;
+	display: block;
+	width: 26px;
+	height: 26px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.position-first {
+	height: 118px;
+	border-bottom: 1px solid #ccc;
+}
+.position-first img,
+.position-second img,
+.position-third img {
+	float: left;
+	display: block;
+	width: 42px;
+	height: 42px;
+}
+.position-first em,
+.position-second em,
+.position-third em,
+.position-first span,
+.position-second span,
+.position-third span {
+	float: left;
+	display: block;
+	height:42px;
+	margin-left: 8px;
+	color: #999999;
+	font-size: 12px; 
+}
+.position-first span,
+.position-second span,
+.position-third span {
+	margin-left: 20px;
+	color: #41a0dc;
+	cursor: pointer;
+}
+.position-first p,
+.position-second p {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	float: left;
+	width: 600px;
+	height: 52px;
+	padding-left: 62px;
+	line-height: 26px;
+	font-family: "Simsun";
+	font-size: 14px;
+}
+.position-second p {
+	width: 540px;
+}
+.position-second p strong,
+.position-third p strong {
+	margin-right: 8px;
+	color: #999;
+}
+.position-first var,
+.position-second var,
+.position-third var {
+	float: left;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	color: #999;
+	text-indent: 62px;
+	font-family: "Simsun";
+	font-size: 12px;
+	cursor: pointer;
+}
+.position-second {
+	width: 604px;
+	height: 135px;
+	padding: 40px 0 0 58px;
+	border-bottom: 1px solid #ccc;
+}
+.position-third {
+	height: 190px;
+	padding-top: 15px;
+	margin-bottom: 18px;
+}
+.position-third p {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	float: left;
+	width: 600px;
+	height: 130px;
+	padding-left: 62px;
+	line-height: 26px;
+	font-family: "Simsun";
+	font-size: 14px;
+}
+.other-con {
+	height: 24px;
+	line-height: 24px;
+	color: #999;
+	text-indent: 105px;
+	background: url(../images/merge.png) no-repeat -735px -430px;
+}
+.other-con span {
+	cursor: pointer;
+}
+.other-con em {
+	margin: 0 10px;
+}
+.other-con a {
+	margin-left: 200px;
+	padding-right: 30px;
+	color: #999;
+	background: url(../images/merge.png) no-repeat -1185px -409px;
+	cursor: pointer;
+}
+.other-con strong {
+	margin-left: 42px;
+	padding-right: 20px;
+	color: #000;
+	background: url(../images/merge.png) no-repeat -1275px -408px;
+	cursor: pointer;
+}
+.my-advice {
+	overflow: hidden;
+	height: 50px;
+	margin-top: 20px;
+	line-height: 50px;
+	font-size: 18px;
+}
+.advice-con {
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 658px;
+	height: 156px;
+	margin-bottom: 12px;
+	resize:none;
+	border: 1px solid #f2f2f2;
+}
+.send-advice {
+	float: right;
+	width: 74px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+	background: #79ccfa;
+	cursor: pointer;
+}
+
+.messages {
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 442px;
+	height: 364px;
+	background: white;
+	z-index: 20;
+}
+.messages {
+	height: 313px;
+}
+.messages .tit {
+	width: 442px;
+	height: 39px;
+	background: #58bff9;
+	color: white;
+	font-size: 18px;
+	line-height: 39px;
+	text-align: center;
+}
+.messages em {
+	float: left;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 13px;
+	height: 13px;
+	background: url('../images/merge.png') no-repeat -106px -997px;
+	cursor: pointer;
+}
+.messages em {
+	cursor: pointer;
+}
+
+.messages .detail {
+	width: 347px;
+	margin: 21px auto 0px;
+}
+ .messages .detail p {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+}
+.messages .detail p span {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.report .detail textarea {
+	width: 312px;
+	height: 56px;
+	resize: none;
+}
+.messages .detail textarea {
+	width: 347px;
+	height: 142px;
+	resize: none;
+}
+.btns {
+	margin-top: 20px;
+	padding-left: 120px;
+}
+.btns div {
+	float: left;
+	margin-right: 21px;
+	cursor: pointer;
+}
+.sure {
+	width: 89px;
+	height: 23px;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	line-height: 23px;
+}
+.cancel {
+	width: 91px;
+	height: 25px;
+	background: #65c4f9;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+}

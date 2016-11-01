@@ -1,0 +1,624 @@
+@charset "utf-8";
+.massage h2 {
+    background:url("../images/merge.png") -363px -51px no-repeat;
+}
+.peo-nav {
+    position: relative;
+    height: 38px;
+    border-bottom: 3px solid #dcdcdc;
+}
+.peo-nav span {
+    float: left;
+    width: 56px;
+    height: 38px;
+    padding:0 59px;
+    text-align: center;
+    line-height: 38px;
+    color: #4e525b;
+    cursor: pointer;
+}
+.peo-line {
+    position: absolute;
+    top: 38px;
+    left: 59px;
+    width: 56px;
+    height: 3px;
+    font-size: 0;
+    background: #58bff9;
+    z-index: 3;
+}
+/* 完善信息 */
+.perfect {
+    /*display:none; */
+}
+.perfect h4 {
+    margin: 26px 0px 15px 15px;
+    font-size: 14px;
+    color: #41a0dc;
+}
+.basc-info {
+    padding: 0 40px 0 0;
+    height: 367px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.real-info {
+    height: 200px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.input-rim {
+    width: 230px;
+    background: url("../images/merge.png") 193px -1972px no-repeat;
+}
+.info-name {
+    float: left;
+    width: 80px;
+    margin-top: 9px;
+    text-align: right;
+}
+.info-name p {
+    margin-bottom: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4e525b;
+}
+.info-rim {
+    position: relative;
+    float: left;
+    width: 338px;
+    padding-left:23px;
+}
+.info-rim p {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.info-rim input {
+    width: 195px;
+    height: 28px;
+    margin-bottom: 21px;
+    font-family: 'SimSun';
+    text-indent: 5px;
+}
+.docmt {
+    position: relative;
+    width: 86px;
+    height: 25px;
+    margin-bottom: 21px;
+}
+.docmt label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+    padding-left: 28px;
+    border: 1px solid #f2f2f2;
+    line-height: 22px;
+    font-family: "SimSun";
+    color: #4e525b;
+    z-index: 6;
+    background: #fafafa url("../images/merge.png") -1051px -811px no-repeat;
+}
+.docmt input {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 68px;
+    z-index: 3;
+}
+.docmt {
+    width: 58px;
+    height: 23px;
+    padding-left: 28px;
+}
+.post {
+    width: 122px;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 21px;  
+    text-indent: 1em;
+    color: #878787;      
+    border: 1px solid #f2f2f2; 
+    background: #fafafa url("../images/merge.png") -382px -1972px no-repeat;
+}
+.docmt:hover, .post:hover {
+    cursor: pointer;
+}
+.info-rim textarea {
+    position: absolute;
+    visibility: hidden;
+    width: 334px;
+    height: 97px;
+    resize: none;
+}
+.circle {
+    position: absolute;
+    overflow: hidden;
+    width: 334px;
+    height: 97px;
+    border: 1px solid #f1f1f1;
+}
+.peo-pic {
+    float: right;
+}
+.pos{
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    background: #f2f2f2;
+}
+.pos img {
+    width: 100%;
+    height: 100%;
+}
+.peo-pic p {
+    width: 180px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #4e525b;
+    cursor: pointer;
+}
+/* 扩展信息 */
+.info-sel {
+    float: left;
+    padding: 7px 0 0 23px;
+}
+.info-sel em {
+    font-family: "SimSun";
+}
+.gender {
+    width: 570px;
+    height: 24px;
+    margin-bottom: 19px;
+    color: #4e525b;
+}
+.man {
+    float: left;
+    width: 50px;
+    padding-left: 20px;
+    background: url("../images/merge.png") -1804px -1483px no-repeat;
+}
+.woman {
+    float: left;
+    width: 50px;
+    padding-left: 20px;
+    background: url("../images/merge.png") -1804px -1516px no-repeat;
+}
+.birthday, .loca {
+    height: 30px;
+    margin-bottom: 18px;
+}
+.year-box, .provi-box, .monthbox, .daybox, .citybox, .areabox {
+    position: relative;
+    float: left;
+    width: 96px;
+    height: 28px;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+.years, .provis, .months, .days, .citys, .areas {
+    overflow: hidden;
+    width: 83px;
+    height: 28px;
+    padding-right: 13px;
+    line-height: 28px;
+    text-align: center;
+    background: url("../images/merge.png") -402px -1972px no-repeat; 
+}
+.year, .provi, .month, .day, .city, .area  {
+    position: absolute;
+    top:28px;
+    left: 0px;
+    overflow-y: scroll;
+    width: 96px;
+    height: 168px;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    z-index: 3;
+}
+.provi p,.city p, .area p {
+    line-height: 28px;
+    text-align: center;
+    cursor: default;
+}
+.year, .provi, .month, .day, .city, .area {
+    display: none;
+}
+.year option, .month option, .day option {
+    line-height: 28px;
+    text-align: center;
+    cursor: default;
+}
+.birthday span, .loca span {
+    float: left; 
+    padding: 0px  13px 0 5px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #4e525b;
+}
+.hobby {
+    overflow: hidden;
+    width: 590px;
+    height: 26px;
+    margin-bottom: 19px;
+}
+.hobby span {
+    position: relative;
+    display: inline-block;
+    height: 26px;
+    padding: 0 10px;
+    margin-right: 12px;
+    background: #6f737b;
+    box-shadow: 1px 1px 3px #e5e5e5;    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    cursor: default;
+}
+.hobby span em {
+    position: absolute;
+    display: inline-block;
+    right: -15px;
+    width: 15px;
+    height: 26px;
+    background: #6f737b;
+    background: url("../images/merge.png") -106px -990px no-repeat;
+}
+.add-ints {
+    height: 30px;
+    margin-bottom: 19px;
+}
+.add-ints input {
+    height: 26px;
+    text-indent: 5px;
+}
+.add-ints span {
+    display: inline-block;
+    width: 65px;
+    margin: 0 18px 0 16px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    background: #878787;
+    cursor: pointer;
+}
+.add-ints em {
+    color: #878787;
+}
+.hot em {
+    color: #4e525b;
+    line-height: 32px;
+}
+.hot {
+    height: 32px;
+}
+.hot span {
+    display: inline-block;
+    width: 66px;
+    height: 27px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    line-height: 26px;
+    color: #878787;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.inf-save {
+    float: left;
+    width: 111px;
+    margin: 68px 0 0 293px;
+    height: 36px;
+    background: #61c2f9;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 36px;
+    box-shadow: 1px 4px 3px #49a2da;
+    cursor: pointer;
+}
+/* 属性 */
+.attribute {
+    display: none;
+}
+.garde {
+    padding-top: 23px;
+}
+.garde .garde-pre {
+    height: 118px;
+}
+.garde li {
+    width: 678px;
+    height: 91px;
+    background-color: #f2f2f2;
+    margin-bottom: 11px;
+    padding-left:22px;
+}
+.garde strong {
+    float: left;
+    height: 16px;
+    padding-top: 27px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'SimSun';
+    color: #4e5a5b;
+}
+.garde-pre strong {
+    padding-top: 22px;
+}
+.garde span {
+    float: left;
+    width: 13px;
+    height: 24px;
+    padding: 18px 0 0 36px;
+}
+.garde span {
+    float: left;
+    width: 50px;
+    height: 24px;
+    padding: 18px 0 0 50px;
+    font-size: 12px;
+    color: #41dcd7;
+}
+.garde-pre h3 {
+    font-size: 12px;
+    color: #4e5b5b; 
+    padding-top: 16px; 
+}    
+.garde p {
+    float: left;
+    height: 16px;
+    padding: 27px 0 0 14px;
+    line-height: 12px;
+    font-size: 12px;
+    font-family: 'SimSun';
+    color: #4e5b5b;
+}
+.garde a {
+    color: #41a0dc;
+    cursor: pointer;
+}
+.tip-li {
+    float: left;
+    width: 497px;
+    height:10px;
+    margin-top: 18px;
+    background: url("../images/peo-line.png") 0px 0px repeat-x;
+}
+
+/* 勋章 */
+.madel {
+    display: none;
+}
+.mad-tit {
+    padding: 33px 0 27px 0px;
+}
+.mad-tit span {
+    font-size: 14px;
+}
+.mad-tit em {
+    display: inline-block;
+    font-family: "Arial";
+    padding: 0 8px 0 3px;
+}
+.mad-tit a {
+    font-family: "SimSun";
+    color: #41a0dc;
+}
+.mad-con ul {
+    overflow: hidden;
+    width: 700px;
+    height: 147px;
+    margin-bottom: 37px;
+}
+.mad-con li {
+    float: left;
+    width: 108px;
+    height: 147px;
+    text-align: center;
+    margin-right: 26px;
+}
+.mad-con li div {
+    overflow: hidden;
+    width: 108px;
+    height: 108px;
+    margin-bottom: 10px;
+    border-radius: 55px;
+    background: #f2f2f2;
+}
+.mad-con div img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.mad-con li span {
+    text-align: center;
+    font-size: 14px;
+    color: #4e525b;
+    cursor: pointer;
+}
+
+/* 任务 */
+.task {
+    padding: 33px 0 0 0;
+    display: none;
+}
+.task p span {
+    float: left;
+    font-size:14px;
+    margin-left: 15px;
+    color: #4e525b;
+}
+.task p em {
+    margin: 0 6px 0 10px;
+    font-family: "SimSun";
+    color: #fe7b61;
+}
+.task p a {
+    margin-left: 12px;
+    font-size: 14px;
+    font-family: "SimSun";
+    color: #41a0dc;
+}
+.task ul {
+    overflow: hidden;
+    width: 700px;
+    height: 590px;
+    margin-top: 28px;
+}
+.task ul li {
+    padding: 18px 0 0px 15px;
+    height: 31px;
+    margin-bottom: 10px;
+    background: #f2f2f2;
+    font-family: "SimSun";
+    font-size: 14px;
+    color: #4e525b;
+}
+.task li strong {
+    display: inline-block;
+    width: 238px;
+    font-size: 14px;
+    font-family: "SimSun";
+    font-weight: bold;
+    line-height: 16px;
+}
+.task li em {
+    width: 17px;
+    padding-left: 18px;
+    font-family: "Arial";
+    color: #fe7b61;
+    background: url("../images/merge.png") -967px -525px no-repeat;
+}
+.task li span {
+    display: inline-block;
+    height: 20px;
+    padding-left: 25px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: #fe7b61;
+    background: url("../images/merge.png") -1055px -526px no-repeat;
+}
+.task .cdtion {
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+    padding-left: 80px;
+    font-family: "SimSun";;
+    font-size: 14px;
+    color: #4e525b;
+    cursor: pointer;
+    background: none;
+}
+.task .state {
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+    padding-left: 80px;
+    font-family: "SimSun";
+    font-size: 14px;
+    color: #4e525b;
+    cursor: pointer;
+    background: url("../images/merge.png")  -1201px -516px no-repeat;
+}
+.digit {
+    width: 340px;
+    height: 108px;
+    margin: 0 auto;
+}
+.digit span {
+    float: left;
+    height: 108px;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 108px;
+    font-size: 18px;
+    font-family: 'Arial';
+    color: #bbb;
+}
+.digit div span:nth-child(6) {
+    padding: 0 0 36px; 
+}
+
+/*选择职业弹窗*/
+.mask-post {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.33);
+    z-index: 10;
+}
+.post-con {
+    position: fixed;
+    top: 0;
+    left: 46%;
+    width: 460px;
+    height: 336px;
+    margin-top: 100px;
+    background: #fdfdfe;
+    box-shadow: 6px 7px 3px #8e8e8e;
+}
+.post-con h3 {
+    height: 39px;
+    background: #58bff9;
+    line-height: 39px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.post-rim {
+    width: 458px;
+    height: 295px;
+    border: 1px solid #ebebeb;
+}
+.post-con p {
+    line-height: 38px;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+.post-con em {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: url("../images/merge.png") -966px -791px no-repeat;
+}
+.post-kind {
+    padding: 0 24px 20px;
+}
+.post-kind span {
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    border: 1px solid #eaeaeb;
+    cursor: pointer;
+}
+.post-sure, .post-cancel {
+    float: left;
+    width: 91px;
+    height: 25px;
+    border: 1px solid #eaeaeb;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'SimSun';
+    color: #4e525b;
+    cursor: pointer;
+    background: #fafafa;
+}
+.post-sure {
+    margin: 0 20px 0 130px   
+}
+.post-sure:hover, .post-cancel:hover {
+    background: #65c4f9;
+    color: #fff;
+}
+

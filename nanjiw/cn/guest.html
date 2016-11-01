@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>客人页</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/guest.css">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="mid">
+            <div class="logo">
+                <a href="index.html" title="南极网"><img src="../images/Logo.png" alt="南极网"></a>
+            </div>
+            <ul class="nav">
+                <li><a title="发现心愿" class="nav-found" href="Dream-recommend.html">发现梦想</a></li>
+                <li><a title="英雄" class="nav-hero" href="hero.html">英雄</a></li>
+                <li><a title="发起心愿" class="nav-initiate" href="basic-inf.html">发起梦想</a></li>
+            </ul>
+            <div class="search">
+                <span class="inp">
+					<input type="text" class="int-search">
+					<span class="search-btn"></span>
+                </span>
+            </div>
+            <div class="head-btn-a">
+                <a href="shop.html" class="task-btn" title="任务">任务</a>
+                <a href="shop.html" class="mall-btn" title="商城">商城</a>
+            </div>
+            <div class="head-register">
+                <span href="" class="register-btn">注册</span>
+                <span href="" class="login-btn">登录</span>
+            </div>
+            <div class="head-menu hide">
+                <div class="peo-img">
+                    <img src="">
+                    <a class="news-num" href="stantnote.html">26</a>
+                    <span class="menu-down"></span>
+                </div>
+                <ul class="peo-menu hide">
+                    <li class="menu-index"><a href="index.html" title="首页">我的首页</a></li>
+                    <li class="menu-dr-mage"><a href="dream-manage.html" title="梦想管理">梦想管理</a></li>
+                    <li class="menu-friend"><a href="myfrienf-j.html" title="我的好友">我的好友</a></li>
+                    <li class="menu-property"><a href="money.html" title="资产管理">资产管理</a></li>
+                    <li class="menu-tific"><a href="" title="申请认证">申请认证</a></li>
+                    <li class="menu-set"><a href="acc-set.html" title="个人设置">个人设置</a></li>
+                    <li class="menu-resets"><a href="javascript:void(0)">退出登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<div class="nav-space"></div>
+	<div class="mask hide">
+		<div class="report hide">
+			<div class="tit">举报</div>
+			<em></em>
+			<h2>您为什么举报此信息</h2>
+			<div class="check">
+				<ul>
+					<li>
+						<span></span>
+						<h3>污秽色情</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>广告欺诈</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>敏感信息</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>垃圾广告</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>不实信息</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>人生攻击</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>骚扰我</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3>其他</h3>
+					</li>
+				</ul>
+			</div>
+			<div class="detail">
+				<p>举例说明</p>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="btns">
+				<div class="sure" name="report">
+					确定
+				</div>
+				<div class="cancel">
+					取消
+				</div>	
+			</div>
+		</div>
+		<div class="messages hide">
+			<div class="tit">消息</div>
+			<em></em>
+			<div class="detail">
+				<p>向 <span>青灯素月</span> 发送私信</p>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="btns">
+				<div class="sure" name="message">
+					确定
+				</div>
+				<div class="cancel">
+					取消
+				</div>	
+			</div>
+		</div>
+		<div class="add-mask hide">
+			<div class="tit">好友验证</div>
+			<em></em>
+			<div class="detail">
+				<p>向 <span>青灯素月</span> 发送好友验证</p>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="btns">
+				<div class="sure" name="friend">
+					确定
+				</div>
+				<div class="cancel">
+					取消
+				</div>	
+			</div>
+		</div>
+		<div class="login hide">
+			<div class="close"></div>
+			<div class="tit clearfix">
+				<span class="show">登录</span>
+				<span>注册</span>
+			</div>
+			<div class="log-con">
+				<div class="register">
+					<div class="log-inf">
+						<div>
+							<input type="text" placeholder="请输入邮箱或手机号" class="log-email">
+						</div>
+						<div>
+							<input type="password" placeholder="请输入密码" class="log-pwd">
+						</div>
+						<div>
+							<input type="text" class="code">
+							<span class="btn-code">获取验证码</span>
+						</div>
+						<div class="psw-check clearfix">
+							<span class="log-check rem-pwd"></span>
+							<span>记住我</span>
+							<span><a href="../cn/forget.html" class="forget" title="忘记密码">忘记密码</a></span>
+						</div>
+						<div class="log-submit clearfix">
+							<span class="submit">登陆</span>
+							<span>没有账号？</span>
+							<span class="log-enroll">马上注册</span>
+						</div>
+					</div>
+					<div class="other-account">
+						<h3>使用合作网站账号登录</h3>
+						<a class="weibo" href="" title="微博登陆"></a>
+						<a class="renren" href="" title="人人网登陆"></a>
+						<a class="qq" href="" title="腾讯QQ"></a>
+					</div>
+				</div>
+				<div class="enroll hide">
+					<div class="en-titi clearfix">
+						<span class="enroll-phone enroll-sle">用手机注册</span>
+						<span class="enroll-email">用邮箱注册</span>
+						<em class="en-triangle"></em>
+					</div>
+					<div class="en-tab">
+						<div>
+							<div class="clearfix">
+								<input type="text" placeholder="手机号码">
+								<p>请输入手机号码</p>
+							</div>
+							<div class="clearfix">
+								<input type="text" placeholder="昵称">
+								<p>2-15个汉字或4-30个字符</p>
+							</div>
+							<div class="clearfix">
+								<input type="password" placeholder="密码">
+								<p>6-16位数字、字母或符号</p>
+							</div>
+							<div class="paw-strong clearfix">
+								<p>密码强度: 弱<span></span>强</p>
+							</div>
+							<div class="paw-agine clearfix">
+								<input type="password" placeholder="确认密码">
+							</div>
+							<div class="clearfix">
+								<input type="text" class="code">
+								<span class="btn-code">获取验证码</span>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="clearfix">
+								<input type="text" placeholder="邮箱账号">
+								<p>邮箱账号</p>
+							</div>
+							<div class="clearfix">
+								<input type="text" placeholder="昵称">
+								<p>2-15个汉字或4-30个字符</p>
+							</div>
+							<div class="clearfix">
+								<input type="password" placeholder="密码">
+								<p>6-16位数字、字母或符号</p>
+							</div>
+							<div class="paw-strong clearfix">
+								<p>密码强度: 弱<span></span>强</p>
+							</div>
+							<div class="paw-agine clearfix">
+								<input type="password" placeholder="确认密码">
+							</div>
+							<div class="clearfix">
+								<input type="text" class="code">
+								<span class="btn-code">获取验证码</span>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"><p>同意《南极公约》所有条款</p></div>
+					<div class="en-btn">
+						<span class="en-submit">同意并注册</span>
+						<span class="log-enter">已有账号登陆</span>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="mid">
+			<div class="head">
+				<div class="portrait">
+					<img src="../images/guest-head.png" alt="" title="">	
+				</div>
+				<div class="box">
+					<div class="head-tit">
+						<h1>清晨amelie</h1>
+						<em></em>
+						<span>北京</span>
+						<strong>生日：1985-8-8</strong>
+					</div>
+					<div class="pics">
+						<img src="" alt="" title="">
+						<img src="" alt="" title="">
+						<img src="" alt="" title="">
+						<img src="" alt="" title="">
+					</div>
+					<ul class="level">
+						<li>
+							<span>等级：</span>
+							<em>31</em>
+						</li>
+						<li>
+							<span>智力：</span>
+							<em>31</em>
+						</li>
+						<li>
+							<span>财力</span>
+							<em>31</em>
+						</li>
+						<li>
+							<span>人力：</span>
+							<em>31</em>
+						</li>
+						<li>
+							<span>顶数：</span>
+							<em>31</em>
+						</li>
+						<li>
+							<span>承包数：</span>
+							<em>31</em>
+						</li>
+					</ul>
+					<div class="btn">
+						<div>加好友</div>
+						<div class="message">私信</div>
+						<div class="gift">送TA礼物</div>
+						<div class="user">举报该用户</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="tit">
+				<span>发起的项目</span>
+				<span class="sel">关注的项目</span>
+			</div>
+			<div class="content">
+				<div class="portlets">
+					<ul class="link">
+						<li class="tencent">
+								
+							<b>腾讯微博</b>
+						</li>
+						<li class="space">
+								
+							<b>QQ空间</b>
+						</li>
+						<li class="friend">
+								
+							<b>QQ好友</b>
+						</li>
+						<li class="sina">
+								
+							<b>新浪微博</b>
+						</li>
+					</ul>
+					<h2>我的梦想是一个漂亮的书包</h2>
+					<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大家一起支持…
+						
+						<a href="all-dream.html" title="">+参与</a>
+						<em>120</em>
+						<em class="sec">评论</em>
+						<em class="thr">31</em>
+					</p>
+					<div class="pics-box">
+						<div class="pics">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+						</div>
+					</div>
+					<div class="bar clearfix">
+						<div class="money">105,406￥</div>
+						<span>已募捐</span>
+						<div class="box">
+							<div class="pro-bar"></div>
+						</div>
+						<strong>92%</strong>
+					</div>
+					<ul class="icons">
+						<li class="fir">5,123 </li>
+						<li class="sec">11,100</li>
+						<li class="thir">1,185</li>
+						<li class="four">421,171</li>
+					</ul>
+					<div class="heros">
+						<span>他的英雄 (<em>15</em>) </span>
+						<div class="h-pics">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">	
+						</div>
+						<a href="hero.html" title=""></a>
+					</div>
+					<div class="left-bot">	
+						<ul>
+							<li class="money"><a href="all-dream.html" title="">出钱</a></li>
+							<li><a href="support.html" title="">有资源</a></li>
+							<li>出主意</li>
+							<li>赞</li>
+							<li class="dream"><a href="all-dream.html" title="">查看梦想</a></li>
+							<li class="share">分享</li>
+						</ul>	
+					</div>
+				</div>
+				<div class="portlets">
+					<ul class="link">
+						<li class="tencent">
+								
+							<b>腾讯微博</b>
+						</li>
+						<li class="space">
+								
+							<b>QQ空间</b>
+						</li>
+						<li class="friend">
+								
+							<b>QQ好友</b>
+						</li>
+						<li class="sina">
+								
+							<b>新浪微博</b>
+						</li>
+					</ul>
+					<h2>我的梦想是一个漂亮的书包</h2>
+					<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大家一起支持…
+						<a href="all-dream.html" title="">+参与</a>
+						<em>120</em>
+						<em class="sec">评论</em>
+						<em class="thr">31</em>
+					</p>
+					<div class="pics-box">
+						<div class="pics">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+						</div>
+					</div>
+					<div class="bar clearfix">
+						<div class="money">105,406￥</div>
+						<span>已募捐</span>
+						<div class="box">
+							<div class="pro-bar"></div>
+						</div>
+						<strong>92%</strong>
+					</div>
+					<ul class="icons">
+						<li class="fir">5,123 </li>
+						<li class="sec">11,100</li>
+						<li class="thir">1,185</li>
+						<li class="four">421,171</li>
+					</ul>
+					<div class="heros">
+						<span>他的英雄 (<em>15</em>) </span>
+						<div class="h-pics">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">	
+						</div>
+						<a href="hero.html" title=""></a>
+					</div>
+					<div class="left-bot">	
+						<ul>
+							<li class="money"><a href="all-dream.html" title="">出钱</a></li>
+							<li><a href="support.html" title="">有资源</a></li>
+							<li>出主意</li>
+							<li>赞</li>
+							<li class="dream"><a href="all-dream.html" title="">查看梦想</a></li>
+							<li class="share">分享</li>
+						</ul>	
+					</div>
+				</div>
+				<div class="portlets">
+					<ul class="link">
+						<li class="tencent">
+								
+							<b>腾讯微博</b>
+						</li>
+						<li class="space">
+								
+							<b>QQ空间</b>
+						</li>
+						<li class="friend">
+								
+							<b>QQ好友</b>
+						</li>
+						<li class="sina">
+								
+							<b>新浪微博</b>
+						</li>
+					</ul>
+					<h2>我的梦想是一个漂亮的书包</h2>
+					<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大家一起支持…
+						<a href="all-dream.html" title="">+参与</a>
+						<em>120</em>
+						<em class="sec">评论</em>
+						<em class="thr">31</em>
+					</p>
+					<div class="pics-box">
+						<div class="pics">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+						</div>
+					</div>
+					<div class="bar clearfix">
+						<div class="money">105,406￥</div>
+						<span>已募捐</span>
+						<div class="box">
+							<div class="pro-bar"></div>
+						</div>
+						<strong>92%</strong>
+					</div>
+					<ul class="icons">
+						<li class="fir">5,123 </li>
+						<li class="sec">11,100</li>
+						<li class="thir">1,185</li>
+						<li class="four">421,171</li>
+					</ul>
+					<div class="heros">
+						<span>他的英雄 (<em>15</em>) </span>
+						<div class="h-pics">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">	
+						</div>
+						<a href="hero.html" title=""></a>
+					</div>
+					<div class="left-bot">	
+						<ul>
+							<li class="money"><a href="all-dream.html" title="">出钱</a></li>
+							<li><a href="support.html" title="">有资源</a></li>
+							<li>出主意</li>
+							<li>赞</li>
+							<li class="dream"><a href="all-dream.html" title="">查看梦想</a></li>
+							<li class="share">分享</li>
+						</ul>	
+					</div>
+				</div>
+				<div class="portlets">
+					<ul class="link">
+						<li class="tencent">
+								
+							<b>腾讯微博</b>
+						</li>
+						<li class="space">
+								
+							<b>QQ空间</b>
+						</li>
+						<li class="friend">
+								
+							<b>QQ好友</b>
+						</li>
+						<li class="sina">
+								
+							<b>新浪微博</b>
+						</li>
+					</ul>
+					<h2>我的梦想是一个漂亮的书包</h2>
+					<p>我出生在一个农村，从小家里贫困，很希望能有个漂亮的书包，现在从农村走出来了，但是家乡仍然有很多孩子没有书包背，我发起了一个书包捐献计划，希望大家一起支持…
+						<a href="all-dream.html" title="">+参与</a>
+						<em>120</em>
+						<em class="sec">评论</em>
+						<em class="thr">31</em>
+					</p>
+					<div class="pics-box">
+						<div class="pics">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+							<img src="../images/square-imgs.png" alt="" title="">
+						</div>
+					</div>
+					<div class="bar clearfix">
+						<div class="money">105,406￥</div>
+						<span>已募捐</span>
+						<div class="box">
+							<div class="pro-bar"></div>
+						</div>
+						<strong>92%</strong>
+					</div>
+					<ul class="icons">
+						<li class="fir">5,123 </li>
+						<li class="sec">11,100</li>
+						<li class="thir">1,185</li>
+						<li class="four">421,171</li>
+					</ul>
+					<div class="heros">
+						<span>他的英雄 (<em>15</em>) </span>
+						<div class="h-pics">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">
+							<img src="../images/square-hero.png" alt="" title="">	
+						</div>
+						<a href="hero.html" title=""></a>
+					</div>
+					<div class="left-bot">	
+						<ul>
+							<li class="money"><a href="all-dream.html" title="">出钱</a></li>
+							<li><a href="support.html" title="">有资源</a></li>
+							<li>出主意</li>
+							<li>赞</li>
+							<li class="dream"><a href="all-dream.html" title="">查看梦想</a></li>
+							<li class="share">分享</li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="movba">Top</div>
+	<div class="footer">
+		<div class="ft-top">
+			<div class="mid">
+				<div class="find-dream">
+					<h3>发现梦想</h3>
+					<a>微电影</a>
+					<a>音乐</a>
+					<a>读书</a>
+					<a>公益</a>
+					<a>教育</a>
+					<a>游戏</a>
+					<a class="more-dream">更多梦想</a>
+				</div>
+				<div class="initiate-dream">
+					<h3>发起梦想</h3>
+					<p><a href="">项目指导</a></p>
+					<p><a href="">可能遇到的问题</a></p>
+					<p><a href="">梦想学校</a></p>
+					<p><a href="">英雄指引</a></p>
+				</div>
+				<div class="about-South">
+					<h3>关于南极</h3>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">我们的梦想</a></p>
+					<p><a href="">工作机会</a></p>
+				</div>
+				<div class="index-contact">
+					<h3>联系南极</h3>
+					<p class="ft-email">nanji@gmail.com</p>
+					<p class="ft-webcat">nanji（ 1286804769 ）</p>
+					<p class="ft-weibo"><a href="">http://weibo.com/pincha123</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="ft-bot">
+			<div class="mid">
+			<p>京ICP备11017824号-4 / 京ICP证130164号 <span>北京市公安局朝阳分局备案编号:110105000501  </span></p>
+			<p>Copyright © 2006-2013 ZCOOL 全景统计</p>
+			</div>
+		</div>
+	</div>
+	<script src="../js/guest.js"></script>
+	<script src="../js/login.js"></script>
+</body>
+</html>

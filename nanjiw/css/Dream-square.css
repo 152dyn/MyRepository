@@ -1,0 +1,713 @@
+@charset utf-8;		
+.wrap {
+	overflow: hidden;
+	min-width: 1000px;
+}
+.conTop {
+	height: 438px;
+	background: url('../images/square-bac.png') center 0px no-repeat;
+}
+.head {
+	height: 56px;
+	padding-top: 22px;
+}
+
+.sel-but {
+	height: 58px;
+	padding-top: 32px;
+	padding-left: 37px;
+	background: url('../images/merge.png') no-repeat -1953px -529px;
+}
+.con-left {
+	float: left;
+	margin-bottom: 29px;
+}
+.content {
+	position: relative;
+	width: 660px;
+	height: 426px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	border: 1px solid #eaeaeb;
+}
+.more {
+	width: 660px;
+	height: 49px;
+	background: #efefef;
+}
+.con-right {
+	float: right;
+}
+.con-right .rank {
+	width: 314px;
+	height: 675px;
+	margin-bottom: 20px;
+}
+/* 二级布局 */ 
+.head a {
+	float: left;
+	width: 132px;
+	height: 38px;
+	background: #09c5bc;
+	border-radius: 2px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	line-height: 38px;
+}
+.head .select {
+	background: #fccb23;
+}
+.sel-but span, .sel-but .drop-down, .sel-but .sort {
+	float: left;
+	height: 27px;
+	font-size: 16px;
+	color: #4f4f4f;
+	line-height: 27px;
+}
+.sort {
+	width: 346px;
+}
+.sel-but .drop-down li {
+	float: left;
+	width: 85px;
+	height: 25px;
+	padding: 0px 0px 0px 8px;
+	margin-right: 10px;
+	border: 1px solid #f2f2f2;
+	line-height: 25px;
+	background: url('../images/square-box.png') no-repeat 70px 0px;
+	cursor: pointer;
+}
+.sel-but .drop-down .limit {
+	width: 125px;
+	background: url('../images/square-box.png') no-repeat 110px 0px;
+}
+.sel-but .drop-down .sex {
+	width: 55px;
+	background: url('../images/square-box.png') no-repeat 40px 0px;
+}
+.sel-but .drop-down .national {
+	width: 105px;
+	margin-right: 0px;
+	background: url('../images/square-box.png') no-repeat 90px 0px;
+}
+.sel-but .save {
+	float: left;
+	display: inline;
+	width: 63px;
+	height: 27px;
+	margin: 0px 38px 0px 20px;
+	/*padding: 0px 38px 0px 20px;*/
+	background: #89d1f9;
+	border-radius: 2px;
+	color: white;
+	text-align: center;
+	line-height: 27px;
+}
+.sel-but .sort li {
+	float: left;
+	width: 65px;
+	height: 27px;
+	margin-right: 10px;
+	padding-left: 14px;
+	background: url('../images/merge.png') no-repeat 24px -1218px #ededed;
+	color: #646464;
+	font-size: 14px;
+	cursor: pointer;
+}
+.sel-but .sort .last {
+	margin-right: 0px;
+}
+
+.rank h2 {
+	height: 90px;
+	padding-left: 115px;
+	line-height: 90px;
+	background: url('../images/square-box.png') no-repeat -36px 0px;
+}
+.rank li div {
+	height: 46px;
+	padding-left: 23px;
+	background: url('../images/square-box.png') no-repeat -33px -191px;
+}
+.rank li .last {
+	background: none;
+}
+.rank li div span, .rank li div strong {
+	float: left;
+	line-height: 22px;
+}
+.rank li div strong {
+	width: 188px;
+	height: 22px;
+	overflow: hidden;
+	text-overflow：ellipsis; 
+	cursor: pointer;
+}
+.rank li div em {
+	float: right;
+	color: #a0a0a0;
+	font-size: 12px;
+	line-height: 22px;
+}
+.rank li div span {
+	width: 22px;
+	height: 22px;
+	margin-right: 37px;
+	border-radius: 50%;
+	background: #ff6761;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	box-shadow: 0px 0px 20px #f6f8fa;
+}
+.rank .sel {
+	position: relative;
+	width: 100%;
+	height: 192px;
+	padding-left: 0px;
+	background: url('../images/square-box.png') no-repeat -33px -93px;
+	cursor: pointer;
+}
+.rank .sel img {
+	float: left;
+	overflow: hidden;
+	width: 63px;
+	height: 63px;
+	border-radius: 50%;
+	border: 0;
+	background: pink;
+}
+.rank .sel span {
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 61px;
+	height: 20px;
+	margin-right: 0px;
+	background: #ff6761;
+	border-radius: 2px;
+}
+.rank li .details {
+	float: right;
+	width: 204px;
+	height: 120px;
+	padding: 18px 17px 24px 24px;
+	/*border: 1px solid gray;*/
+	background: url('../images/square-box.png') no-repeat -422px -95px;
+}
+.rank li .details h3 {
+	overflow: hidden;
+	height: 24px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.rank li .details p {
+	overflow: hidden;
+	height: 72px;
+	color: #878787;
+	line-height: 24px;
+}
+.rank li .details p {
+	position: relative;
+	margin-bottom: 13px;
+}
+.rank li .details p a {
+	position: absolute;
+	top: 50px;
+	left: 153px;
+	width: 51px;
+	height: 18px;
+	background: #58bff9;
+	font-size: 12px;
+	line-height: 18px;
+	color: white;
+	text-align: center;
+}
+.rank li .details em {
+	float: left;
+	width: 21px;
+	padding-left: 25px;
+	background: url('../images/merge.png') no-repeat -1198px -621px;
+	color: #58bff9;
+}
+.rank li .details .sec {
+	width: 30px;
+	background: url('../images/merge.png') no-repeat -1250px -621px;
+	color: #a0a0a0;
+}
+.rank li .details .thr {
+	padding-left: 0px;
+	background: none;
+}
+.rank li .details .dot {
+	float: right;
+	width: 31px;
+	height: 22px;
+	padding-left: 0px;
+	background: url('../images/merge.png') no-repeat -1409px -410px;
+}
+
+
+.content .left-bot, .portlets .left-bot {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 44px;
+	background: #4e525b;
+	border-radius: 0px 0px 5px 5px;
+}
+.content dl {
+	width: 601px;
+	height: 108px;
+	padding: 20px 30px 0px 29px;
+}
+.portlets {
+	position: relative;
+}
+.portlets dl {
+	width: 427px;
+	height: 163px;
+	padding: 20px 27px 0px 30px;
+}
+.content dl dt, .portlets dl dt {
+	float: left;
+}
+.content dl dd, .portlets dl dd {
+	float: right;
+	position: relative;
+	width: 527px;
+	margin-bottom: 18px;
+}
+.portlets dl dd {
+	width: 354px;
+}
+.content dl img, .portlets dl img {
+	overflow: hidden;
+	width: 61px;
+	height: 61px;
+	border-radius: 50%;
+}
+.content dd h2, .content dd h3 {
+	float: left;
+}
+.portlets dd h2 {
+	overflow: hidden;
+	color: #333;
+}
+.content dd h2 {
+	overflow: hidden;
+	width: 250px;
+	color: #333;
+}
+.content dd h3, .portlets dd h3 {
+	margin-right: 14px;
+	color: #4f4f4f;
+	font-size: 18px;
+}
+.portlets dd h3 {
+	float: left;
+}
+.content dd span, .content dd strong, .portlets dd span, .portlets dd strong  {
+	float: left;
+	margin-right: 13px;
+	padding-left: 18px;
+	color: #4f4f4f;
+	line-height: 24px;
+}
+.content dd span, .portlets dd span {
+	background: url('../images/merge.png') no-repeat -1206px -815px;
+}
+.content dd strong, .portlets dd strong {
+	background: url('../images/merge.png') no-repeat -1493px -670px;
+}
+.content dd p, .portlets dd p {
+	overflow: hidden;
+	width: 527px;
+	line-height: 24px;
+}
+.portlets dd p {
+	width: 354px;
+}
+.content dd p a, .portlets dd p a {
+	position: absolute;
+	left: 350px;
+	top: 27px;
+	width: 51px;
+	height: 18px;
+	padding: 0;
+	margin: 0;
+	background: none #58bff9;
+	color: white;
+	text-align: center;
+	line-height: 18px;
+}
+.portlets dd p a {
+	left: 175px;
+	top: 52px;
+}
+.content dd p em, .portlets dd p em {
+	position: absolute;
+	left: 401px;
+	top: 27px;
+	width: 21px;
+	padding-left: 25px;
+	background: url('../images/merge.png') no-repeat -1198px -621px;
+	color: #58bff9;
+}
+.portlets dd p em {
+	left: 233px;
+	top: 52px;
+}
+.content dd p .sec, .portlets dd p .sec {
+	left: 450px;
+	width: 30px;
+	background: url('../images/merge.png') no-repeat -1250px -621px;
+	color: #a0a0a0;
+}
+.portlets dd p .sec {
+	left: 280px;
+	top: 52px;
+}
+.content dd p .thr, .portlets dd p .thr {
+	left: 510px;
+	padding-left: 0px;
+	background: none;
+}
+.portlets dd p .thr {
+	left: 337px;
+	top: 52px;
+}
+.pbox {
+	position: relative;
+	padding-left: 29px;
+	margin-bottom: 18px;
+}
+.pics-box {
+	overflow: hidden;
+	height: 70px;
+	/*padding-left: 29px;
+	margin-bottom: 18px*/;
+}
+.pics img {
+	float: left;
+	width: 105px;
+	height: 70px;
+	margin-right: 19px;
+}
+.content .icons, .portlets .icons {
+	overflow: hidden;
+	height: 47px;
+	border: 1px solid #f2f2f2;
+	border-right: 0px;
+}
+.content .icons li, .portlets .icons li {
+	float: left;
+	width: 114px;
+	height: 100%;
+	padding-left: 50px;
+	border-right: 1px solid #f2f2f2;
+	margin-right: -1px;
+	color: #878787;
+	line-height: 49px;
+}
+.portlets .icons li {
+	width: 64px;
+	padding-left: 45px;
+}
+.portlets .icons .fir {
+	width: 84px;
+}
+.portlets .icons .sec {
+	width: 65px;
+}
+.portlets .icons .thir {
+	width: 58px;
+}
+.portlets .icons .four {
+	width: 94px;
+}
+.content .icons .fir, .portlets .icons .fir {
+	background: url('../images/merge.png') no-repeat  -414px -332px;
+}
+.content .icons .sec, .portlets .icons .sec {
+	background: url('../images/merge.png') no-repeat  -408px -393px;
+}
+
+.content .icons .thir, .portlets .icons .thir {
+	background: url('../images/merge.png') no-repeat  -408px -455px;
+}
+.content .icons .four, .portlets .icons .four {
+	border-right: 0px;
+	background: url('../images/merge.png') no-repeat  -408px -335px;
+}
+
+.heros {
+	padding-left: 20px;
+	height: 66px;
+	padding-top: 22px;
+	
+}
+.heros span {
+	float: left;
+	margin-right: 24px;
+	color: #333;
+	font-size: 14px;
+	line-height: 40px;
+}
+.heros span em {
+	color: #fe7b61;
+}
+.heros img {
+	overflow: hidden;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 18px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.heros a {
+	float: left;
+	width: 29px;
+	height: 6px;
+	padding-top: 20px;
+	background: url('../images/merge.png') no-repeat -1408px -399px;
+	cursor: pointer;
+}
+.content .bar, .portlets .bar {
+	width: 601px;
+	height: 30px;
+	padding: 0 30px 0px 29px;
+}
+.portlets .bar {
+	width: 425px;
+}
+.content .bar span, .content .bar em, .portlets .bar span, .portlets .bar em {
+	float: left;
+}
+.content .bar span, .portlets .bar span {
+	margin-right: 10px;
+	color: #333;
+	font-size: 14px;
+}
+.content .bar em, .portlets .bar em {
+	margin-right: 22px;
+	color: #fe7b61;
+}
+.content .bar .box, .portlets .bar .box {
+	float: left;
+	width: 422px;
+	height: 13px;
+	background: #e4e4e5;
+}
+.portlets .bar .box {
+	width: 254px;
+}
+.content .bar .box .pro-bar, .portlets .bar .box .pro-bar {
+	width: 360px;
+	height: 13px;
+	background: #58bff9;
+	zoom: 1;
+}
+.portlets .bar .box .pro-bar {
+	width: 230px;
+}
+.content .bar strong, .portlets .bar strong {
+	float: right;
+	color: #878787;
+	font-size: 14px;
+}
+.left-bot ul {
+	overflow: hidden;
+	height: 100%;
+	
+}
+.left-bot ul li {
+	float: left;
+	width: 57px;
+	height: 100%;
+	border-right: 1px solid #65676d;
+	margin-right: -1px;
+	color: white;
+	line-height: 44px;
+	text-align: center;
+	cursor: pointer;
+}
+.content .left-bot .money a, .content .left-bot .dream a, .content .left-bot .resouce a {
+	float: left;
+	height: 100%;
+	color: white;
+	line-height: 44px;
+	text-align: center;
+}
+.content .left-bot .money {
+	width: 44px;
+	padding-left: 217px;
+}
+.portlets .left-bot .money a, .portlets .left-bot .dream a, .portlets .left-bot .resouce a {
+	float: left;
+	height: 100%;
+	color: white;
+	line-height: 44px;
+	text-align: center;
+}
+.portlets .left-bot .money {
+	width: 51px;
+	padding-left: 36px;
+}
+.left-bot .dream {
+	width: 66px;
+	padding-left: 45px;
+	background: url('../images/merge.png') no-repeat  -1110px -396px;
+}
+
+.left-bot .share {
+	width: 117px;
+	background: url('../images/merge.png') no-repeat -1233px -395px;
+}
+.con-bottom .share {
+	width: 115px;
+}
+.con-bottom .por-right {
+	margin-right: 0px;
+}
+
+
+.big-pics {
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	height: 300px;
+	background: #dbf6ce;
+}
+.control {
+	width: 125px;
+	height: 9px;
+	margin: 20px auto 28px;
+	padding-left: 8px;
+}
+.control span {
+	float: left;
+	width: 9px;
+	height: 9px;
+	margin-right: 16px;
+	border-radius: 50%;
+	background: #09c5bc;
+}
+
+.con {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 5000px;
+}
+.con img {
+	float: left;
+	width: 1000px;
+	height: 300px;
+}
+
+.pics-box .btnR {
+	display: none;
+	position: absolute;
+	top: 24px;
+	left: 596px;
+	width: 16px;
+	height: 26px;
+	background: url('../images/merge.png') no-repeat -1367px -564px;
+}
+
+.final .sel {
+	background: none;
+}
+
+/* 下拉框 */
+.sel-but .drop-down li {
+	position: relative;
+}
+.drop-down li div {
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	padding-left: 8px;
+	border: 1px solid #f2f2f2;
+}
+.drop-down .money div {
+	width: 83px;
+	height: 50px;	
+}
+.drop-down .limit div {
+	width: 123px;
+	height: 100px;
+}
+.drop-down .sex div {
+	width: 53px;
+	height: 25px;
+}
+.drop-down .national div {
+	width: 103px;
+	height: 150px;
+}
+.drop-down li div p {
+	font-size: 16px;
+}
+.content .link, .portlets .link {
+	display: none;
+	position: absolute;
+	bottom: -45px;
+	left: 316px;
+	width: 331px;
+	height: 25px;
+	padding: 23px 9px 11px 13px;
+	background: url('../images/merge.png') no-repeat -1438px -1933px;
+	cursor: pointer;
+	z-index: 9;
+}
+.portlets .link {
+	bottom: -45px;
+	left: 141px;	
+}
+.link li {
+	float: left;
+	width: 80px;
+	height: 24px;
+	
+}
+.link li a, .link li b {
+	float: left;
+}
+.link li a {
+	width: 24px;
+	height: 24px;
+	margin-right: 7px;
+}
+.link li b {
+	color: #6b6b6b;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 24px;
+}
+.link .tencent a {
+	background: url('../images/merge.png') no-repeat -708px -521px;
+}
+.link .space a {
+	background: url('../images/merge.png') no-repeat -839px -523px;
+}
+.link .friend a {
+	background: url('../images/merge.png') no-repeat -749px -521px;
+}
+.link .sina a {
+	background: url('../images/merge.png') no-repeat -795px -521px;
+}
+.control .on {
+	background: #09c5bc;
+}
+
+.drop-down li .provi {
+	overflow-y: scroll;
+	background: white;
+	z-index: 9;
+}

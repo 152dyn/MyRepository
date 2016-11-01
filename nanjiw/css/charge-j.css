@@ -1,0 +1,150 @@
+@charset 'utf-8';
+.main .charge-con {
+	width: 920px;
+	height: 860px;
+	padding: 33px 40px 0;
+	background: #fff;
+}
+.charger {
+	height: 62px;
+	margin-bottom: 30px;
+}
+.charger span {
+	float: left;
+	display: block;
+	width: 197px;
+	height: 62px;
+	margin-right: 26px;
+	line-height: 62px;
+	text-indent: 122px;
+	border-right:1px solid #f2f2f2;
+	background: url(../images/merge.png) -1560px -24px no-repeat;
+	font-size: 24px;
+}
+.charger p {
+	float: left;
+	width: 255px;
+	height: 62px;
+	font-size: 14px;
+}
+.charger var {
+	display: block;
+	height: 31px;
+	line-height: 31px;
+}
+.charger em,
+.charger b {
+	display: block;
+	float: left;	
+	height: 31px;
+	line-height: 31px;
+}
+.charger b {
+	color: #fe7b61;
+	font-size: 36px;
+}
+.charge-style {
+	height: 45px;
+	line-height: 45px;
+}
+.charge-style var {
+	color: #41a0dc;
+	font-size: 18px;
+}
+.charge-style span {
+	float: right;
+	display: block;
+	overflow: hidden;
+	width: 124px;
+	height: 45px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.charge-style-con {
+	width: 892px;
+	height: 287px;
+	padding: 26px 0 0 26px;
+	border: 1px solid #ccc;
+}
+.charge-style-con span {
+	float: left;
+	display: block;
+	width: 17px;
+	height: 51px;
+	margin-right: 12px;
+	background: url(../images/merge.png) -1804px -1500px no-repeat;
+	cursor: pointer;
+}
+.charge-style-con div {
+	float: left;
+	width: 171px;
+	height: 51px;
+	margin-right:22px;
+	background:#878787;
+}
+.charge-con h3 {
+	height: 54px;
+	line-height: 54px;
+	color: #53a7de;
+	font-size: 18px;
+}
+.charge-num {
+	height: 18px;
+	line-height: 18px;
+}
+.charge-num span {
+	float: left;
+	display:block;
+	width: 18px;
+	height: 18px;
+	margin-right: 8px; 
+	background: url(../images/merge.png) -1804px -1517px no-repeat;
+	cursor: pointer;
+}
+.charge-num div {
+	float: left;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 27px;
+	height: 18px;
+	margin-right: 48px;
+}
+.need-spend {
+	height: 24px;
+}
+.need-spend var,
+.need-spend b,
+.need-spend em,
+.need-spend span {
+	float: left;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+}
+.need-spend b {
+	margin-right: 6px;
+	color: #fea292;
+	font-size: 24px;
+}
+.need-spend em {
+	width: 12px;
+	height: 12px;
+	margin: 6px 9px 0 48px;
+	border: 1px solid #ccc;
+	/*background: url(../images/merge.png) -1250px -516px no-repeat;*/
+}
+.charge-ok {
+	display: block;
+	width: 111px;
+	height: 36px;
+	margin: 50px 0 0 404px;
+	line-height: 36px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	background: #71c9fa;
+	box-shadow: 0 3px #49a2da;
+	font-size: 18px;
+}
+

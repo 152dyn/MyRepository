@@ -1,0 +1,131 @@
+.report, .messages, .add-mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 442px;
+	height: 364px;
+	background: white;
+	z-index: 20;
+}
+.messages, .add-mask {
+	height: 313px;
+}
+.report .tit, .messages .tit, .add-mask .tit {
+	width: 442px;
+	height: 39px;
+	background: #58bff9;
+	color: white;
+	font-size: 18px;
+	line-height: 39px;
+	text-align: center;
+}
+.report em, .messages em, .add-mask em {
+	float: left;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 13px;
+	height: 13px;
+	background: url('../images/merge.png') no-repeat -106px -997px;
+	cursor: pointer;
+}
+.messages em, .add-mask em {
+	cursor: pointer;
+}
+.report h2 {
+	height: 56px;
+	color: #4e525b;
+	font-size: 14px;
+	text-align: center;
+	line-height: 56px;
+	font-weight: bold;
+}
+.report .check {
+	overflow: hidden;
+	width: 312px;
+	height: 120px;
+	margin: 0 auto;
+}
+.report .check ul {
+	width: 406px;
+	height: 100%;
+}
+.report .check li {
+	float: left;
+	width: 50%;
+	height: 30px;
+}
+.report h3 {
+	float: left;
+	color: #4e525b;
+	font-size: 12px;
+}
+.report  span {
+	float: left;
+	width: 10px;
+	height: 11px;
+	margin-right: 12px;
+	border: 1px solid #d5d5d5;
+}
+.report .detail {
+	width: 312px;
+	margin: 0 auto;
+}
+.messages .detail, .add-mask .detail {
+	width: 347px;
+	margin: 21px auto 0px;
+}
+.report .detail p, .messages .detail p, .add-mask .detail p {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+}
+.messages .detail p span, .add-mask .detail p span {
+	color: #4e525b;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.report .detail textarea {
+	width: 312px;
+	height: 56px;
+	resize: none;
+}
+.messages .detail textarea, .add-mask .detail textarea {
+	width: 337px;
+	height: 132px;
+	padding: 5px;
+	resize: none;
+}
+.btns {
+	margin-top: 20px;
+	padding-left: 120px;
+}
+.btns div {
+	float: left;
+	margin-right: 21px;
+	cursor: pointer;
+}
+.sure {
+	width: 89px;
+	height: 23px;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	line-height: 23px;
+}
+.cancel {
+	width: 91px;
+	height: 25px;
+	background: #65c4f9;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+}
+
+/*举报勾选背景图*/
+.select-yes {
+	background: url('../images/merge.png') no-repeat -1404px -1053px;
+}

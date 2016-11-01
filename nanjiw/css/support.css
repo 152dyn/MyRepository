@@ -1,0 +1,337 @@
+	@charset "utf-8";
+		.wrap {
+			padding-top: 30px;
+			background: #3d94e5 url('../images/forg.png') no-repeat;
+		}
+		.con-left {
+			float: left;
+			width: 720px;
+		}
+		.con-right {
+			float: right;
+			width: 230px;
+			height: 444px;
+			padding: 0 6px 0 10px;
+		}
+		.article {
+			overflow: hidden;
+			height: 263px;
+			border-bottom: 1px dotted #ededed;
+		}
+		.article img {
+			display: block;
+			width: 154px;
+			height: 154px;
+			margin: 10px auto;
+			border: 1px solid pink;
+			border-radius: 50%;
+		}
+		.article h2 {
+			overflow: hidden;
+			margin-bottom: 6px;
+			text-overflow: ellipsis; 
+	        word-break: keep-all;    
+	        white-space: nowrap;  
+			font-size: 14px;
+		}
+		.article p {
+			font-size: 12px;
+			line-height: 20px;
+			text-indent: 3em;
+			color: #878787;
+		}
+		.positions {
+			margin-top: 10px;
+			padding: 6px 0 0 6px;
+			background-color: #fafafa;
+		}
+		.positions strong {
+			float: left;
+			padding-left: 30px;
+			background: url('../images/merge.png') no-repeat -1204px -851px;
+			line-height: 20px;
+			font-size: 12px;
+			color: #4e525b
+		}
+		.flower span {
+			float: right;
+			line-height: 20px;
+			font-size: 12px;
+			color: #4e525b
+		}
+		.degree {
+			position: relative;
+			height: 10px;
+			margin-top: 40px;
+			font-size: 0;
+			background-color: #ebebed;
+		}
+		.stick {
+			width: 45%;
+			height: 10px;
+			font-size: 0;
+			background-color: #39f;
+		}
+		.date {
+			position: absolute;
+			top: -24px;
+			left: 35%;
+			width: 44px;
+			height: 22px;
+			text-align: center;
+			line-height: 22px;
+			color: #fff;
+			background: url('../images/merge.png') no-repeat -1847px -472px;
+		}
+		.degree em {
+			position: absolute;
+			right: 0;
+			top: -28px;
+			font-size: 12px;
+			color: #4d4d4d;
+		}
+
+		.clicks {
+			overflow: hidden;
+			width: 213px;
+			height: 46px;
+			margin-top: 10px;
+			border: 1px solid #ededed;
+			border-radius: 2px;
+		}
+		.clicks span {
+			display: block;
+			float: left;
+			width: 30px;
+			height: 44px;
+			line-height: 44px;
+			padding-left: 40px;
+			border-right: 1px solid #ededed;
+			cursor: pointer;
+		}
+		.resou {
+			background: url('../images/merge.png') no-repeat -479px -511px;
+		}
+		.plan {
+			background: url('../images/merge.png') no-repeat -551px -511px;
+		}
+		.adds {
+			background: url('../images/merge.png') no-repeat -1807px -1743px;
+		}
+		
+		.recipient {
+			height: 150px;
+			padding: 20px 20px 0 0;
+			font-family: 'Microsoft YaHei';
+		}
+		.recipient p {
+			position: relative;
+			padding-left: 50px;
+			line-height: 34px;
+			font-size: 12px;
+			color: #656565;
+			background: url('../images/merge.png') no-repeat -1783px -1510px;
+			cursor: pointer;
+		}
+		.recipient em {
+			display: none;
+			position: absolute;
+			right: 10px;
+			top: 0;
+			font-size: 12px;
+			color: #2b77d8;
+			font-weight: normal;
+			font-family: 'Sim Sun';
+		}
+		.payment, .unpayment {
+			width: 702px;
+			height: 323px;
+			padding-left:16px;
+			border: 1px solid #ededed;
+			background-color: #fafafa;
+		}
+		.unpayment strong {
+			line-height: 75px;
+			padding-left: 24px;
+			background: url('../images/merge.png') no-repeat -1816px -1714px;
+		}
+		.unpayment h3 {
+			margin-bottom: 16px;
+		}
+		.insufficient {
+			float: left;
+			width: 64px;
+			height: 23px;
+			background: url('../images/merge.png') no-repeat -1719px -832px;
+		}
+		.fish em, .fishs em {
+			float: left;
+			line-height: 47px;
+			color: #474747;
+		}
+		.fish span {
+			float: left;
+			margin-right: 94px;
+			padding-left: 34px;
+			line-height: 47px;
+			background: url('../images/merge.png') no-repeat  -1789px -1504px;
+			cursor: pointer;
+		}
+		.fishs strong {
+			float: left;
+			font-size: 36px;
+			color: #bcbcbc;
+		}
+		.fishs span {
+			float: left;
+			margin-right: 94px;
+			padding-left: 34px;
+			line-height: 47px;
+		}
+		
+		.balance a {
+			font-size: 12px;
+			padding-right: 16px;
+			text-decoration: underline;
+		}
+		.blan-right {
+			float: right;
+		}
+		.recharge a {
+			position: absolute;
+			left: 500px;
+			font-size: 12px;
+			color: #f89700;
+		}
+
+		.reword-con {
+			border-bottom: 24px;
+		}
+		.reword-con p {
+			line-height: 64px;
+			font-size: 16px;
+			font-family: 'Microsoft YaHei';
+			color: #474747;
+		}
+		.reword-con h2 {
+			color: #4f4f4f
+		}
+		.reword-con em {
+			float: left;
+			text-align: center;
+			line-height: 54px;
+			font-weight: bold;
+			font-size: 12px;
+			color: #4e525b;
+		}
+		.reword-con span {
+			display: block;
+			float: left;
+			overflow: hidden;
+			width: 820px;
+			height: 54px;
+			text-align: center;
+			text-overflow: ellipsis; 
+	        word-break: keep-all;    
+	        white-space: nowrap; 
+			line-height: 54px;
+			color: #878787
+		}
+		.box {
+			width: 120px;
+			height: 120px;
+			margin: 0 0 24px 56px;
+			background-color: #d7d8dc;
+		}
+		.reword-con strong {
+			display: block;
+			padding-left: 40px;
+			margin-bottom: 40px;
+			background: url('../images/merge.png') no-repeat -1794px -1516px;
+			cursor: pointer;
+		}
+		.reword-con h3 {
+			margin-bottom: 30px;
+			font-size: 16px;
+			color: #474747
+		}
+		
+		.information span,.remarks span, .explain span {
+			float: left;
+			width: 85px;
+			margin-right: 22px;
+			text-align: right;
+			line-height: 30px;
+			font-weight: bold;
+			font-size: 14px;
+			color: #4e525b;
+			font-family: 'Microsoft YaHei';
+		}
+		.information input {
+			float: left;
+			width: 222px;
+			height: 28px;
+			border: 1px solid #cecece
+		}
+		.information h3 {
+			line-height: 30px;
+			font-size: 14px;
+		}
+		.adress, .detail, .post, .phone {
+			margin-bottom: 16px;
+		}
+		.region div {
+			position: relative;
+			float: left;
+			width: 102px;
+			height: 28px;
+			margin: 0 10px 16px 0;
+			padding-left: 4px;
+			border: 1px solid #cecece;
+			line-height: 28px;
+			color: #878787;
+			background: url('../images/merge.png') no-repeat -395px -1973px;
+			cursor: pointer;
+		}
+		.region p:hover {
+			background-color: #39f;
+			color: #fff;
+		}
+		textarea {
+			width: 634px;
+			height: 114px;
+			line-height: 16px;
+			color: #878787;
+			border: 1px solid #cecece;
+			resize : none;
+		}
+		.remarks {
+			margin-bottom: 30px;
+		}
+		.explain span {
+			float: left;
+		}
+		.explain div {
+			float: left;
+			width: 640px;
+		}
+
+		.explain p {
+			overflow: hidden;
+			width: 614px;
+			height: 50px;
+			font-size: 12px;
+			color: #878787;
+		}
+		.information .provi, .information .area, .information .city {
+		    position: absolute;
+			left: -1px;
+			top: 28px;
+			display: none;
+			overflow: auto;
+			height: 180px;
+			background: white;
+		}
+		.information .provi {
+			display: none;
+		}
